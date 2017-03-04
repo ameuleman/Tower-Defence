@@ -1,0 +1,825 @@
+﻿Log file open, 03/04/17 22:50:20
+LogInit:Display: Running engine for game: RTS_TowerDefense
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1323867303) SRandInit(-1323867303).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081868
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.04-21.50.21:643][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.04-21.50.21:643][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.04-21.50.21:668][  0]LogInit: Computer: DESKTOP-9FJ45NO
+[2017.03.04-21.50.21:668][  0]LogInit: User: Meuleman
+[2017.03.04-21.50.21:668][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.04-21.50.21:668][  0]LogInit: High frequency timer resolution =3.519818 MHz
+[2017.03.04-21.50.21:668][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.04-21.50.21:668][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.04-21.50.21:668][  0]LogMemory: Process Physical Memory: 262.73 MB used, 262.73 MB peak
+[2017.03.04-21.50.21:668][  0]LogMemory: Process Virtual Memory: 262.50 MB used, 262.50 MB peak
+[2017.03.04-21.50.21:668][  0]LogMemory: Physical Memory: 4444.66 MB used,  11881.50 MB free, 16326.16 MB total
+[2017.03.04-21.50.21:668][  0]LogMemory: Virtual Memory: 643.53 MB used,  11881.50 MB free, 134217728.00 MB total
+[2017.03.04-21.50.21:861][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2017.03.04-21.50.28:787][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.04-21.50.29:720][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.03.04-21.50.29:720][  0]LogD3D11RHI:       4059/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.04-21.50.29:721][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.04-21.50.29:721][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.04-21.50.29:721][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.04-21.50.29:724][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.04-21.50.29:724][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.04-21.50.29:724][  0]LogWindows: EnumDisplayDevices:
+[2017.03.04-21.50.29:724][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.03.04-21.50.29:724][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.04-21.50.29:724][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.03.04-21.50.29:724][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.04-21.50.29:724][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.04-21.50.29:724][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.03.04-21.50.29:724][  0]LogD3D11RHI:   Driver Version: 378.66 (internal:21.21.13.7866, unified:378.66)
+[2017.03.04-21.50.29:724][  0]LogD3D11RHI:      Driver Date: 2-9-2017
+[2017.03.04-21.50.29:724][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.04-21.50.30:401][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.04-21.50.31:319][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.04-21.50.31:440][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (D:/User/Documents/Tower-Defence/Intermediate/Shaders/WorkingDirectory/8144/).
+[2017.03.04-21.50.31:440][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Meuleman/AppData/Local/Temp/UnrealShaderWorkingDir/D1E5E97C4C8DBDFFD2A0D5A5AAA91C2F/'.
+[2017.03.04-21.50.31:440][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.04-21.50.35:024][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.04-21.50.35:096][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.04-21.50.35:155][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.04-21.50.35:206][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.04-21.50.35:269][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.04-21.50.35:315][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.04-21.50.35:363][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.04-21.50.35:409][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.04-21.50.35:449][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.04-21.50.35:507][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.04-21.50.35:556][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.04-21.50.35:616][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.04-21.50.35:665][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.04-21.50.35:712][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.04-21.50.35:771][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.04-21.50.35:868][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.04-21.50.35:868][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.04-21.50.35:902][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.04-21.50.36:041][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.04-21.50.36:077][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.04-21.50.36:137][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.04-21.50.36:186][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.04-21.50.36:236][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.04-21.50.36:281][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.04-21.50.36:281][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.04-21.50.36:787][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.04-21.50.36:833][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Meuleman/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.04-21.50.36:833][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Meuleman/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.04-21.50.36:833][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/User/Documents/Tower-Defence/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.04-21.50.36:833][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.04-21.50.36:833][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/User/Documents/Tower-Defence/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.04-21.50.36:833][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.04-21.50.36:852][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.04-21.50.36:863][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Meuleman/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.04-21.50.36:870][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.04-21.50.36:878][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.04-21.50.36:878][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.04-21.50.38:801][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.04-21.50.38:803][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.04-21.50.38:962][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.04-21.50.38:996][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.04-21.50.39:030][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.04-21.50.39:030][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.04-21.50.39:030][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.04-21.50.39:488][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: rts_towerdefense, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4106176920
+[2017.03.04-21.50.39:527][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2017.03.04-21.50.39:552][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.008480 seconds
+[2017.03.04-21.50.39:556][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.04-21.50.39:556][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.03.04-21.50.39:556][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.04-21.50.39:603][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.04-21.50.41:443][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.04-21.50.41:493][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.04-21.50.41:868][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.04-21.50.42:149][  0]SourceControl: Info Source control is disabled
+[2017.03.04-21.50.42:178][  0]SourceControl: Info Source control is disabled
+[2017.03.04-21.50.42:212][  0]SourceControl: Info Source control is disabled
+[2017.03.04-21.50.42:246][  0]SourceControl: Info Source control is disabled
+[2017.03.04-21.50.43:222][  0]LogEngine: Initializing Engine...
+[2017.03.04-21.50.43:222][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.04-21.50.43:411][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.04-21.50.43:423][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-21.50.43:434][  0]LogInit: FAudioDevice initialized.
+[2017.03.04-21.50.43:458][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Meuleman/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.04-21.50.43:464][  0]LogInit: Texture streaming: Enabled
+[2017.03.04-21.50.43:545][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.04-21.50.43:545][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={D2D798A3-4389-5674-838A-B698D50CC33D}
+[2017.03.04-21.50.43:617][  0]LogInit: Transaction tracking system initialized
+[2017.03.04-21.50.43:886][  0]BlueprintLog: New page: Editor Load
+[2017.03.04-21.50.44:602][  0]LocalizationService: Info Localization service is disabled
+[2017.03.04-21.50.45:115][  0]LogConsoleResponse:Display: 
+[2017.03.04-21.50.45:207][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.04-21.50.45:207][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.04-21.50.45:312][  0]LogFileCache: Scanning file cache for directory 'D:/User/Documents/Tower-Defence/Content/' took 0.01s
+[2017.03.04-21.50.45:965][  0]SourceControl: Info Source control is disabled
+[2017.03.04-21.50.45:970][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.15/FeaturePacks/StarterContent.upack)
+[2017.03.04-21.50.45:981][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.03.04-21.50.45:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.03.04-21.50.45:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.03.04-21.50.45:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.03.04-21.50.46:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.03.04-21.50.46:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.03.04-21.50.46:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.03.04-21.50.46:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.03.04-21.50.46:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.03.04-21.50.46:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.03.04-21.50.46:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.03.04-21.50.46:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.03.04-21.50.46:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.03.04-21.50.46:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.03.04-21.50.46:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.03.04-21.50.46:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.03.04-21.50.46:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.03.04-21.50.46:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.03.04-21.50.46:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Fire01.uasset"
+[2017.03.04-21.50.46:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.03.04-21.50.46:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.03.04-21.50.46:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.03.04-21.50.46:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Light01.uasset"
+[2017.03.04-21.50.46:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.03.04-21.50.46:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Light02.uasset"
+[2017.03.04-21.50.46:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.03.04-21.50.46:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.03.04-21.50.46:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.03.04-21.50.46:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.03.04-21.50.46:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.03.04-21.50.46:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.03.04-21.50.46:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.03.04-21.50.46:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.03.04-21.50.46:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.03.04-21.50.46:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Steam01.uasset"
+[2017.03.04-21.50.46:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.03.04-21.50.46:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.03.04-21.50.46:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.03.04-21.50.46:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.03.04-21.50.46:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.03.04-21.50.46:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.03.04-21.50.46:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.03.04-21.50.46:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.03.04-21.50.46:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.03.04-21.50.46:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.03.04-21.50.46:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.03.04-21.50.46:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.03.04-21.50.46:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.03.04-21.50.46:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.03.04-21.50.46:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.03.04-21.50.46:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.03.04-21.50.46:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.03.04-21.50.46:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.03.04-21.50.46:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.03.04-21.50.46:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.03.04-21.50.46:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.03.04-21.50.46:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.03.04-21.50.46:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Maps/StarterMap.umap"
+[2017.03.04-21.50.46:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.03.04-21.50.46:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.03.04-21.50.46:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.03.04-21.50.46:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.03.04-21.50.46:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.03.04-21.50.46:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.03.04-21.50.46:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.03.04-21.50.46:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.03.04-21.50.46:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.03.04-21.50.46:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.03.04-21.50.46:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.03.04-21.50.46:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.03.04-21.50.46:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.03.04-21.50.46:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.03.04-21.50.46:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.03.04-21.50.46:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.03.04-21.50.46:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.03.04-21.50.46:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.03.04-21.50.46:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.03.04-21.50.46:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.03.04-21.50.46:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.03.04-21.50.46:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.03.04-21.50.46:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.03.04-21.50.46:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.03.04-21.50.46:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.03.04-21.50.46:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.03.04-21.50.46:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.03.04-21.50.46:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.03.04-21.50.46:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.03.04-21.50.46:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.03.04-21.50.46:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.03.04-21.50.46:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.03.04-21.50.46:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.03.04-21.50.46:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.03.04-21.50.46:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.03.04-21.50.46:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.03.04-21.50.46:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.03.04-21.50.46:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.03.04-21.50.46:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.03.04-21.50.46:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.03.04-21.50.46:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.03.04-21.50.46:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.03.04-21.50.46:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.03.04-21.50.46:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.03.04-21.50.46:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.03.04-21.50.46:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.03.04-21.50.46:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.03.04-21.50.46:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.03.04-21.50.46:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.03.04-21.50.46:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.03.04-21.50.46:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.03.04-21.50.46:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.03.04-21.50.46:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.03.04-21.50.46:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.03.04-21.50.46:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.03.04-21.50.46:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.03.04-21.50.46:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.03.04-21.50.46:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.03.04-21.50.47:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.03.04-21.50.47:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.03.04-21.50.47:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.03.04-21.50.47:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.03.04-21.50.47:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.03.04-21.50.47:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.03.04-21.50.47:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.03.04-21.50.47:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_Door.uasset"
+[2017.03.04-21.50.47:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.03.04-21.50.47:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.03.04-21.50.47:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.03.04-21.50.47:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.03.04-21.50.47:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.03.04-21.50.47:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.03.04-21.50.47:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.03.04-21.50.47:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.03.04-21.50.47:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.03.04-21.50.47:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.03.04-21.50.47:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.03.04-21.50.47:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.03.04-21.50.47:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.03.04-21.50.47:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.03.04-21.50.47:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.03.04-21.50.47:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.03.04-21.50.47:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.03.04-21.50.47:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.03.04-21.50.47:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.03.04-21.50.47:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.03.04-21.50.47:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.03.04-21.50.47:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.03.04-21.50.47:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.03.04-21.50.47:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.03.04-21.50.47:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.03.04-21.50.47:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.03.04-21.50.47:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.03.04-21.50.47:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.03.04-21.50.47:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.03.04-21.50.47:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.03.04-21.50.47:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.03.04-21.50.47:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.03.04-21.50.47:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.03.04-21.50.47:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.03.04-21.50.47:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.03.04-21.50.47:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.03.04-21.50.47:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.03.04-21.50.47:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.03.04-21.50.47:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.03.04-21.50.47:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.03.04-21.50.47:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.03.04-21.50.47:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.03.04-21.50.47:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.03.04-21.50.47:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.03.04-21.50.47:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.03.04-21.50.47:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.03.04-21.50.47:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.03.04-21.50.47:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.03.04-21.50.47:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.03.04-21.50.47:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.03.04-21.50.47:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.03.04-21.50.47:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.03.04-21.50.47:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.03.04-21.50.47:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.03.04-21.50.47:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.03.04-21.50.47:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.03.04-21.50.47:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.03.04-21.50.47:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.03.04-21.50.47:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.03.04-21.50.47:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.03.04-21.50.47:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.03.04-21.50.47:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.03.04-21.50.47:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.03.04-21.50.47:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.03.04-21.50.47:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.03.04-21.50.47:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.03.04-21.50.47:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.03.04-21.50.47:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.03.04-21.50.47:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.03.04-21.50.47:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.03.04-21.50.47:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.03.04-21.50.47:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.03.04-21.50.47:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.03.04-21.50.47:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.03.04-21.50.47:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.03.04-21.50.47:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.03.04-21.50.48:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.03.04-21.50.48:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.03.04-21.50.48:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.03.04-21.50.48:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.03.04-21.50.48:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.03.04-21.50.48:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.03.04-21.50.48:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.03.04-21.50.48:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.03.04-21.50.48:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.03.04-21.50.48:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.03.04-21.50.48:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.03.04-21.50.48:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.03.04-21.50.48:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.03.04-21.50.48:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.03.04-21.50.48:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.03.04-21.50.48:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.03.04-21.50.48:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.03.04-21.50.48:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.03.04-21.50.48:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.03.04-21.50.48:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.03.04-21.50.48:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.03.04-21.50.48:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.03.04-21.50.48:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.03.04-21.50.48:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.03.04-21.50.48:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.03.04-21.50.48:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.03.04-21.50.48:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.03.04-21.50.48:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.03.04-21.50.48:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.03.04-21.50.48:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.03.04-21.50.48:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.03.04-21.50.48:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.03.04-21.50.48:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.03.04-21.50.48:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.03.04-21.50.48:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.03.04-21.50.48:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.03.04-21.50.48:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.03.04-21.50.48:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.03.04-21.50.48:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.03.04-21.50.48:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.03.04-21.50.48:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.03.04-21.50.49:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.03.04-21.50.49:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.03.04-21.50.49:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.03.04-21.50.49:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.03.04-21.50.49:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.03.04-21.50.49:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.03.04-21.50.49:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.03.04-21.50.49:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.03.04-21.50.49:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.03.04-21.50.49:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.03.04-21.50.49:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.03.04-21.50.49:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.03.04-21.50.49:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.03.04-21.50.49:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.03.04-21.50.49:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.03.04-21.50.49:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.03.04-21.50.49:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.03.04-21.50.49:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.03.04-21.50.49:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.03.04-21.50.49:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.03.04-21.50.49:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.03.04-21.50.49:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.03.04-21.50.49:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.03.04-21.50.49:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.03.04-21.50.49:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.03.04-21.50.49:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.03.04-21.50.49:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.03.04-21.50.49:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.03.04-21.50.49:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.03.04-21.50.49:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "D:/User/Documents/Tower-Defence/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.03.04-21.50.49:527][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2017.03.04-21.50.49:613][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="D:/User/Documents/Tower-Defence/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2017.03.04-21.50.49:900][  0]LogSavePackage: Save=279.56ms
+[2017.03.04-21.50.49:900][  0]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/Floor_400x4001707DB78411C54CA9F15D8BB54DDC3EE.tmp' to 'D:/User/Documents/Tower-Defence/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.03.04-21.50.49:901][  0]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.03.04-21.50.49:902][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.03.04-21.50.49:905][  0]Cmd: MAP LOAD FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.04-21.50.49:906][  0]LightingResults: New page: Lighting Build
+[2017.03.04-21.50.49:959][  0]MapCheck: New page: Map Check
+[2017.03.04-21.50.49:959][  0]LightingResults: New page: Lighting Build
+[2017.03.04-21.50.50:629][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning  Set Input Mode Game And UI (Deprecated)  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.03.04-21.50.50:645][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0031.21] Compile of CameraPawnController successful, but with 1 Warning(s) [in 56 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.04-21.50.50:648][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0031.21] Compile of CameraPawnController successful, but with 2 Warning(s) [in 2 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.04-21.50.50:648][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0031.21] Compile of CameraPawnController successful, but with 3 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.04-21.50.50:816][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning  Set Input Mode Game And UI (Deprecated)  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.03.04-21.50.50:829][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0031.39] Compile of CameraPawnController successful, but with 1 Warning(s) [in 57 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.04-21.50.50:829][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0031.39] Compile of CameraPawnController successful, but with 2 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.04-21.50.50:832][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0031.40] Compile of CameraPawnController successful, but with 3 Warning(s) [in 3 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.04-21.50.51:213][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/MonthNames_ENUM.MonthNames_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.04-21.50.51:214][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/GameSpeed_Enum.GameSpeed_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.04-21.50.51:378][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/NPCSexType_ENUM.NPCSexType_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.04-21.50.51:473][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/NPCNameMale_ENUM.NPCNameMale_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.04-21.50.51:474][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/NPCNameFemale_ENUM.NPCNameFemale_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.04-21.50.51:542][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:542][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:542][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:542][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:543][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:543][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:543][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:543][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:543][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:543][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:543][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:543][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:543][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:543][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:544][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:544][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:544][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:544][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:544][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:544][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:544][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:544][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:545][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:545][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:545][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:545][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:545][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:545][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:545][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:545][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:545][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:545][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:546][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:546][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:546][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:546][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:546][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:546][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:546][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:546][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:547][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:547][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:547][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:547][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:547][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:547][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:547][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:547][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:547][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:548][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:548][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:548][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:548][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:548][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:548][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:548][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:548][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:549][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:549][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:549][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:549][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:549][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:549][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:549][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.50.51:551][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2017.03.04-21.50.51:567][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.03.04-21.50.51:584][  0]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2017.03.04-21.50.51:601][  0]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2017.03.04-21.50.51:621][  0]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2017.03.04-21.50.51:637][  0]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2017.03.04-21.50.51:652][  0]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2017.03.04-21.50.51:669][  0]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2017.03.04-21.50.51:689][  0]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2017.03.04-21.50.51:706][  0]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2017.03.04-21.50.51:723][  0]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2017.03.04-21.50.51:730][  0]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2017.03.04-21.50.51:748][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.03.04-21.50.51:765][  0]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2017.03.04-21.50.51:774][  0]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2017.03.04-21.50.51:783][  0]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2017.03.04-21.50.51:793][  0]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2017.03.04-21.50.51:794][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2017.03.04-21.50.51:811][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2017.03.04-21.50.51:826][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2017.03.04-21.50.51:843][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2017.03.04-21.50.51:863][  0]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2017.03.04-21.50.51:880][  0]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2017.03.04-21.50.51:898][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2017.03.04-21.50.51:921][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.03.04-21.50.51:944][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2017.03.04-21.50.51:967][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2017.03.04-21.50.51:989][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2017.03.04-21.50.52:010][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2017.03.04-21.50.52:035][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2017.03.04-21.50.52:059][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2017.03.04-21.50.52:090][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2017.03.04-21.50.52:115][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2017.03.04-21.50.52:139][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2017.03.04-21.50.52:169][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2017.03.04-21.50.52:179][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.03.04-21.50.52:202][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2017.03.04-21.50.52:221][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2017.03.04-21.50.52:240][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2017.03.04-21.50.52:258][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2017.03.04-21.50.52:262][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2017.03.04-21.50.52:286][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2017.03.04-21.50.52:310][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2017.03.04-21.50.52:335][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2017.03.04-21.50.52:366][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2017.03.04-21.50.52:388][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2017.03.04-21.50.52:404][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2017.03.04-21.50.52:414][  0]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT)
+[2017.03.04-21.50.52:421][  0]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT)
+[2017.03.04-21.50.52:428][  0]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT)
+[2017.03.04-21.50.52:438][  0]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT)
+[2017.03.04-21.50.52:447][  0]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT)
+[2017.03.04-21.50.52:453][  0]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT)
+[2017.03.04-21.50.52:464][  0]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT)
+[2017.03.04-21.50.52:472][  0]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT)
+[2017.03.04-21.50.52:480][  0]LogTexture:Display: Building textures: SkyOcclusion1_18 (AutoDXT)
+[2017.03.04-21.50.52:490][  0]LogTexture:Display: Building textures: SkyOcclusion1_19 (AutoDXT)
+[2017.03.04-21.50.52:494][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2017.03.04-21.50.52:502][  0]LogTexture:Display: Building textures: SkyOcclusion1_20 (AutoDXT)
+[2017.03.04-21.50.52:513][  0]LogTexture:Display: Building textures: SkyOcclusion1_21 (AutoDXT)
+[2017.03.04-21.50.52:519][  0]LogTexture:Display: Building textures: SkyOcclusion1_22 (AutoDXT)
+[2017.03.04-21.50.52:526][  0]LogTexture:Display: Building textures: SkyOcclusion1_23 (AutoDXT)
+[2017.03.04-21.50.52:530][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2017.03.04-21.50.52:537][  0]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2017.03.04-21.50.52:546][  0]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2017.03.04-21.50.52:558][  0]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2017.03.04-21.50.52:569][  0]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2017.03.04-21.50.52:580][  0]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT)
+[2017.03.04-21.50.52:591][  0]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT)
+[2017.03.04-21.50.52:607][  0]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-21.50.52:607][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.WorldInfo_0.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.04-21.50.53:208][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.04-21.50.53:218][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.04-21.50.53:256][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.499ms to complete.
+[2017.03.04-21.50.53:256][  0]LogFileHelpers: Loading map 'RTS_TestMap' took 3.350
+[2017.03.04-21.50.53:442][  0]LogCollectionManager: Loaded 0 collections in 0.001183 seconds
+[2017.03.04-21.50.53:555][  0]LogFileCache: Scanning file cache for directory 'D:/User/Documents/Tower-Defence/Saved/Collections/' took 0.01s
+[2017.03.04-21.50.53:555][  0]LogFileCache: Scanning file cache for directory 'D:/User/Documents/Tower-Defence/Content/Developers/Meuleman/Collections/' took 0.01s
+[2017.03.04-21.50.53:555][  0]LogFileCache: Scanning file cache for directory 'D:/User/Documents/Tower-Defence/Content/Collections/' took 0.01s
+[2017.03.04-21.50.53:555][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.03.04-21.50.53:562][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2244 classes and 450 folders.
+[2017.03.04-21.50.53:565][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.04-21.50.53:565][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.04-21.50.53:610][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.04-21.50.53:791][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.03.04-21.50.53:824][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.04-21.50.53:959][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.04-21.50.53:964][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.04-21.50.54:017][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.04-21.50.54:017][  0]LogLoad: (Engine Initialization) Total time: 34.58 seconds
+[2017.03.04-21.50.54:017][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.66 seconds
+[2017.03.04-21.50.54:017][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.04-21.50.54:017][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.04-21.50.54:357][  0]LogOcInput: OculusInput pre-init called
+[2017.03.04-21.50.54:463][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.04-21.50.54:468][  0]LogSlate: Took 0.003792 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.04-21.50.54:476][  0]LogSlate: Took 0.003107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.04-21.50.54:484][  0]LogSlate: Took 0.002719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.04-21.50.54:588][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:3).
+[2017.03.04-21.50.54:588][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.04-21.50.55:029][  2]LogAssetRegistry: Asset discovery search completed in 15.5238 seconds
+[2017.03.04-21.50.55:029][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.03.04-21.50.55:029][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.03.04-21.51.12:473][962]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.04-21.51.15:617][322]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.51.15:628][322]LogMaterial: 0.00 seconds spent updating 1 materials, 64 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.51.39:903][176]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-21.51.46:659][977]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-21.51.50:424][427]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2017.03.04-21.52.22:563][866]Cmd: TRANSACTION UNDO
+[2017.03.04-21.52.22:564][866]LogEditorTransaction: Undo Scale Actors
+[2017.03.04-21.52.22:572][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:572][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:572][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:573][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:573][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:573][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:573][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:573][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:573][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:573][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:573][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:574][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:574][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:574][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:574][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:574][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:574][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:574][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:575][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:575][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:575][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:575][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:575][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:575][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:575][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:576][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:576][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:576][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:576][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:576][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:576][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:576][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:577][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:577][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:577][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:577][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:577][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:577][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:577][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:577][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:578][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:578][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:578][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:578][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:578][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:578][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:578][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:578][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:579][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:579][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:579][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:579][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:579][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:580][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:580][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:580][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:580][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:580][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:580][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:580][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:580][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:581][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:581][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.22:581][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.25:554][186]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2017.03.04-21.52.29:047][588]Cmd: TRANSACTION UNDO
+[2017.03.04-21.52.29:047][588]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.03.04-21.52.29:053][588]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.29:053][588]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.52.35:247][323]MapCheck: New page: Map Check
+[2017.03.04-21.52.35:260][323]Cmd: MAP REBUILD ALLVISIBLE
+[2017.03.04-21.52.35:261][323]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.03.04-21.52.35:407][323]LogActorComponent: RegisterComponentWithWorld: (/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.WorldInfo_0.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.04-21.52.37:476][323]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.03.04-21.52.37:477][323]LogTemp:Display: Added material ShaderMap 0x0000022DC2028800 with Material 0x0000022DB2F10A00 to ShaderMapsBeingCompiled
+[2017.03.04-21.52.37:480][323]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000022DC2028800
+[2017.03.04-21.52.37:481][323]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.03.04-21.52.37:482][323]LogTemp:Display: Added material ShaderMap 0x0000022DC2029980 with Material 0x0000022DB2F13100 to ShaderMapsBeingCompiled
+[2017.03.04-21.52.37:483][323]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, GameThreadShaderMap 0x0000022DC2029980
+[2017.03.04-21.52.37:485][323]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.03.04-21.52.37:486][323]LogTemp:Display: Added material ShaderMap 0x0000022DC202B900 with Material 0x0000022DB2F11300 to ShaderMapsBeingCompiled
+[2017.03.04-21.52.37:487][323]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LandscapeGizmo_Mat, GameThreadShaderMap 0x0000022DC202B900
+[2017.03.04-21.52.37:771][323]LogTemp:Display: Finished compile of shader map 0x0000022DC202B900
+[2017.03.04-21.52.37:771][323]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LandscapeGizmo_Mat complete, GameThreadShaderMap 0x0000022DC202B900, marking material FDebugViewModeMaterialProxy LandscapeGizmo_Mat as finished
+[2017.03.04-21.52.37:771][323]LogTemp:Display: Marking material as finished 0x0000022DB2F11300
+[2017.03.04-21.52.37:826][323]LogTemp:Display: Finished compile of shader map 0x0000022DC2028800
+[2017.03.04-21.52.37:826][323]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000022DC2028800, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.03.04-21.52.37:826][323]LogTemp:Display: Marking material as finished 0x0000022DB2F10A00
+[2017.03.04-21.52.37:840][323]LogTemp:Display: Finished compile of shader map 0x0000022DC2029980
+[2017.03.04-21.52.37:840][323]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_1 complete, GameThreadShaderMap 0x0000022DC2029980, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1 as finished
+[2017.03.04-21.52.37:840][323]LogTemp:Display: Marking material as finished 0x0000022DB2F13100
+[2017.03.04-21.52.37:842][323]TextureStreamingBuild:Display: Compiling optional shaders took 0.370 seconds.
+[2017.03.04-21.52.37:844][323]LogLevel:Display: Export Material TexCoord Scales took 0.003 seconds.
+[2017.03.04-21.52.37:847][323]TextureStreamingBuild:Display: Build Texture Streaming took 0.003 seconds.
+[2017.03.04-21.52.37:857][323]LightingResults: New page: Lighting Build - Mar 4, 2017, 11:52:37 PM
+[2017.03.04-21.52.37:934][323]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.04-21.52.37:972][323]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.04-21.52.37:979][323]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.04-21.52.38:487][323]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.04-21.52.38:487][323]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8144
+[2017.03.04-21.52.41:069][323]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.04-21.52.41:069][323]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.04-21.52.41:069][323]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.04-21.52.41:069][323]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.04-21.52.41:069][323]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.04-21.52.41:213][323]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.03.04-21.52.41:213][323]MapCheck: New page: RTS_TestMap - Mar 4, 2017, 11:52:41 PM
+[2017.03.04-21.52.41:213][323]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.03.04-21.52.41:252][323]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 39.145ms to complete.
+[2017.03.04-21.52.41:274][323]LogEditorBuildUtils: Build time 0:06
+[2017.03.04-21.53.03:343][364]Job is a success!
+[2017.03.04-21.53.15:582][827]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.04-21.53.15:998][827]LogTexture:Display: Building textures: Texture2D_1 (BGRA8)
+[2017.03.04-21.53.16:010][827]LogTexture:Display: Building textures: Texture2D_2 (BGRA8)
+[2017.03.04-21.53.16:018][827]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2017.03.04-21.53.16:024][827]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2017.03.04-21.53.16:032][827]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2017.03.04-21.53.16:040][827]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2017.03.04-21.53.16:047][827]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2017.03.04-21.53.16:054][827]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2017.03.04-21.53.16:061][827]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2017.03.04-21.53.17:001][827]LogMaterial: 0.30 seconds spent updating 1 materials, 5184 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.53.24:588][205]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2017.03.04-21.53.24:740][205]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2017.03.04-21.53.24:892][205]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2017.03.04-21.53.25:046][205]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
+[2017.03.04-21.53.25:596][205]LogMaterial: 0.14 seconds spent updating 1 materials, 1156 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-21.53.50:277][960]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-21.53.50:285][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-21.53.50:285][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-21.53.50:285][960]PIE: New page: PIE session: RTS_TestMap (Mar 4, 2017, 11:53:50 PM)
+[2017.03.04-21.53.50:285][960]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.04-21.53.50:379][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093768s)
+[2017.03.04-21.53.50:380][960]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-21.53.50:380][960]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2017.03.04-21.53.50:380][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.094708s)
+[2017.03.04-21.53.50:421][960]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-21.53.50:428][960]LogInit: FAudioDevice initialized.
+[2017.03.04-21.53.50:472][960]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.04-21.53.50:497][960]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.04-22.53.50
+[2017.03.04-21.53.50:497][960]LogWorld: Bringing up level for play took: 0.024833
+[2017.03.04-21.53.50:528][960]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.03.04-21.53.50:529][960]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-21.53.50:529][960]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-21.53.50:529][960]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-21.53.50:532][960]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-21.53.50:532][960]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.613
+[2017.03.04-21.53.50:532][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-21.54.18:373][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-21.54.18:418][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-21.55.07:619][ 46]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.03.04-21.55.08:113][ 46]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.04-21.55.08:198][ 46]LogSlate: Took 0.003318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.04-21.55.08:286][ 47]LogSlate: Took 0.002984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.04-21.55.18:594][975]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:28915).
+[2017.03.04-21.56.04:375][810]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2017.03.04-21.56.09:032][361]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape2)
+[2017.03.04-21.57.18:372][875]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.03.04-21.57.52:852][790]MapCheck: New page: Map Check
+[2017.03.04-21.57.52:876][790]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.03.04-21.57.52:876][790]MapCheck: New page: RTS_TestMap - Mar 4, 2017, 11:57:52 PM
+[2017.03.04-21.57.52:882][790]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.03.04-21.57.52:930][790]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 53.4ms to complete.
+[2017.03.04-21.57.52:951][790]LogEditorBuildUtils: Build time 0:00
+[2017.03.04-21.58.12:069][681]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-21.58.12:083][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-21.58.12:083][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-21.58.12:083][681]PIE: New page: PIE session: RTS_TestMap (Mar 4, 2017, 11:58:12 PM)
+[2017.03.04-21.58.12:083][681]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.04-21.58.12:162][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078608s)
+[2017.03.04-21.58.12:162][681]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-21.58.12:162][681]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2017.03.04-21.58.12:163][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.079621s)
+[2017.03.04-21.58.12:228][681]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-21.58.12:235][681]LogInit: FAudioDevice initialized.
+[2017.03.04-21.58.12:267][681]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.04-21.58.12:292][681]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.04-22.58.12
+[2017.03.04-21.58.12:293][681]LogWorld: Bringing up level for play took: 0.025154
+[2017.03.04-21.58.12:293][681]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-21.58.12:293][681]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-21.58.12:293][681]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-21.58.12:296][681]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-21.58.12:296][681]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 1.151
+[2017.03.04-21.58.12:296][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-21.58.39:461][830]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-21.58.39:502][830]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-21.58.55:595][289]MapCheck: New page: Map Check
+[2017.03.04-21.58.55:618][289]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.03.04-21.58.55:618][289]MapCheck: New page: RTS_TestMap - Mar 4, 2017, 11:58:55 PM
+[2017.03.04-21.58.55:621][289]MapCheck:Warning: Performance Warning Landscape_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.03.04-21.58.55:621][289]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.03.04-21.58.55:664][289]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 45.972ms to complete.
+[2017.03.04-21.58.55:686][289]LogEditorBuildUtils: Build time 0:00
+[2017.03.04-21.59.16:061][ 50]LogWindows: Windows GetLastError: L’opération a réussi. (0)
