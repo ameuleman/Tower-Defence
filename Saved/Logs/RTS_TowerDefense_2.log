@@ -1,0 +1,1614 @@
+﻿Log file open, 03/04/17 23:25:28
+LogInit:Display: Running engine for game: RTS_TowerDefense
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1801817834) SRandInit(1801817835).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.071935
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.04-22.25.28:983][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.04-22.25.28:983][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.04-22.25.28:990][  0]LogInit: Computer: DESKTOP-9FJ45NO
+[2017.03.04-22.25.28:990][  0]LogInit: User: Meuleman
+[2017.03.04-22.25.28:990][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.04-22.25.28:990][  0]LogInit: High frequency timer resolution =3.519818 MHz
+[2017.03.04-22.25.28:991][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.04-22.25.28:991][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.04-22.25.28:991][  0]LogMemory: Process Physical Memory: 262.80 MB used, 262.80 MB peak
+[2017.03.04-22.25.28:991][  0]LogMemory: Process Virtual Memory: 262.63 MB used, 262.63 MB peak
+[2017.03.04-22.25.28:991][  0]LogMemory: Physical Memory: 6055.32 MB used,  10270.84 MB free, 16326.16 MB total
+[2017.03.04-22.25.28:991][  0]LogMemory: Virtual Memory: 643.53 MB used,  10270.84 MB free, 134217728.00 MB total
+[2017.03.04-22.25.29:050][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2017.03.04-22.25.29:550][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.04-22.25.30:037][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.03.04-22.25.30:037][  0]LogD3D11RHI:       4059/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.04-22.25.30:038][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.04-22.25.30:038][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.04-22.25.30:038][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.04-22.25.30:041][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.04-22.25.30:041][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.04-22.25.30:041][  0]LogWindows: EnumDisplayDevices:
+[2017.03.04-22.25.30:041][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.03.04-22.25.30:041][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.04-22.25.30:041][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.03.04-22.25.30:041][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.04-22.25.30:041][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.04-22.25.30:041][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.03.04-22.25.30:041][  0]LogD3D11RHI:   Driver Version: 378.66 (internal:21.21.13.7866, unified:378.66)
+[2017.03.04-22.25.30:041][  0]LogD3D11RHI:      Driver Date: 2-9-2017
+[2017.03.04-22.25.30:041][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.04-22.25.30:461][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.04-22.25.30:638][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.04-22.25.30:734][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (D:/User/Documents/Tower-Defence/Intermediate/Shaders/WorkingDirectory/3152/).
+[2017.03.04-22.25.30:734][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Meuleman/AppData/Local/Temp/UnrealShaderWorkingDir/C630E5DE4739E2D7CA0024A6CBFB6E34/'.
+[2017.03.04-22.25.30:734][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.04-22.25.31:549][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.04-22.25.31:591][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.04-22.25.31:634][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.04-22.25.31:676][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.04-22.25.31:718][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.04-22.25.31:761][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.04-22.25.31:803][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.04-22.25.31:845][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.04-22.25.31:879][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.04-22.25.31:919][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.04-22.25.31:960][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.04-22.25.32:001][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.04-22.25.32:042][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.04-22.25.32:083][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.04-22.25.32:124][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.04-22.25.32:206][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.04-22.25.32:206][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.04-22.25.32:234][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.04-22.25.32:312][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.04-22.25.32:339][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.04-22.25.32:380][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.04-22.25.32:420][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.04-22.25.32:462][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.04-22.25.32:503][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.04-22.25.32:503][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.04-22.25.32:818][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.04-22.25.32:859][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Meuleman/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.04-22.25.32:859][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Meuleman/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.04-22.25.32:859][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/User/Documents/Tower-Defence/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.04-22.25.32:859][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.04-22.25.32:859][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/User/Documents/Tower-Defence/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.04-22.25.32:859][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.04-22.25.32:874][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.04-22.25.32:886][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Meuleman/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.04-22.25.32:892][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.04-22.25.32:893][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.04-22.25.32:893][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.04-22.25.33:080][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.04-22.25.33:081][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.04-22.25.33:259][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.04-22.25.33:290][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.04-22.25.33:323][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.04-22.25.33:323][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.04-22.25.33:323][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.04-22.25.33:715][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: rts_towerdefense, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4106176920
+[2017.03.04-22.25.33:754][  0]LogAssetRegistry: FAssetRegistry took 0.0209 seconds to start up
+[2017.03.04-22.25.33:776][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.007360 seconds
+[2017.03.04-22.25.33:780][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.04-22.25.33:780][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.03.04-22.25.33:780][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.04-22.25.33:824][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.04-22.25.34:978][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.04-22.25.35:010][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.04-22.25.35:391][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.04-22.25.35:660][  0]SourceControl: Info Source control is disabled
+[2017.03.04-22.25.35:677][  0]SourceControl: Info Source control is disabled
+[2017.03.04-22.25.35:710][  0]SourceControl: Info Source control is disabled
+[2017.03.04-22.25.35:742][  0]SourceControl: Info Source control is disabled
+[2017.03.04-22.25.36:622][  0]LogEngine: Initializing Engine...
+[2017.03.04-22.25.36:623][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.04-22.25.36:796][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.04-22.25.36:808][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-22.25.36:827][  0]LogInit: FAudioDevice initialized.
+[2017.03.04-22.25.36:848][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Meuleman/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.04-22.25.36:854][  0]LogInit: Texture streaming: Enabled
+[2017.03.04-22.25.36:925][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.04-22.25.36:987][  0]LogInit: Transaction tracking system initialized
+[2017.03.04-22.25.37:235][  0]BlueprintLog: New page: Editor Load
+[2017.03.04-22.25.37:866][  0]LocalizationService: Info Localization service is disabled
+[2017.03.04-22.25.38:351][  0]LogConsoleResponse:Display: 
+[2017.03.04-22.25.38:443][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.04-22.25.38:443][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.04-22.25.38:771][  0]LogFileCache: Scanning file cache for directory 'D:/User/Documents/Tower-Defence/Content/' took 0.01s
+[2017.03.04-22.25.39:182][  0]SourceControl: Info Source control is disabled
+[2017.03.04-22.25.39:182][  0]Cmd: MAP LOAD FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.04-22.25.39:182][  0]LightingResults: New page: Lighting Build
+[2017.03.04-22.25.39:211][  0]MapCheck: New page: Map Check
+[2017.03.04-22.25.39:211][  0]LightingResults: New page: Lighting Build
+[2017.03.04-22.25.39:853][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning  Set Input Mode Game And UI (Deprecated)  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.03.04-22.25.39:867][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0012.17] Compile of CameraPawnController successful, but with 1 Warning(s) [in 54 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.04-22.25.39:870][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0012.17] Compile of CameraPawnController successful, but with 2 Warning(s) [in 2 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.04-22.25.39:870][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0012.17] Compile of CameraPawnController successful, but with 3 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.04-22.25.40:024][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning  Set Input Mode Game And UI (Deprecated)  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.03.04-22.25.40:036][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0012.34] Compile of CameraPawnController successful, but with 1 Warning(s) [in 53 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.04-22.25.40:037][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0012.34] Compile of CameraPawnController successful, but with 2 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.04-22.25.40:039][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0012.34] Compile of CameraPawnController successful, but with 3 Warning(s) [in 2 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.04-22.25.40:436][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/MonthNames_ENUM.MonthNames_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.04-22.25.40:436][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/GameSpeed_Enum.GameSpeed_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.04-22.25.40:512][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/NPCSexType_ENUM.NPCSexType_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.04-22.25.40:513][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/NPCNameFemale_ENUM.NPCNameFemale_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.04-22.25.40:683][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:683][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:683][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:683][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:683][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:683][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:683][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:683][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:683][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:684][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:684][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:684][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:684][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:684][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:684][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:684][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:684][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:685][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:685][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:685][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:685][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:685][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:685][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:685][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:685][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:686][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:686][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:686][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:686][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:686][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:686][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:686][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:686][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:686][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:687][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:687][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:687][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:687][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:687][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:687][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:687][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:687][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:687][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:688][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:688][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:688][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:688][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:688][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:689][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:689][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:689][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:689][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:689][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:689][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:690][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:690][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:690][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:690][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:690][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:690][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:690][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:691][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:691][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:691][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.25.40:692][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2017.03.04-22.25.40:709][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.03.04-22.25.40:725][  0]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2017.03.04-22.25.40:741][  0]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2017.03.04-22.25.40:758][  0]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2017.03.04-22.25.40:774][  0]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2017.03.04-22.25.40:787][  0]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2017.03.04-22.25.40:803][  0]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2017.03.04-22.25.40:824][  0]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2017.03.04-22.25.40:840][  0]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2017.03.04-22.25.40:856][  0]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2017.03.04-22.25.40:864][  0]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2017.03.04-22.25.40:869][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.03.04-22.25.40:884][  0]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2017.03.04-22.25.40:892][  0]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2017.03.04-22.25.40:901][  0]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2017.03.04-22.25.40:911][  0]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2017.03.04-22.25.40:912][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2017.03.04-22.25.40:928][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2017.03.04-22.25.40:943][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2017.03.04-22.25.40:959][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2017.03.04-22.25.40:977][  0]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2017.03.04-22.25.40:993][  0]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2017.03.04-22.25.41:011][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2017.03.04-22.25.41:035][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.03.04-22.25.41:057][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2017.03.04-22.25.41:081][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2017.03.04-22.25.41:103][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2017.03.04-22.25.41:123][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2017.03.04-22.25.41:146][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2017.03.04-22.25.41:170][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2017.03.04-22.25.41:200][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2017.03.04-22.25.41:224][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2017.03.04-22.25.41:249][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2017.03.04-22.25.41:278][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2017.03.04-22.25.41:288][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.03.04-22.25.41:311][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2017.03.04-22.25.41:330][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2017.03.04-22.25.41:348][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2017.03.04-22.25.41:366][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2017.03.04-22.25.41:370][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2017.03.04-22.25.41:393][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2017.03.04-22.25.41:417][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2017.03.04-22.25.41:441][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2017.03.04-22.25.41:488][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2017.03.04-22.25.41:510][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2017.03.04-22.25.41:526][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2017.03.04-22.25.41:536][  0]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT)
+[2017.03.04-22.25.41:543][  0]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT)
+[2017.03.04-22.25.41:550][  0]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT)
+[2017.03.04-22.25.41:560][  0]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT)
+[2017.03.04-22.25.41:569][  0]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT)
+[2017.03.04-22.25.41:576][  0]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT)
+[2017.03.04-22.25.41:586][  0]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT)
+[2017.03.04-22.25.41:593][  0]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT)
+[2017.03.04-22.25.41:603][  0]LogTexture:Display: Building textures: SkyOcclusion1_18 (AutoDXT)
+[2017.03.04-22.25.41:614][  0]LogTexture:Display: Building textures: SkyOcclusion1_19 (AutoDXT)
+[2017.03.04-22.25.41:617][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2017.03.04-22.25.41:625][  0]LogTexture:Display: Building textures: SkyOcclusion1_20 (AutoDXT)
+[2017.03.04-22.25.41:633][  0]LogTexture:Display: Building textures: SkyOcclusion1_21 (AutoDXT)
+[2017.03.04-22.25.41:639][  0]LogTexture:Display: Building textures: SkyOcclusion1_22 (AutoDXT)
+[2017.03.04-22.25.41:645][  0]LogTexture:Display: Building textures: SkyOcclusion1_23 (AutoDXT)
+[2017.03.04-22.25.41:647][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2017.03.04-22.25.41:654][  0]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2017.03.04-22.25.41:662][  0]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2017.03.04-22.25.41:670][  0]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2017.03.04-22.25.41:679][  0]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2017.03.04-22.25.41:689][  0]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT)
+[2017.03.04-22.25.41:699][  0]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT)
+[2017.03.04-22.25.41:712][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/NPCNameMale_ENUM.NPCNameMale_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.04-22.25.41:715][  0]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-22.25.41:716][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.WorldInfo_0.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.04-22.25.41:736][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.04-22.25.41:746][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.04-22.25.41:782][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.401ms to complete.
+[2017.03.04-22.25.41:782][  0]LogFileHelpers: Loading map 'RTS_TestMap' took 2.600
+[2017.03.04-22.25.41:870][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.04-22.25.41:979][  0]LogCollectionManager: Loaded 0 collections in 0.001320 seconds
+[2017.03.04-22.25.42:052][  0]LogFileCache: Scanning file cache for directory 'D:/User/Documents/Tower-Defence/Saved/Collections/' took 0.01s
+[2017.03.04-22.25.42:052][  0]LogFileCache: Scanning file cache for directory 'D:/User/Documents/Tower-Defence/Content/Developers/Meuleman/Collections/' took 0.01s
+[2017.03.04-22.25.42:052][  0]LogFileCache: Scanning file cache for directory 'D:/User/Documents/Tower-Defence/Content/Collections/' took 0.01s
+[2017.03.04-22.25.42:052][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.03.04-22.25.42:059][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2244 classes and 450 folders.
+[2017.03.04-22.25.42:062][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.04-22.25.42:062][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.04-22.25.42:107][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.04-22.25.42:134][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.04-22.25.42:166][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.04-22.25.42:293][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.04-22.25.42:298][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.04-22.25.42:350][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.04-22.25.42:351][  0]LogLoad: (Engine Initialization) Total time: 14.65 seconds
+[2017.03.04-22.25.42:351][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.63 seconds
+[2017.03.04-22.25.42:351][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.04-22.25.42:351][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.04-22.25.42:359][  0]LogOcInput: OculusInput pre-init called
+[2017.03.04-22.25.42:377][  0]LogAssetRegistry: Asset discovery search completed in 8.6442 seconds
+[2017.03.04-22.25.42:377][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.03.04-22.25.42:377][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
+[2017.03.04-22.25.42:381][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.04-22.25.42:392][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.04-22.25.42:396][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.04-22.25.42:400][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.04-22.25.42:492][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.04-22.25.42:532][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.03.04-22.26.21:301][603]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.26.27:953][396]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.03.04-22.26.45:704][515]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.26.56:550][794]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.27.05:475][682]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.03.04-22.27.08:335][ 21]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-22.27.08:342][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.27.08:342][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-22.27.08:342][ 21]PIE: New page: PIE session: RTS_TestMap (Mar 5, 2017, 12:27:08 AM)
+[2017.03.04-22.27.08:342][ 21]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.04-22.27.08:370][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027728s)
+[2017.03.04-22.27.08:371][ 21]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-22.27.08:371][ 21]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2017.03.04-22.27.08:371][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.028726s)
+[2017.03.04-22.27.08:420][ 21]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-22.27.08:426][ 21]LogInit: FAudioDevice initialized.
+[2017.03.04-22.27.08:471][ 21]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.04-22.27.08:473][ 21]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.04-23.27.08
+[2017.03.04-22.27.08:474][ 21]LogWorld: Bringing up level for play took: 0.002207
+[2017.03.04-22.27.08:503][ 21]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.03.04-22.27.08:503][ 21]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.27.08:503][ 21]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.27.08:503][ 21]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.27.08:506][ 21]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.27.08:506][ 21]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.639
+[2017.03.04-22.27.08:506][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.27.21:329][554]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.27.21:371][554]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.27.26:457][140]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.27.31:905][780]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.27.32:787][885]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.27.33:204][934]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.27.35:392][189]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.27.36:058][268]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.27.42:498][ 30]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.03.04-22.27.48:046][653]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-22.27.48:053][653]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.27.48:054][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-22.27.48:054][653]PIE: New page: PIE session: RTS_TestMap (Mar 5, 2017, 12:27:48 AM)
+[2017.03.04-22.27.48:054][653]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.04-22.27.48:078][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024112s)
+[2017.03.04-22.27.48:078][653]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-22.27.48:078][653]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2017.03.04-22.27.48:079][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.024912s)
+[2017.03.04-22.27.48:097][653]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-22.27.48:103][653]LogInit: FAudioDevice initialized.
+[2017.03.04-22.27.48:134][653]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.04-22.27.48:136][653]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.04-23.27.48
+[2017.03.04-22.27.48:137][653]LogWorld: Bringing up level for play took: 0.002194
+[2017.03.04-22.27.48:137][653]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.27.48:137][653]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.27.48:137][653]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.27.48:139][653]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.27.48:139][653]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 0.995
+[2017.03.04-22.27.48:139][653]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.27.54:482][411]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.27.54:539][411]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.27.56:386][619]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.27.58:715][893]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.03.04-22.28.10:122][255]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.28.13:317][633]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.03.04-22.28.20:751][517]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.28.46:915][560]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-22.28.46:922][560]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.28.46:922][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-22.28.46:922][560]PIE: New page: PIE session: RTS_TestMap (Mar 5, 2017, 12:28:46 AM)
+[2017.03.04-22.28.46:922][560]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.04-22.28.46:946][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023271s)
+[2017.03.04-22.28.46:946][560]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-22.28.46:946][560]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2017.03.04-22.28.46:947][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.024299s)
+[2017.03.04-22.28.46:967][560]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-22.28.46:973][560]LogInit: FAudioDevice initialized.
+[2017.03.04-22.28.47:004][560]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.04-22.28.47:006][560]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.04-23.28.47
+[2017.03.04-22.28.47:006][560]LogWorld: Bringing up level for play took: 0.002163
+[2017.03.04-22.28.47:007][560]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.28.47:007][560]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.28.47:007][560]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.28.47:009][560]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.28.47:009][560]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.135
+[2017.03.04-22.28.47:009][560]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.29.23:053][881]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.29.23:098][881]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.29.24:885][ 82]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.04-22.29.28:714][223]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.29.28:725][223]LogMaterial: 0.00 seconds spent updating 1 materials, 64 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.29.30:137][389]MapCheck: New page: Map Check
+[2017.03.04-22.29.30:152][389]Cmd: MAP REBUILD ALLVISIBLE
+[2017.03.04-22.29.30:154][389]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.03.04-22.29.30:347][389]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.03.04-22.29.30:347][389]LogTemp:Display: Added material ShaderMap 0x0000018F8E6AFC80 with Material 0x0000018F6262D600 to ShaderMapsBeingCompiled
+[2017.03.04-22.29.30:350][389]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000018F8E6AFC80
+[2017.03.04-22.29.30:352][389]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.03.04-22.29.30:353][389]LogTemp:Display: Added material ShaderMap 0x0000018F8E6AF580 with Material 0x0000018F436F6800 to ShaderMapsBeingCompiled
+[2017.03.04-22.29.30:354][389]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, GameThreadShaderMap 0x0000018F8E6AF580
+[2017.03.04-22.29.30:355][389]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.03.04-22.29.30:356][389]LogTemp:Display: Added material ShaderMap 0x0000018F8E6AE780 with Material 0x0000018F436F7D00 to ShaderMapsBeingCompiled
+[2017.03.04-22.29.30:357][389]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LandscapeGizmo_Mat, GameThreadShaderMap 0x0000018F8E6AE780
+[2017.03.04-22.29.30:643][389]LogTemp:Display: Finished compile of shader map 0x0000018F8E6AE780
+[2017.03.04-22.29.30:643][389]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LandscapeGizmo_Mat complete, GameThreadShaderMap 0x0000018F8E6AE780, marking material FDebugViewModeMaterialProxy LandscapeGizmo_Mat as finished
+[2017.03.04-22.29.30:643][389]LogTemp:Display: Marking material as finished 0x0000018F436F7D00
+[2017.03.04-22.29.30:708][389]LogTemp:Display: Finished compile of shader map 0x0000018F8E6AFC80
+[2017.03.04-22.29.30:708][389]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000018F8E6AFC80, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.03.04-22.29.30:708][389]LogTemp:Display: Marking material as finished 0x0000018F6262D600
+[2017.03.04-22.29.30:710][389]LogTemp:Display: Finished compile of shader map 0x0000018F8E6AF580
+[2017.03.04-22.29.30:710][389]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_1 complete, GameThreadShaderMap 0x0000018F8E6AF580, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1 as finished
+[2017.03.04-22.29.30:710][389]LogTemp:Display: Marking material as finished 0x0000018F436F6800
+[2017.03.04-22.29.30:711][389]TextureStreamingBuild:Display: Compiling optional shaders took 0.369 seconds.
+[2017.03.04-22.29.30:713][389]LogLevel:Display: Export Material TexCoord Scales took 0.002 seconds.
+[2017.03.04-22.29.30:716][389]TextureStreamingBuild:Display: Build Texture Streaming took 0.003 seconds.
+[2017.03.04-22.29.30:724][389]LightingResults: New page: Lighting Build - Mar 5, 2017, 12:29:30 AM
+[2017.03.04-22.29.30:798][389]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.04-22.29.30:836][389]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.04-22.29.30:843][389]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.04-22.29.31:364][389]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.04-22.29.31:364][389]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3152
+[2017.03.04-22.29.33:870][389]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.04-22.29.33:870][389]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.04-22.29.33:870][389]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.04-22.29.33:870][389]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.04-22.29.33:870][389]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.04-22.29.34:009][389]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.03.04-22.29.34:009][389]MapCheck: New page: RTS_TestMap - Mar 5, 2017, 12:29:34 AM
+[2017.03.04-22.29.34:010][389]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.03.04-22.29.34:047][389]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 37.649ms to complete.
+[2017.03.04-22.29.34:068][389]LogEditorBuildUtils: Build time 0:03
+[2017.03.04-22.29.47:246][378]Job is a success!
+[2017.03.04-22.29.47:278][379]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.04-22.29.48:117][379]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2017.03.04-22.29.48:117][379]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.03.04-22.29.48:117][379]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.03.04-22.29.48:117][379]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2017.03.04-22.29.48:117][379]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.03.04-22.29.48:117][379]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.03.04-22.29.48:169][379]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2017.03.04-22.29.48:169][379]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2017.03.04-22.29.48:191][379]Lightmass on DESKTOP-9FJ45NO: 10.9 sec total, 341 ms importing, 327 ms setup, 529 ms photons, 9.72 sec processing, 0 ms extra exporting [65/65 mappings]. Threads: 38.8 sec total, 25.2 sec processing.
+[2017.03.04-22.29.48:197][379]LogStaticLightingSystem: Illumination: 17.4 sec (757 ms encoding lightmaps, 44 ms encoding shadowmaps)
+[2017.03.04-22.29.48:197][379]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.03.04-22.29.48:197][379]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.03.04-22.29.48:878][379]DumpUnbuiltLightIteractions
+[2017.03.04-22.29.48:878][379]Lights with unbuilt interactions: 0
+[2017.03.04-22.29.48:878][379]
+[2017.03.04-22.29.48:878][379]Primitives with unbuilt interactions: 0
+[2017.03.04-22.29.48:900][380]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.04-22.29.48:901][380]MapCheck: New page: RTS_TestMap - Mar 5, 2017, 12:29:48 AM
+[2017.03.04-22.29.49:003][380]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.571ms to complete.
+[2017.03.04-22.29.59:641][655]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.03.04-22.30.05:586][363]MapCheck: New page: Map Check
+[2017.03.04-22.30.05:603][363]Cmd: MAP REBUILD ALLVISIBLE
+[2017.03.04-22.30.05:603][363]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.03.04-22.30.05:715][363]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.03.04-22.30.05:716][363]LogTemp:Display: Added material ShaderMap 0x0000018F7DDCBC80 with Material 0x0000018F629AF400 to ShaderMapsBeingCompiled
+[2017.03.04-22.30.05:718][363]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000018F7DDCBC80
+[2017.03.04-22.30.05:719][363]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.03.04-22.30.05:720][363]LogTemp:Display: Added material ShaderMap 0x0000018F7DDCB580 with Material 0x0000018F629AE200 to ShaderMapsBeingCompiled
+[2017.03.04-22.30.05:721][363]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, GameThreadShaderMap 0x0000018F7DDCB580
+[2017.03.04-22.30.05:723][363]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.03.04-22.30.05:723][363]LogTemp:Display: Added material ShaderMap 0x0000018F7DDCAB00 with Material 0x0000018F629AD000 to ShaderMapsBeingCompiled
+[2017.03.04-22.30.05:725][363]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LandscapeGizmo_Mat, GameThreadShaderMap 0x0000018F7DDCAB00
+[2017.03.04-22.30.06:009][363]LogTemp:Display: Finished compile of shader map 0x0000018F7DDCAB00
+[2017.03.04-22.30.06:009][363]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LandscapeGizmo_Mat complete, GameThreadShaderMap 0x0000018F7DDCAB00, marking material FDebugViewModeMaterialProxy LandscapeGizmo_Mat as finished
+[2017.03.04-22.30.06:009][363]LogTemp:Display: Marking material as finished 0x0000018F629AD000
+[2017.03.04-22.30.06:063][363]LogTemp:Display: Finished compile of shader map 0x0000018F7DDCB580
+[2017.03.04-22.30.06:063][363]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_2 complete, GameThreadShaderMap 0x0000018F7DDCB580, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2 as finished
+[2017.03.04-22.30.06:063][363]LogTemp:Display: Marking material as finished 0x0000018F629AE200
+[2017.03.04-22.30.06:064][363]LogTemp:Display: Finished compile of shader map 0x0000018F7DDCBC80
+[2017.03.04-22.30.06:064][363]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000018F7DDCBC80, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.03.04-22.30.06:064][363]LogTemp:Display: Marking material as finished 0x0000018F629AF400
+[2017.03.04-22.30.06:066][363]TextureStreamingBuild:Display: Compiling optional shaders took 0.355 seconds.
+[2017.03.04-22.30.06:068][363]LogLevel:Display: Export Material TexCoord Scales took 0.002 seconds.
+[2017.03.04-22.30.06:071][363]TextureStreamingBuild:Display: Build Texture Streaming took 0.003 seconds.
+[2017.03.04-22.30.06:081][363]LightingResults: New page: Lighting Build - Mar 5, 2017, 12:30:06 AM
+[2017.03.04-22.30.06:136][363]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.04-22.30.06:137][363]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.04-22.30.06:137][363]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.04-22.30.06:138][363]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.04-22.30.06:138][363]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3152
+[2017.03.04-22.30.10:660][363]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.04-22.30.10:660][363]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.04-22.30.10:660][363]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.04-22.30.10:660][363]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.04-22.30.10:660][363]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.04-22.30.10:789][363]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.03.04-22.30.10:789][363]MapCheck: New page: RTS_TestMap - Mar 5, 2017, 12:30:10 AM
+[2017.03.04-22.30.10:826][363]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.217ms to complete.
+[2017.03.04-22.30.10:847][363]LogEditorBuildUtils: Build time 0:05
+[2017.03.04-22.30.16:492][887]Cmd: TRANSACTION UNDO
+[2017.03.04-22.30.16:492][887]LogEditorTransaction: Undo Set Actor Visibility
+[2017.03.04-22.30.16:885][923]Cmd: TRANSACTION UNDO
+[2017.03.04-22.30.16:885][923]LogEditorTransaction: Undo Set Actor Visibility
+[2017.03.04-22.30.19:779][210]Job is a success!
+[2017.03.04-22.30.20:599][212]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2017.03.04-22.30.20:599][212]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.03.04-22.30.20:599][212]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.03.04-22.30.20:599][212]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2017.03.04-22.30.20:599][212]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.03.04-22.30.20:599][212]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.03.04-22.30.20:653][212]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2017.03.04-22.30.20:653][212]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2017.03.04-22.30.20:671][212]LogStaticLightingSystem: Illumination: 14.5 sec (741 ms encoding lightmaps, 50 ms encoding shadowmaps)
+[2017.03.04-22.30.20:671][212]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.03.04-22.30.20:671][212]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.03.04-22.30.21:664][212]Lightmass on DESKTOP-9FJ45NO: 9.36 sec total, 319 ms importing, 291 ms setup, 435 ms photons, 8.29 sec processing, 0 ms extra exporting [65/65 mappings]. Threads: 33.1 sec total, 21.3 sec processing.
+[2017.03.04-22.30.21:665][212]DumpUnbuiltLightIteractions
+[2017.03.04-22.30.21:665][212]Lights with unbuilt interactions: 0
+[2017.03.04-22.30.21:665][212]
+[2017.03.04-22.30.21:665][212]Primitives with unbuilt interactions: 0
+[2017.03.04-22.30.21:682][213]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.04-22.30.21:682][213]MapCheck: New page: RTS_TestMap - Mar 5, 2017, 12:30:21 AM
+[2017.03.04-22.30.21:917][213]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 234.771ms to complete.
+[2017.03.04-22.30.35:923][892]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.03.04-22.31.00:510][819]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.31.05:051][354]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.04-22.31.21:178][289]MapCheck: New page: Map Check
+[2017.03.04-22.31.21:194][289]Cmd: MAP REBUILD ALLVISIBLE
+[2017.03.04-22.31.21:194][289]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.03.04-22.31.21:328][289]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.03.04-22.31.21:328][289]LogTemp:Display: Added material ShaderMap 0x0000018F8DF82080 with Material 0x0000018F8DF96E00 to ShaderMapsBeingCompiled
+[2017.03.04-22.31.21:330][289]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000018F8DF82080
+[2017.03.04-22.31.21:332][289]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2017.03.04-22.31.21:333][289]LogTemp:Display: Added material ShaderMap 0x0000018F8DF82780 with Material 0x0000018F8DF96800 to ShaderMapsBeingCompiled
+[2017.03.04-22.31.21:334][289]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, GameThreadShaderMap 0x0000018F8DF82780
+[2017.03.04-22.31.21:335][289]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.03.04-22.31.21:336][289]LogTemp:Display: Added material ShaderMap 0x0000018F4708B900 with Material 0x0000018F8DF96B00 to ShaderMapsBeingCompiled
+[2017.03.04-22.31.21:337][289]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LandscapeGizmo_Mat, GameThreadShaderMap 0x0000018F4708B900
+[2017.03.04-22.31.21:621][289]LogTemp:Display: Finished compile of shader map 0x0000018F4708B900
+[2017.03.04-22.31.21:621][289]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LandscapeGizmo_Mat complete, GameThreadShaderMap 0x0000018F4708B900, marking material FDebugViewModeMaterialProxy LandscapeGizmo_Mat as finished
+[2017.03.04-22.31.21:621][289]LogTemp:Display: Marking material as finished 0x0000018F8DF96B00
+[2017.03.04-22.31.21:665][289]LogTemp:Display: Finished compile of shader map 0x0000018F8DF82080
+[2017.03.04-22.31.21:665][289]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000018F8DF82080, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.03.04-22.31.21:665][289]LogTemp:Display: Marking material as finished 0x0000018F8DF96E00
+[2017.03.04-22.31.21:678][289]LogTemp:Display: Finished compile of shader map 0x0000018F8DF82780
+[2017.03.04-22.31.21:678][289]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_3 complete, GameThreadShaderMap 0x0000018F8DF82780, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3 as finished
+[2017.03.04-22.31.21:678][289]LogTemp:Display: Marking material as finished 0x0000018F8DF96800
+[2017.03.04-22.31.21:679][289]TextureStreamingBuild:Display: Compiling optional shaders took 0.355 seconds.
+[2017.03.04-22.31.21:684][289]LogLevel:Display: Export Material TexCoord Scales took 0.004 seconds.
+[2017.03.04-22.31.21:687][289]TextureStreamingBuild:Display: Build Texture Streaming took 0.003 seconds.
+[2017.03.04-22.31.21:696][289]LightingResults: New page: Lighting Build - Mar 5, 2017, 12:31:21 AM
+[2017.03.04-22.31.21:751][289]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.04-22.31.21:752][289]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.04-22.31.21:752][289]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.04-22.31.21:753][289]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.04-22.31.21:753][289]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3152
+[2017.03.04-22.31.26:267][289]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.04-22.31.26:267][289]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.04-22.31.26:267][289]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.04-22.31.26:267][289]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.04-22.31.26:267][289]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.04-22.31.26:450][289]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.03.04-22.31.26:450][289]MapCheck: New page: RTS_TestMap - Mar 5, 2017, 12:31:26 AM
+[2017.03.04-22.31.26:450][289]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.03.04-22.31.26:487][289]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 36.648ms to complete.
+[2017.03.04-22.31.26:508][289]LogEditorBuildUtils: Build time 0:05
+[2017.03.04-22.31.36:746][266]Job is a success!
+[2017.03.04-22.31.37:577][267]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2017.03.04-22.31.37:577][267]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.03.04-22.31.37:577][267]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.03.04-22.31.37:577][267]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2017.03.04-22.31.37:577][267]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.03.04-22.31.37:577][267]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.03.04-22.31.37:626][267]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2017.03.04-22.31.37:626][267]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2017.03.04-22.31.37:643][267]LogStaticLightingSystem: Illumination: 15.9 sec (753 ms encoding lightmaps, 44 ms encoding shadowmaps)
+[2017.03.04-22.31.37:643][267]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.03.04-22.31.37:643][267]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.03.04-22.31.38:272][267]Lightmass on DESKTOP-9FJ45NO: 10.6 sec total, 344 ms importing, 324 ms setup, 505 ms photons, 9.44 sec processing, 0 ms extra exporting [65/65 mappings]. Threads: 37.7 sec total, 24.6 sec processing.
+[2017.03.04-22.31.38:273][267]DumpUnbuiltLightIteractions
+[2017.03.04-22.31.38:273][267]Lights with unbuilt interactions: 0
+[2017.03.04-22.31.38:273][267]
+[2017.03.04-22.31.38:273][267]Primitives with unbuilt interactions: 0
+[2017.03.04-22.31.38:295][268]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.04-22.31.38:295][268]MapCheck: New page: RTS_TestMap - Mar 5, 2017, 12:31:38 AM
+[2017.03.04-22.31.38:467][268]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 171.913ms to complete.
+[2017.03.04-22.31.45:356][ 93]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2017.03.04-22.31.47:070][294]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.03.04-22.32.17:081][890]MapCheck: New page: Map Check
+[2017.03.04-22.32.17:097][890]Cmd: MAP REBUILD ALLVISIBLE
+[2017.03.04-22.32.17:097][890]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.03.04-22.32.17:253][890]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.03.04-22.32.17:253][890]LogTemp:Display: Added material ShaderMap 0x0000018F3601EE80 with Material 0x0000018F8E3B1900 to ShaderMapsBeingCompiled
+[2017.03.04-22.32.17:255][890]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000018F3601EE80
+[2017.03.04-22.32.17:257][890]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_4, compiling. 
+[2017.03.04-22.32.17:258][890]LogTemp:Display: Added material ShaderMap 0x0000018F3601DD00 with Material 0x0000018F8DF97D00 to ShaderMapsBeingCompiled
+[2017.03.04-22.32.17:259][890]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_4, GameThreadShaderMap 0x0000018F3601DD00
+[2017.03.04-22.32.17:260][890]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.03.04-22.32.17:261][890]LogTemp:Display: Added material ShaderMap 0x0000018F3601D980 with Material 0x0000018F8DF97700 to ShaderMapsBeingCompiled
+[2017.03.04-22.32.17:262][890]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LandscapeGizmo_Mat, GameThreadShaderMap 0x0000018F3601D980
+[2017.03.04-22.32.17:515][890]LogTemp:Display: Finished compile of shader map 0x0000018F3601D980
+[2017.03.04-22.32.17:515][890]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LandscapeGizmo_Mat complete, GameThreadShaderMap 0x0000018F3601D980, marking material FDebugViewModeMaterialProxy LandscapeGizmo_Mat as finished
+[2017.03.04-22.32.17:515][890]LogTemp:Display: Marking material as finished 0x0000018F8DF97700
+[2017.03.04-22.32.17:590][890]LogTemp:Display: Finished compile of shader map 0x0000018F3601EE80
+[2017.03.04-22.32.17:590][890]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000018F3601EE80, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.03.04-22.32.17:590][890]LogTemp:Display: Marking material as finished 0x0000018F8E3B1900
+[2017.03.04-22.32.17:602][890]LogTemp:Display: Finished compile of shader map 0x0000018F3601DD00
+[2017.03.04-22.32.17:602][890]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_4 complete, GameThreadShaderMap 0x0000018F3601DD00, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_4 as finished
+[2017.03.04-22.32.17:602][890]LogTemp:Display: Marking material as finished 0x0000018F8DF97D00
+[2017.03.04-22.32.17:604][890]TextureStreamingBuild:Display: Compiling optional shaders took 0.355 seconds.
+[2017.03.04-22.32.17:606][890]LogLevel:Display: Export Material TexCoord Scales took 0.002 seconds.
+[2017.03.04-22.32.17:609][890]TextureStreamingBuild:Display: Build Texture Streaming took 0.003 seconds.
+[2017.03.04-22.32.17:618][890]LightingResults: New page: Lighting Build - Mar 5, 2017, 12:32:17 AM
+[2017.03.04-22.32.17:673][890]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.04-22.32.17:674][890]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.04-22.32.17:674][890]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.04-22.32.17:674][890]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.04-22.32.17:674][890]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3152
+[2017.03.04-22.32.22:187][890]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.04-22.32.22:187][890]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.04-22.32.22:187][890]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.04-22.32.22:187][890]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.04-22.32.22:187][890]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.04-22.32.22:400][890]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.03.04-22.32.22:400][890]MapCheck: New page: RTS_TestMap - Mar 5, 2017, 12:32:22 AM
+[2017.03.04-22.32.22:453][890]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.03.04-22.32.22:490][890]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 90.405ms to complete.
+[2017.03.04-22.32.22:511][890]LogEditorBuildUtils: Build time 0:05
+[2017.03.04-22.32.32:952][889]Job is a success!
+[2017.03.04-22.32.33:777][890]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2017.03.04-22.32.33:777][890]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.03.04-22.32.33:777][890]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.03.04-22.32.33:777][890]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2017.03.04-22.32.33:777][890]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.03.04-22.32.33:777][890]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.03.04-22.32.33:828][890]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2017.03.04-22.32.33:828][890]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2017.03.04-22.32.33:845][890]Lightmass on DESKTOP-9FJ45NO: 10.8 sec total, 347 ms importing, 323 ms setup, 498 ms photons, 9.70 sec processing, 0 ms extra exporting [65/65 mappings]. Threads: 38.7 sec total, 25.2 sec processing.
+[2017.03.04-22.32.33:845][890]LogStaticLightingSystem: Illumination: 16.2 sec (747 ms encoding lightmaps, 47 ms encoding shadowmaps)
+[2017.03.04-22.32.33:845][890]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.03.04-22.32.33:845][890]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.03.04-22.32.34:192][890]DumpUnbuiltLightIteractions
+[2017.03.04-22.32.34:192][890]Lights with unbuilt interactions: 0
+[2017.03.04-22.32.34:192][890]
+[2017.03.04-22.32.34:192][890]Primitives with unbuilt interactions: 0
+[2017.03.04-22.32.34:199][891]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.04-22.32.34:199][891]MapCheck: New page: RTS_TestMap - Mar 5, 2017, 12:32:34 AM
+[2017.03.04-22.32.34:397][891]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 197.583ms to complete.
+[2017.03.04-22.33.43:642][175]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.33.45:149][349]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.03.04-22.33.46:107][458]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.33.46:988][557]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.03.04-22.33.55:425][562]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.34.07:134][954]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2017.03.04-22.34.34:461][207]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-22.34.34:468][207]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.34.34:468][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-22.34.34:469][207]PIE: New page: PIE session: RTS_TestMap (Mar 5, 2017, 12:34:34 AM)
+[2017.03.04-22.34.34:469][207]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.04-22.34.34:490][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021455s)
+[2017.03.04-22.34.34:491][207]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-22.34.34:491][207]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2017.03.04-22.34.34:491][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.022488s)
+[2017.03.04-22.34.34:509][207]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-22.34.34:516][207]LogInit: FAudioDevice initialized.
+[2017.03.04-22.34.34:543][207]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.04-22.34.34:546][207]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.04-23.34.34
+[2017.03.04-22.34.34:546][207]LogWorld: Bringing up level for play took: 0.002198
+[2017.03.04-22.34.34:546][207]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.34.34:546][207]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.34.34:546][207]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.34.34:549][207]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.34.34:549][207]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.596
+[2017.03.04-22.34.34:549][207]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.34.53:211][437]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.34.53:242][437]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.34.54:524][589]MapCheck: New page: Map Check
+[2017.03.04-22.34.54:539][589]Cmd: MAP REBUILD ALLVISIBLE
+[2017.03.04-22.34.54:539][589]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.03.04-22.34.54:716][589]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.03.04-22.34.54:717][589]LogTemp:Display: Added material ShaderMap 0x0000018F8E7CB900 with Material 0x0000018F7F335300 to ShaderMapsBeingCompiled
+[2017.03.04-22.34.54:719][589]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000018F8E7CB900
+[2017.03.04-22.34.54:721][589]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_5, compiling. 
+[2017.03.04-22.34.54:722][589]LogTemp:Display: Added material ShaderMap 0x0000018F8E7C8480 with Material 0x0000018F7F334D00 to ShaderMapsBeingCompiled
+[2017.03.04-22.34.54:723][589]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_5, GameThreadShaderMap 0x0000018F8E7C8480
+[2017.03.04-22.34.54:724][589]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.03.04-22.34.54:725][589]LogTemp:Display: Added material ShaderMap 0x0000018F8E7C8800 with Material 0x0000018F8E3B3D00 to ShaderMapsBeingCompiled
+[2017.03.04-22.34.54:726][589]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LandscapeGizmo_Mat, GameThreadShaderMap 0x0000018F8E7C8800
+[2017.03.04-22.34.55:002][589]LogTemp:Display: Finished compile of shader map 0x0000018F8E7C8800
+[2017.03.04-22.34.55:002][589]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LandscapeGizmo_Mat complete, GameThreadShaderMap 0x0000018F8E7C8800, marking material FDebugViewModeMaterialProxy LandscapeGizmo_Mat as finished
+[2017.03.04-22.34.55:002][589]LogTemp:Display: Marking material as finished 0x0000018F8E3B3D00
+[2017.03.04-22.34.55:066][589]LogTemp:Display: Finished compile of shader map 0x0000018F8E7C8480
+[2017.03.04-22.34.55:066][589]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_5 complete, GameThreadShaderMap 0x0000018F8E7C8480, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_5 as finished
+[2017.03.04-22.34.55:066][589]LogTemp:Display: Marking material as finished 0x0000018F7F334D00
+[2017.03.04-22.34.55:079][589]LogTemp:Display: Finished compile of shader map 0x0000018F8E7CB900
+[2017.03.04-22.34.55:079][589]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000018F8E7CB900, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.03.04-22.34.55:079][589]LogTemp:Display: Marking material as finished 0x0000018F7F335300
+[2017.03.04-22.34.55:080][589]TextureStreamingBuild:Display: Compiling optional shaders took 0.367 seconds.
+[2017.03.04-22.34.55:083][589]LogLevel:Display: Export Material TexCoord Scales took 0.002 seconds.
+[2017.03.04-22.34.55:085][589]TextureStreamingBuild:Display: Build Texture Streaming took 0.003 seconds.
+[2017.03.04-22.34.55:093][589]LightingResults: New page: Lighting Build - Mar 5, 2017, 12:34:55 AM
+[2017.03.04-22.34.55:147][589]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.04-22.34.55:148][589]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.04-22.34.55:148][589]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.04-22.34.55:148][589]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.04-22.34.55:148][589]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3152
+[2017.03.04-22.34.59:661][589]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.04-22.34.59:661][589]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.04-22.34.59:661][589]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.04-22.34.59:661][589]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.04-22.34.59:661][589]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.04-22.34.59:849][589]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.03.04-22.34.59:849][589]MapCheck: New page: RTS_TestMap - Mar 5, 2017, 12:34:59 AM
+[2017.03.04-22.34.59:850][589]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.03.04-22.34.59:887][589]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 37.249ms to complete.
+[2017.03.04-22.34.59:908][589]LogEditorBuildUtils: Build time 0:05
+[2017.03.04-22.35.09:294][127]Job is a success!
+[2017.03.04-22.35.10:468][128]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2017.03.04-22.35.10:468][128]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.03.04-22.35.10:468][128]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.03.04-22.35.10:468][128]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2017.03.04-22.35.10:468][128]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.03.04-22.35.10:468][128]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.03.04-22.35.10:521][128]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2017.03.04-22.35.10:521][128]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2017.03.04-22.35.10:539][128]LogStaticLightingSystem: Illumination: 15.1 sec (760 ms encoding lightmaps, 50 ms encoding shadowmaps)
+[2017.03.04-22.35.10:539][128]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.03.04-22.35.10:539][128]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.03.04-22.35.15:667][128]Lightmass on DESKTOP-9FJ45NO: 10.0 sec total, 322 ms importing, 296 ms setup, 441 ms photons, 8.96 sec processing, 0 ms extra exporting [65/65 mappings]. Threads: 35.8 sec total, 21.4 sec processing.
+[2017.03.04-22.35.15:668][128]DumpUnbuiltLightIteractions
+[2017.03.04-22.35.15:668][128]Lights with unbuilt interactions: 0
+[2017.03.04-22.35.15:668][128]
+[2017.03.04-22.35.15:668][128]Primitives with unbuilt interactions: 0
+[2017.03.04-22.35.15:683][129]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.04-22.35.15:683][129]MapCheck: New page: RTS_TestMap - Mar 5, 2017, 12:35:15 AM
+[2017.03.04-22.35.15:871][129]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 188.221ms to complete.
+[2017.03.04-22.35.20:342][429]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-22.35.20:349][429]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.35.20:349][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-22.35.20:350][429]PIE: New page: PIE session: RTS_TestMap (Mar 5, 2017, 12:35:20 AM)
+[2017.03.04-22.35.20:350][429]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.04-22.35.20:367][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017547s)
+[2017.03.04-22.35.20:368][429]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-22.35.20:368][429]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2017.03.04-22.35.20:368][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.018338s)
+[2017.03.04-22.35.20:385][429]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-22.35.20:391][429]LogInit: FAudioDevice initialized.
+[2017.03.04-22.35.20:418][429]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.04-22.35.20:420][429]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.04-23.35.20
+[2017.03.04-22.35.20:420][429]LogWorld: Bringing up level for play took: 0.002139
+[2017.03.04-22.35.20:421][429]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.35.20:421][429]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.35.20:421][429]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.35.20:423][429]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.35.20:423][429]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.721
+[2017.03.04-22.35.20:423][429]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.36.19:711][534]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.36.19:740][534]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.37.48:193][140]MapCheck: New page: Map Check
+[2017.03.04-22.37.48:210][140]Cmd: MAP REBUILD ALLVISIBLE
+[2017.03.04-22.37.48:210][140]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.03.04-22.37.48:410][140]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.03.04-22.37.48:410][140]LogTemp:Display: Added material ShaderMap 0x0000018F4109EE80 with Material 0x0000018F3FF1BA00 to ShaderMapsBeingCompiled
+[2017.03.04-22.37.48:412][140]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000018F4109EE80
+[2017.03.04-22.37.48:414][140]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_6, compiling. 
+[2017.03.04-22.37.48:415][140]LogTemp:Display: Added material ShaderMap 0x0000018F4109CF00 with Material 0x0000018F8DA93A00 to ShaderMapsBeingCompiled
+[2017.03.04-22.37.48:416][140]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_6, GameThreadShaderMap 0x0000018F4109CF00
+[2017.03.04-22.37.48:417][140]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.03.04-22.37.48:418][140]LogTemp:Display: Added material ShaderMap 0x0000018F4109CB80 with Material 0x0000018F8DA93D00 to ShaderMapsBeingCompiled
+[2017.03.04-22.37.48:419][140]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LandscapeGizmo_Mat, GameThreadShaderMap 0x0000018F4109CB80
+[2017.03.04-22.37.48:693][140]LogTemp:Display: Finished compile of shader map 0x0000018F4109CB80
+[2017.03.04-22.37.48:693][140]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LandscapeGizmo_Mat complete, GameThreadShaderMap 0x0000018F4109CB80, marking material FDebugViewModeMaterialProxy LandscapeGizmo_Mat as finished
+[2017.03.04-22.37.48:693][140]LogTemp:Display: Marking material as finished 0x0000018F8DA93D00
+[2017.03.04-22.37.48:768][140]LogTemp:Display: Finished compile of shader map 0x0000018F4109CF00
+[2017.03.04-22.37.48:768][140]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_6 complete, GameThreadShaderMap 0x0000018F4109CF00, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_6 as finished
+[2017.03.04-22.37.48:768][140]LogTemp:Display: Marking material as finished 0x0000018F8DA93A00
+[2017.03.04-22.37.48:769][140]LogTemp:Display: Finished compile of shader map 0x0000018F4109EE80
+[2017.03.04-22.37.48:769][140]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000018F4109EE80, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.03.04-22.37.48:769][140]LogTemp:Display: Marking material as finished 0x0000018F3FF1BA00
+[2017.03.04-22.37.48:771][140]TextureStreamingBuild:Display: Compiling optional shaders took 0.365 seconds.
+[2017.03.04-22.37.48:772][140]LogLevel:Display: Export Material TexCoord Scales took 0.001 seconds.
+[2017.03.04-22.37.48:775][140]TextureStreamingBuild:Display: Build Texture Streaming took 0.003 seconds.
+[2017.03.04-22.37.48:785][140]LightingResults: New page: Lighting Build - Mar 5, 2017, 12:37:48 AM
+[2017.03.04-22.37.48:840][140]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.04-22.37.48:841][140]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.04-22.37.48:841][140]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.04-22.37.48:841][140]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.04-22.37.48:841][140]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3152
+[2017.03.04-22.37.53:357][140]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.04-22.37.53:357][140]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.04-22.37.53:357][140]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.04-22.37.53:357][140]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.04-22.37.53:357][140]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.04-22.37.53:477][140]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.03.04-22.37.53:477][140]MapCheck: New page: RTS_TestMap - Mar 5, 2017, 12:37:53 AM
+[2017.03.04-22.37.53:515][140]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.232ms to complete.
+[2017.03.04-22.37.53:536][140]LogEditorBuildUtils: Build time 0:05
+[2017.03.04-22.38.02:750][984]Job is a success!
+[2017.03.04-22.38.03:591][985]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2017.03.04-22.38.03:592][985]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.03.04-22.38.03:592][985]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.03.04-22.38.03:592][985]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2017.03.04-22.38.03:592][985]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.03.04-22.38.03:592][985]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.03.04-22.38.03:645][985]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2017.03.04-22.38.03:645][985]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2017.03.04-22.38.03:663][985]LogStaticLightingSystem: Illumination: 14.8 sec (751 ms encoding lightmaps, 51 ms encoding shadowmaps)
+[2017.03.04-22.38.03:663][985]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.03.04-22.38.03:664][985]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.03.04-22.38.04:359][985]Lightmass on DESKTOP-9FJ45NO: 9.69 sec total, 334 ms importing, 311 ms setup, 464 ms photons, 8.55 sec processing, 0 ms extra exporting [65/65 mappings]. Threads: 34.2 sec total, 22.0 sec processing.
+[2017.03.04-22.38.04:360][985]DumpUnbuiltLightIteractions
+[2017.03.04-22.38.04:360][985]Lights with unbuilt interactions: 0
+[2017.03.04-22.38.04:360][985]
+[2017.03.04-22.38.04:360][985]Primitives with unbuilt interactions: 0
+[2017.03.04-22.38.04:377][986]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.04-22.38.04:378][986]MapCheck: New page: RTS_TestMap - Mar 5, 2017, 12:38:04 AM
+[2017.03.04-22.38.04:471][986]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 93.588ms to complete.
+[2017.03.04-22.38.10:014][632]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-22.38.10:021][632]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.38.10:021][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-22.38.10:021][632]PIE: New page: PIE session: RTS_TestMap (Mar 5, 2017, 12:38:10 AM)
+[2017.03.04-22.38.10:021][632]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.04-22.38.10:041][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020017s)
+[2017.03.04-22.38.10:042][632]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-22.38.10:042][632]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2017.03.04-22.38.10:042][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.021045s)
+[2017.03.04-22.38.10:060][632]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-22.38.10:067][632]LogInit: FAudioDevice initialized.
+[2017.03.04-22.38.10:096][632]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.04-22.38.10:099][632]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.04-23.38.10
+[2017.03.04-22.38.10:099][632]LogWorld: Bringing up level for play took: 0.002359
+[2017.03.04-22.38.10:099][632]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.38.10:099][632]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.38.10:099][632]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.38.10:102][632]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.38.10:102][632]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 0.957
+[2017.03.04-22.38.10:102][632]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.38.28:584][841]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.38.28:631][841]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.39.00:380][605]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.39.05:840][230]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2017.03.04-22.40.33:268][893]Cmd: TRANSACTION UNDO
+[2017.03.04-22.40.33:268][893]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.03.04-22.40.33:283][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:283][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:284][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:284][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:285][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:285][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:285][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:285][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:286][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:286][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:289][893]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.03.04-22.40.33:299][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:299][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:299][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:299][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:299][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:299][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:300][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:300][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:302][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:303][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:304][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:304][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:304][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:305][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:305][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:306][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:306][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:307][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:307][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:308][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:309][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:309][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:310][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:310][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:310][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.33:311][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.59:946][816]Cmd: TRANSACTION UNDO
+[2017.03.04-22.40.59:946][816]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.03.04-22.40.59:957][816]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.59:958][816]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.59:958][816]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.59:958][816]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.59:958][816]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.59:962][816]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.03.04-22.40.59:971][816]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.59:971][816]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.59:971][816]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.59:972][816]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.59:973][816]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.40.59:974][816]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.41.28:443][ 83]Cmd: TRANSACTION UNDO
+[2017.03.04-22.41.28:443][ 83]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.03.04-22.41.28:453][ 83]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.41.28:454][ 83]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.41.28:455][ 83]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.41.28:455][ 83]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.41.28:458][ 83]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.03.04-22.41.28:467][ 83]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.41.28:468][ 83]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.41.28:469][ 83]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.41.28:469][ 83]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.00:833][905]Cmd: TRANSACTION UNDO
+[2017.03.04-22.42.00:833][905]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.03.04-22.42.00:849][905]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.03.04-22.42.00:859][905]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.00:859][905]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.00:860][905]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.01:273][950]Cmd: TRANSACTION UNDO
+[2017.03.04-22.42.01:273][950]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.03.04-22.42.01:289][950]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.03.04-22.42.01:299][950]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.01:299][950]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.01:300][950]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.01:300][950]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.01:542][975]Cmd: TRANSACTION UNDO
+[2017.03.04-22.42.01:543][975]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.03.04-22.42.01:557][975]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.03.04-22.42.01:566][975]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.01:566][975]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.01:567][975]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.02:135][ 39]Cmd: TRANSACTION UNDO
+[2017.03.04-22.42.02:135][ 39]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.03.04-22.42.02:146][ 39]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.02:149][ 39]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.03.04-22.42.02:158][ 39]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.02:159][ 39]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.02:663][ 96]Cmd: TRANSACTION UNDO
+[2017.03.04-22.42.02:663][ 96]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.03.04-22.42.02:675][ 96]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.02:675][ 96]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.02:678][ 96]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.03.04-22.42.03:270][164]Cmd: TRANSACTION UNDO
+[2017.03.04-22.42.03:270][164]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.03.04-22.42.03:284][164]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.03.04-22.42.03:293][164]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.03:294][164]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.03:295][164]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.12:800][302]Cmd: TRANSACTION UNDO
+[2017.03.04-22.42.12:800][302]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.03.04-22.42.12:816][302]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.12:817][302]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.42.12:818][302]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-22.43.46:665][370]LogEditorViewport: Clicking on Actor (context menu): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.03.04-22.43.47:586][477]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.03.04-22.44.41:316][706]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.44.42:283][815]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.44.53:041][ 76]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-22.44.53:048][ 76]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.44.53:048][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-22.44.53:049][ 76]PIE: New page: PIE session: RTS_TestMap (Mar 5, 2017, 12:44:53 AM)
+[2017.03.04-22.44.53:049][ 76]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.04-22.44.53:070][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021614s)
+[2017.03.04-22.44.53:071][ 76]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-22.44.53:071][ 76]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2017.03.04-22.44.53:071][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.022812s)
+[2017.03.04-22.44.53:091][ 76]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-22.44.53:099][ 76]LogInit: FAudioDevice initialized.
+[2017.03.04-22.44.53:131][ 76]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.04-22.44.53:133][ 76]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.04-23.44.53
+[2017.03.04-22.44.53:133][ 76]LogWorld: Bringing up level for play took: 0.002153
+[2017.03.04-22.44.53:134][ 76]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.44.53:134][ 76]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.44.53:134][ 76]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.44.53:136][ 76]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.44.53:136][ 76]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.008
+[2017.03.04-22.44.53:136][ 76]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.45.35:032][ 95]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.45.35:077][ 95]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.45.58:443][873]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2017.03.04-22.46.11:065][366]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.04-22.46.12:460][532]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-22.46.12:468][532]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.46.12:468][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-22.46.12:468][532]PIE: New page: PIE session: RTS_TestMap (Mar 5, 2017, 12:46:12 AM)
+[2017.03.04-22.46.12:468][532]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.04-22.46.12:486][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017946s)
+[2017.03.04-22.46.12:487][532]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-22.46.12:487][532]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2017.03.04-22.46.12:487][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.018944s)
+[2017.03.04-22.46.12:505][532]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-22.46.12:511][532]LogInit: FAudioDevice initialized.
+[2017.03.04-22.46.12:542][532]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.04-22.46.12:545][532]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.04-23.46.12
+[2017.03.04-22.46.12:545][532]LogWorld: Bringing up level for play took: 0.002248
+[2017.03.04-22.46.12:546][532]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.46.12:546][532]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.46.12:546][532]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.46.12:548][532]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.46.12:548][532]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.596
+[2017.03.04-22.46.12:548][532]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.46.16:703][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.46.16:743][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.46.17:433][101]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-22.46.17:440][101]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.46.17:440][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-22.46.17:440][101]PIE: New page: PIE session: RTS_TestMap (Mar 5, 2017, 12:46:17 AM)
+[2017.03.04-22.46.17:440][101]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.04-22.46.17:458][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017514s)
+[2017.03.04-22.46.17:458][101]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-22.46.17:459][101]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2017.03.04-22.46.17:459][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.018452s)
+[2017.03.04-22.46.17:477][101]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-22.46.17:484][101]LogInit: FAudioDevice initialized.
+[2017.03.04-22.46.17:511][101]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.04-22.46.17:514][101]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.04-23.46.17
+[2017.03.04-22.46.17:514][101]LogWorld: Bringing up level for play took: 0.002108
+[2017.03.04-22.46.17:514][101]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.46.17:514][101]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.46.17:514][101]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.46.17:517][101]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.46.17:517][101]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 0.372
+[2017.03.04-22.46.17:517][101]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.46.18:640][227]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.46.18:677][227]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.46.19:461][317]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-22.46.19:468][317]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.46.19:468][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-22.46.19:469][317]PIE: New page: PIE session: RTS_TestMap (Mar 5, 2017, 12:46:19 AM)
+[2017.03.04-22.46.19:469][317]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.04-22.46.19:486][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017747s)
+[2017.03.04-22.46.19:487][317]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-22.46.19:487][317]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2017.03.04-22.46.19:487][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.018686s)
+[2017.03.04-22.46.19:505][317]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-22.46.19:511][317]LogInit: FAudioDevice initialized.
+[2017.03.04-22.46.19:539][317]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.04-22.46.19:541][317]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.04-23.46.19
+[2017.03.04-22.46.19:541][317]LogWorld: Bringing up level for play took: 0.002207
+[2017.03.04-22.46.19:542][317]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.46.19:542][317]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.46.19:542][317]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.46.19:544][317]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.46.19:544][317]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 0.4
+[2017.03.04-22.46.19:544][317]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.46.42:394][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.46.42:432][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.46.46:093][476]MapCheck: New page: Map Check
+[2017.03.04-22.46.46:112][476]Cmd: MAP REBUILD ALLVISIBLE
+[2017.03.04-22.46.46:114][476]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.03.04-22.46.46:345][476]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.03.04-22.46.46:345][476]LogTemp:Display: Added material ShaderMap 0x0000018FAF53BC80 with Material 0x0000018F4111D300 to ShaderMapsBeingCompiled
+[2017.03.04-22.46.46:347][476]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000018FAF53BC80
+[2017.03.04-22.46.46:349][476]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_7, compiling. 
+[2017.03.04-22.46.46:350][476]LogTemp:Display: Added material ShaderMap 0x0000018FAF53B580 with Material 0x0000018F4111FA00 to ShaderMapsBeingCompiled
+[2017.03.04-22.46.46:351][476]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_7, GameThreadShaderMap 0x0000018FAF53B580
+[2017.03.04-22.46.46:352][476]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.03.04-22.46.46:353][476]LogTemp:Display: Added material ShaderMap 0x0000018FAF53AB00 with Material 0x0000018F3FF18400 to ShaderMapsBeingCompiled
+[2017.03.04-22.46.46:354][476]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LandscapeGizmo_Mat, GameThreadShaderMap 0x0000018FAF53AB00
+[2017.03.04-22.46.46:608][476]LogTemp:Display: Finished compile of shader map 0x0000018FAF53AB00
+[2017.03.04-22.46.46:608][476]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LandscapeGizmo_Mat complete, GameThreadShaderMap 0x0000018FAF53AB00, marking material FDebugViewModeMaterialProxy LandscapeGizmo_Mat as finished
+[2017.03.04-22.46.46:608][476]LogTemp:Display: Marking material as finished 0x0000018F3FF18400
+[2017.03.04-22.46.46:683][476]LogTemp:Display: Finished compile of shader map 0x0000018FAF53BC80
+[2017.03.04-22.46.46:683][476]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000018FAF53BC80, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.03.04-22.46.46:683][476]LogTemp:Display: Marking material as finished 0x0000018F4111D300
+[2017.03.04-22.46.46:686][476]LogTemp:Display: Finished compile of shader map 0x0000018FAF53B580
+[2017.03.04-22.46.46:686][476]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_7 complete, GameThreadShaderMap 0x0000018FAF53B580, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_7 as finished
+[2017.03.04-22.46.46:686][476]LogTemp:Display: Marking material as finished 0x0000018F4111FA00
+[2017.03.04-22.46.46:687][476]TextureStreamingBuild:Display: Compiling optional shaders took 0.345 seconds.
+[2017.03.04-22.46.46:688][476]LogLevel:Display: Export Material TexCoord Scales took 0.002 seconds.
+[2017.03.04-22.46.46:691][476]TextureStreamingBuild:Display: Build Texture Streaming took 0.003 seconds.
+[2017.03.04-22.46.46:700][476]LightingResults: New page: Lighting Build - Mar 5, 2017, 12:46:46 AM
+[2017.03.04-22.46.46:755][476]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.04-22.46.46:757][476]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.04-22.46.46:757][476]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.04-22.46.46:758][476]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.04-22.46.46:758][476]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3152
+[2017.03.04-22.46.51:274][476]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.04-22.46.51:274][476]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.04-22.46.51:274][476]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.04-22.46.51:274][476]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.04-22.46.51:274][476]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.04-22.46.51:509][476]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.03.04-22.46.51:509][476]MapCheck: New page: RTS_TestMap - Mar 5, 2017, 12:46:51 AM
+[2017.03.04-22.46.51:509][476]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.03.04-22.46.51:549][476]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 40.418ms to complete.
+[2017.03.04-22.46.51:571][476]LogEditorBuildUtils: Build time 0:05
+[2017.03.04-22.47.04:397][637]Job is a success!
+[2017.03.04-22.47.05:509][638]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2017.03.04-22.47.05:509][638]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.03.04-22.47.05:509][638]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.03.04-22.47.05:509][638]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2017.03.04-22.47.05:509][638]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.03.04-22.47.05:509][638]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.03.04-22.47.05:558][638]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2017.03.04-22.47.05:558][638]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2017.03.04-22.47.05:574][638]LogStaticLightingSystem: Illumination: 18.8 sec (1.02 sec encoding lightmaps, 46 ms encoding shadowmaps)
+[2017.03.04-22.47.05:574][638]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.03.04-22.47.05:574][638]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.03.04-22.47.06:280][638]Lightmass on DESKTOP-9FJ45NO: 11.8 sec total, 352 ms importing, 326 ms setup, 707 ms photons, 10.4 sec processing, 0 ms extra exporting [65/65 mappings]. Threads: 41.9 sec total, 26.7 sec processing.
+[2017.03.04-22.47.06:283][638]DumpUnbuiltLightIteractions
+[2017.03.04-22.47.06:283][638]Lights with unbuilt interactions: 0
+[2017.03.04-22.47.06:283][638]
+[2017.03.04-22.47.06:283][638]Primitives with unbuilt interactions: 0
+[2017.03.04-22.47.06:303][639]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.04-22.47.06:303][639]MapCheck: New page: RTS_TestMap - Mar 5, 2017, 12:47:06 AM
+[2017.03.04-22.47.06:366][639]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.769ms to complete.
+[2017.03.04-22.47.17:682][983]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.03.04-22.47.17:949][983]LogSavePackage: Save=268.53ms
+[2017.03.04-22.47.17:949][983]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/RTS_TestMap_Auto19076F9A049B66DEA65F340B79B8421F7.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Maps/RTS_TestMap_Auto1.umap'
+[2017.03.04-22.47.17:950][983]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Maps/RTS_TestMap_Auto1.umap
+[2017.03.04-22.47.17:953][983]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_TowerDefense/Maps/RTS_TestMap' took 0.299
+[2017.03.04-22.47.17:953][983]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.299
+[2017.03.04-22.47.17:954][983]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_TowerDefense/Maps/RTS_TestMap_BuiltData] ([1] browsable assets)...
+[2017.03.04-22.47.17:954][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Maps/RTS_TestMap_BuiltData]
+[2017.03.04-22.47.17:965][983]LogSavePackage: Save=10.38ms
+[2017.03.04-22.47.17:965][983]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/RTS_TestMap_BuiltData_Auto10989A37F4833C8DB0414F0B7D2F9546F.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Maps/RTS_TestMap_BuiltData_Auto1.uasset'
+[2017.03.04-22.47.17:968][983]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Maps/RTS_TestMap_BuiltData_Auto1.uasset
+[2017.03.04-22.47.17:968][983]LogFileHelpers: Auto-saving content packages took 0.014
+[2017.03.04-22.49.38:132][802]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-22.49.38:140][802]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.49.38:140][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-22.49.38:140][802]PIE: New page: PIE session: RTS_TestMap (Mar 5, 2017, 12:49:38 AM)
+[2017.03.04-22.49.38:140][802]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.04-22.49.38:169][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028979s)
+[2017.03.04-22.49.38:170][802]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-22.49.38:170][802]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2017.03.04-22.49.38:170][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.029958s)
+[2017.03.04-22.49.38:189][802]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-22.49.38:196][802]LogInit: FAudioDevice initialized.
+[2017.03.04-22.49.38:224][802]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.04-22.49.38:226][802]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.04-23.49.38
+[2017.03.04-22.49.38:227][802]LogWorld: Bringing up level for play took: 0.002325
+[2017.03.04-22.49.38:227][802]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.49.38:227][802]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-22.49.38:227][802]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.49.38:229][802]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-22.49.38:229][802]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 1.085
+[2017.03.04-22.49.38:229][802]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.50.40:562][266]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1840.977 Y=-2469.419 Z=101.040] for [NPC_BP_C]
+[2017.03.04-22.50.41:886][425]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1840.977 Y=-2469.419 Z=101.040] for [NPC_BP_C]
+[2017.03.04-22.50.42:111][452]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1843.535 Y=-2489.492 Z=103.886] for [NPC_BP_C]
+[2017.03.04-22.50.42:361][482]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1897.059 Y=-2507.992 Z=93.000] for [NPC_BP_C]
+[2017.03.04-22.50.42:595][510]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1926.348 Y=-2524.565 Z=93.000] for [NPC_BP_C]
+[2017.03.04-22.50.42:844][540]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1822.900 Y=-2486.369 Z=108.235] for [NPC_BP_C]
+[2017.03.04-22.50.45:487][857]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1121.413 Y=-1959.957 Z=93.000] for [NPC_BP_C]
+[2017.03.04-22.50.45:695][882]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1096.106 Y=-1974.251 Z=93.000] for [NPC_BP_C]
+[2017.03.04-22.50.45:920][909]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1083.472 Y=-1956.825 Z=93.000] for [NPC_BP_C]
+[2017.03.04-22.50.46:153][937]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1099.175 Y=-1933.084 Z=115.608] for [NPC_BP_C]
+[2017.03.04-22.50.47:120][ 53]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1193.799 Y=-2079.277 Z=111.625] for [NPC_BP_C]
+[2017.03.04-22.50.47:378][ 84]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1146.039 Y=-2053.987 Z=93.000] for [NPC_BP_C]
+[2017.03.04-22.50.47:612][112]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1140.928 Y=-2056.229 Z=93.000] for [NPC_BP_C]
+[2017.03.04-22.50.48:379][204]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-945.953 Y=-1853.970 Z=109.880] for [NPC_BP_C]
+[2017.03.04-22.51.23:350][400]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.51.23:393][400]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-22.56.24:976][887]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.03.04-22.56.26:223][ 13]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.03.04-22.56.27:336][140]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.57.10:851][267]Cmd: MODE GRID=0
+[2017.03.04-22.57.11:731][372]Cmd: MODE GRID=1
+[2017.03.04-22.57.19:747][332]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.03.04-22.57.20:478][412]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.03.04-22.57.21:297][502]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.58.04:936][331]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-22.58.05:729][425]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.03.04-22.58.06:524][517]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.03.04-23.00.52:440][395]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.03.04-23.00.52:920][395]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.04-23.00.52:986][395]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.04-23.01.19:708][325]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:217507).
+[2017.03.04-23.02.38:822][829]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.03.04-23.02.43:824][166]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-23.02.52:063][114]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.03.04-23.03.02:388][334]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.04-23.03.11:302][367]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-23.03.13:733][656]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.04-23.03.13:745][656]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-23.03.13:745][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.04-23.03.13:745][656]PIE: New page: PIE session: RTS_TestMap (Mar 5, 2017, 1:03:13 AM)
+[2017.03.04-23.03.13:745][656]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.04-23.03.13:767][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022053s)
+[2017.03.04-23.03.13:767][656]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.04-23.03.13:768][656]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2017.03.04-23.03.13:768][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.023010s)
+[2017.03.04-23.03.13:797][656]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.04-23.03.13:804][656]LogInit: FAudioDevice initialized.
+[2017.03.04-23.03.13:836][656]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.04-23.03.13:839][656]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.05-00.03.13
+[2017.03.04-23.03.13:839][656]LogWorld: Bringing up level for play took: 0.002203
+[2017.03.04-23.03.13:839][656]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-23.03.13:840][656]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.04-23.03.13:840][656]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-23.03.13:842][656]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.04-23.03.13:842][656]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 0.697
+[2017.03.04-23.03.13:842][656]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-23.03.16:969][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-23.03.17:015][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.04-23.03.21:441][528]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.03.04-23.03.22:854][695]Cmd: TRANSACTION UNDO
+[2017.03.04-23.03.22:854][695]LogEditorTransaction: Undo Clicking on Actors
+[2017.03.04-23.03.23:464][762]Cmd: TRANSACTION UNDO
+[2017.03.04-23.03.23:464][762]LogEditorTransaction: Undo Clicking on Actors
+[2017.03.04-23.03.23:888][811]Cmd: TRANSACTION UNDO
+[2017.03.04-23.03.23:888][811]LogEditorTransaction: Undo Create Actor
+[2017.03.04-23.07.16:070][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Maps/RTS_TestMap" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.04-23.07.16:312][ 45]LogSavePackage: Save=210.14ms
+[2017.03.04-23.07.16:312][ 45]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/RTS_TestMapB9116CB1471DC2E3B53E1AA764A93BEE.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap'
+[2017.03.04-23.07.16:319][ 45]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap
+[2017.03.04-23.07.16:334][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Maps/RTS_TestMap_BuiltData" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap_BuiltData.uasset" SILENT=true
+[2017.03.04-23.07.16:428][ 45]LogSavePackage: Save=92.70ms
+[2017.03.04-23.07.16:428][ 45]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/RTS_TestMap_BuiltData153B75B2405D1B333D3783BAB67BF34C.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap_BuiltData.uasset'
+[2017.03.04-23.07.16:430][ 45]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap_BuiltData.uasset
+[2017.03.04-23.07.17:718][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Maps/RTS_TestMap" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.04-23.07.17:940][197]LogSavePackage: Save=208.67ms
+[2017.03.04-23.07.17:940][197]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/RTS_TestMap2AEBA0D044B353B1C0323E9889645FB9.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap'
+[2017.03.04-23.07.17:942][197]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap
+[2017.03.04-23.07.17:956][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Maps/RTS_TestMap_BuiltData" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap_BuiltData.uasset" SILENT=true
+[2017.03.04-23.07.18:062][197]LogSavePackage: Save=99.73ms
+[2017.03.04-23.07.18:062][197]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/RTS_TestMap_BuiltData8235F5BE4491A14978CCA7858E21A1B1.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap_BuiltData.uasset'
+[2017.03.04-23.07.18:063][197]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap_BuiltData.uasset
+[2017.03.04-23.17.01:662][905]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.03.04-23.17.16:066][219]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.03.04-23.17.31:615][978]Cmd: TRANSACTION UNDO
+[2017.03.04-23.17.31:615][978]LogEditorTransaction: Undo Clicking on Actors
+[2017.03.04-23.17.32:717][ 93]Cmd: TRANSACTION UNDO
+[2017.03.04-23.17.32:717][ 93]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.03.04-23.17.33:281][159]Cmd: TRANSACTION UNDO
+[2017.03.04-23.17.33:281][159]LogEditorTransaction: Undo Create Pin Link
+[2017.03.04-23.17.33:920][234]Cmd: TRANSACTION UNDO
+[2017.03.04-23.17.33:920][234]LogEditorTransaction: Undo Create Pin Link
+[2017.03.04-23.17.34:876][348]Cmd: TRANSACTION UNDO
+[2017.03.04-23.17.34:876][348]LogEditorTransaction: Undo Create Pin Link
+[2017.03.04-23.17.35:365][406]Cmd: TRANSACTION UNDO
+[2017.03.04-23.17.35:365][406]LogEditorTransaction: Undo Create Pin Link
+[2017.03.04-23.17.35:613][435]Cmd: TRANSACTION UNDO
+[2017.03.04-23.17.35:613][435]LogEditorTransaction: Undo Create Pin Link
+[2017.03.04-23.17.35:811][458]Cmd: TRANSACTION UNDO
+[2017.03.04-23.17.35:811][458]LogEditorTransaction: Undo Create Pin Link
+[2017.03.04-23.17.36:034][484]Cmd: TRANSACTION UNDO
+[2017.03.04-23.17.36:034][484]LogEditorTransaction: Undo Create Pin Link
+[2017.03.04-23.17.39:950][953]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.04-23.17.41:796][173]Cmd: TRANSACTION UNDO
+[2017.03.04-23.17.41:796][173]LogEditorTransaction: Undo Clicking on Actors
+[2017.03.04-23.17.46:091][651]Cmd: TRANSACTION UNDO
+[2017.03.04-23.17.46:091][651]LogEditorTransaction: Undo Move Actors
+[2017.03.04-23.17.46:099][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:100][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:100][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:100][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:100][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:100][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:101][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:101][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:101][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:101][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:101][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:101][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:101][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:101][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:101][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:102][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:102][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:102][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:102][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:102][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:102][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:102][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:102][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:103][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:103][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:103][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:103][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:103][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:103][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:103][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:104][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:104][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:104][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:104][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:104][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:105][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:105][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:105][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:105][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:105][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:105][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:105][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:106][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:106][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:106][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:106][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:106][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:106][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:106][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:106][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:107][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:107][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:107][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:107][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:107][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:107][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:107][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:108][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:108][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:108][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:108][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:108][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:108][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.46:108][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.04-23.17.50:106][123]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.03.04-23.17.56:549][631]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.03.04-23.17.59:314][930]Cmd: TRANSACTION UNDO
+[2017.03.04-23.17.59:314][930]LogEditorTransaction: Undo Clicking on Actors
+[2017.03.04-23.17.59:785][982]Cmd: TRANSACTION UNDO
+[2017.03.04-23.17.59:785][982]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.03.04-23.18.03:544][185]Cmd: QUIT_EDITOR
+[2017.03.04-23.18.03:678][185]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.04-23.18.03:754][185]LogExit: Preparing to exit.
+[2017.03.04-23.18.04:259][185]LogExit: Editor shut down
+[2017.03.04-23.18.04:259][185]LogExit: Transaction tracking system shut down
+[2017.03.04-23.18.04:341][185]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.04-23.18.04:341][185]LogExit: Object subsystem successfully closed.
+[2017.03.04-23.18.04:427][185]LogD3D11RHI: Shutdown
+[2017.03.04-23.18.04:427][185]LogD3D11RHI: CleanupD3DDevice
+[2017.03.04-23.18.04:507][185]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.04-23.18.04:519][185]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.03.04-23.18.04:519][185]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.03.04-23.18.04:519][185]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (500)
+[2017.03.04-23.18.04:519][185]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (498)
+[2017.03.04-23.18.04:519][185]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.03.04-23.18.04:519][185]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.03.04-23.18.04:519][185]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.03.04-23.18.04:519][185]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.03.04-23.18.04:519][185]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.03.04-23.18.04:520][185]LogDirectoryWatcher: A directory notification for 'D:/User/Documents/Tower-Defence/Content/Collections/' was aborted.
+[2017.03.04-23.18.04:520][185]LogDirectoryWatcher: A directory notification for 'D:/User/Documents/Tower-Defence/Content/Developers/Meuleman/Collections/' was aborted.
+[2017.03.04-23.18.04:520][185]LogDirectoryWatcher: A directory notification for 'D:/User/Documents/Tower-Defence/Saved/Collections/' was aborted.
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.03.04-23.18.04:520][185]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.03.04-23.18.04:521][185]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.03.04-23.18.05:165][185]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.03.04-23.18.05:165][185]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.03.04-23.18.05:165][185]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.03.04-23.18.05:165][185]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.03.04-23.18.05:165][185]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.03.04-23.18.05:165][185]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.03.04-23.18.05:165][185]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.03.04-23.18.05:165][185]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.03.04-23.18.05:165][185]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.03.04-23.18.05:165][185]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.03.04-23.18.05:166][185]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.03.04-23.18.05:209][185]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.03.04-23.18.05:209][185]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.03.04-23.18.05:209][185]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.03.04-23.18.05:209][185]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.03.04-23.18.05:209][185]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.03.04-23.18.05:209][185]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.03.04-23.18.05:209][185]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.03.04-23.18.05:209][185]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.03.04-23.18.05:209][185]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.03.04-23.18.05:223][185]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.03.04-23.18.05:441][185]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.03.04-23.18.05:442][185]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.03.04-23.18.05:442][185]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.03.04-23.18.05:442][185]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.03.04-23.18.05:442][185]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.03.04-23.18.05:442][185]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.03.04-23.18.05:442][185]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.03.04-23.18.05:442][185]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.03.04-23.18.05:442][185]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.03.04-23.18.05:442][185]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.03.04-23.18.05:442][185]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.03.04-23.18.05:442][185]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.03.04-23.18.05:442][185]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.03.04-23.18.05:442][185]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.03.04-23.18.05:442][185]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.03.04-23.18.05:444][185]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.03.04-23.18.05:444][185]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.03.04-23.18.05:444][185]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.03.04-23.18.05:446][185]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.03.04-23.18.05:448][185]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.03.04-23.18.05:448][185]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.03.04-23.18.05:448][185]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.03.04-23.18.05:448][185]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.03.04-23.18.05:549][185]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.03.04-23.18.05:650][185]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.03.04-23.18.05:650][185]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.03.04-23.18.05:650][185]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.03.04-23.18.05:650][185]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.03.04-23.18.05:650][185]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.03.04-23.18.05:650][185]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.03.04-23.18.05:650][185]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.03.04-23.18.05:650][185]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.03.04-23.18.05:650][185]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.03.04-23.18.05:650][185]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.03.04-23.18.05:650][185]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.03.04-23.18.05:650][185]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.03.04-23.18.05:650][185]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.03.04-23.18.05:650][185]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.03.04-23.18.05:651][185]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.03.04-23.18.05:651][185]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.03.04-23.18.05:651][185]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.03.04-23.18.05:651][185]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.03.04-23.18.05:651][185]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.03.04-23.18.05:651][185]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.03.04-23.18.05:651][185]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.03.04-23.18.05:651][185]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.03.04-23.18.05:651][185]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.03.04-23.18.05:651][185]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.03.04-23.18.05:659][185]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.03.04-23.18.05:659][185]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.03.04-23.18.05:659][185]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.03.04-23.18.05:659][185]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.03.04-23.18.05:659][185]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.03.04-23.18.05:660][185]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.03.04-23.18.05:885][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.04-23.18.05:885][185]LogDirectoryWatcher: A directory notification for 'D:/User/Documents/Tower-Defence/Content/' was aborted.
+[2017.03.04-23.18.05:885][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.04-23.18.05:885][185]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.03.04-23.18.05:886][185]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.03.04-23.18.05:886][185]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.03.04-23.18.05:886][185]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.03.04-23.18.05:886][185]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.03.04-23.18.05:886][185]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.03.04-23.18.05:886][185]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.03.04-23.18.05:886][185]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.03.04-23.18.05:886][185]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.03.04-23.18.05:923][185]LogDerivedDataCache: Shutdown
+[2017.03.04-23.18.05:923][185]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.03.04-23.18.05:923][185]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.03.04-23.18.05:924][185]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.03.04-23.18.05:925][185]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.03.04-23.18.05:925][185]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.03.04-23.18.05:925][185]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.03.04-23.18.05:925][185]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.03.04-23.18.05:925][185]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.03.04-23.18.05:925][185]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.04-23.18.05:925][185]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.04-23.18.05:925][185]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.04-23.18.05:925][185]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.04-23.18.05:925][185]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.04-23.18.05:925][185]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.04-23.18.05:925][185]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.04-23.18.05:925][185]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B336637D3-49DC-99C8-2BD6-E7A3D0742DB6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=37a79b574f7bf5a5e3ee2f951a352b48%7Cecb1a0bea2164e2d8ab1996a8c11891e%7Cf7af2c44-be3f-455e-ab21-9728a7f7ab41&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.04-23.18.05:936][185]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.04-23.18.05:939][185]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.04-23.18.05:939][185]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.04-23.18.05:939][185]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.04-23.18.05:939][185]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.04-23.18.05:939][185]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.04-23.18.05:944][185]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.04-23.18.05:944][185]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.04-23.18.05:944][185]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.04-23.18.05:944][185]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.04-23.18.05:944][185]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.04-23.18.05:944][185]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.04-23.18.05:945][185]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.04-23.18.05:945][185]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.04-23.18.05:945][185]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.04-23.18.05:945][185]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.04-23.18.05:947][185]LogExit: Exiting.
+[2017.03.04-23.18.05:964][185]Log file closed, 03/05/17 00:18:05
