@@ -1,0 +1,621 @@
+﻿Log file open, 03/06/17 13:48:48
+LogInit:Display: Running engine for game: RTS_TowerDefense
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1570149826) SRandInit(-1570149826).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079969
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.06-12.48.49:772][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.06-12.48.49:772][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.06-12.48.49:784][  0]LogInit: Computer: DESKTOP-OSFK7VD
+[2017.03.06-12.48.49:784][  0]LogInit: User: Amaury
+[2017.03.06-12.48.49:784][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.06-12.48.49:784][  0]LogInit: High frequency timer resolution =1.948615 MHz
+[2017.03.06-12.48.49:784][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.03.06-12.48.49:784][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.06-12.48.49:784][  0]LogMemory: Process Physical Memory: 262.58 MB used, 262.58 MB peak
+[2017.03.06-12.48.49:784][  0]LogMemory: Process Virtual Memory: 262.59 MB used, 262.59 MB peak
+[2017.03.06-12.48.49:784][  0]LogMemory: Physical Memory: 6215.42 MB used,  10117.67 MB free, 16333.09 MB total
+[2017.03.06-12.48.49:784][  0]LogMemory: Virtual Memory: 644.41 MB used,  10117.67 MB free, 134217728.00 MB total
+[2017.03.06-12.48.49:866][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2017.03.06-12.48.51:217][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.06-12.48.51:240][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M      ' (Feature Level 11_0)
+[2017.03.06-12.48.51:240][  0]LogD3D11RHI:       4010/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.06-12.48.51:242][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.06-12.48.51:243][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.06-12.48.51:243][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.06-12.48.51:248][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.06-12.48.51:248][  0]LogD3D11RHI:     GPU DeviceId: 0x1617 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.06-12.48.51:248][  0]LogWindows: EnumDisplayDevices:
+[2017.03.06-12.48.51:248][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980M      ' (P:1 D:1)
+[2017.03.06-12.48.51:249][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980M      ' (P:0 D:0)
+[2017.03.06-12.48.51:249][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980M      ' (P:0 D:0)
+[2017.03.06-12.48.51:249][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M      ' (P:0 D:0)
+[2017.03.06-12.48.51:249][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.06-12.48.51:249][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M      
+[2017.03.06-12.48.51:249][  0]LogD3D11RHI:   Driver Version: 359.46 (internal:10.18.13.5946, unified:359.46)
+[2017.03.06-12.48.51:249][  0]LogD3D11RHI:      Driver Date: 2-15-2016
+[2017.03.06-12.48.51:249][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.06-12.48.51:265][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.03.06-12.48.51:265][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.06-12.48.51:281][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.06-12.48.51:282][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../projetTDinsa/Tower-Defence 4.15/Intermediate/Shaders/WorkingDirectory/8564/).
+[2017.03.06-12.48.51:282][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/TEMP/UnrealShaderWorkingDir/B0320FC34554C9F6DFE62AAA6BFCF17D/'.
+[2017.03.06-12.48.51:282][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.06-12.48.52:921][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.06-12.48.53:087][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.06-12.48.53:151][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.06-12.48.53:214][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.06-12.48.53:294][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.06-12.48.53:403][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.06-12.48.53:471][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.06-12.48.53:535][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.06-12.48.53:585][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.06-12.48.53:650][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.06-12.48.53:712][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.06-12.48.53:775][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.06-12.48.53:839][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.06-12.48.53:902][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.06-12.48.53:964][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.06-12.48.54:095][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.06-12.48.54:095][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.06-12.48.54:138][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.06-12.48.54:242][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.06-12.48.54:278][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.06-12.48.54:390][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.06-12.48.54:471][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.06-12.48.54:532][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.06-12.48.54:601][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.06-12.48.54:601][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.06-12.48.55:050][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.06-12.48.55:104][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Amaury/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.06-12.48.55:104][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Amaury/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.06-12.48.55:105][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../projetTDinsa/Tower-Defence 4.15/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.06-12.48.55:105][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.06-12.48.55:105][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../projetTDinsa/Tower-Defence 4.15/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.06-12.48.55:105][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.06-12.48.55:128][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.06-12.48.55:140][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Amaury/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.06-12.48.55:151][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.06-12.48.55:154][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.06-12.48.55:154][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.06-12.48.55:675][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.06-12.48.55:685][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.06-12.48.55:931][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.06-12.48.55:979][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.06-12.48.56:030][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.06-12.48.56:030][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.06-12.48.56:030][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.06-12.48.56:695][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: rts_towerdefense, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4106176920
+[2017.03.06-12.48.56:739][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2017.03.06-12.48.56:778][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.022560 seconds
+[2017.03.06-12.48.56:784][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.06-12.48.56:784][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.03.06-12.48.56:784][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.06-12.48.56:832][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.06-12.49.01:827][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.06-12.49.01:905][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.06-12.49.03:370][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.06-12.49.04:508][  0]SourceControl: Info Source control is disabled
+[2017.03.06-12.49.04:552][  0]SourceControl: Info Source control is disabled
+[2017.03.06-12.49.04:607][  0]SourceControl: Info Source control is disabled
+[2017.03.06-12.49.04:709][  0]SourceControl: Info Source control is disabled
+[2017.03.06-12.49.08:597][  0]LogEngine: Initializing Engine...
+[2017.03.06-12.49.08:600][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.06-12.49.09:130][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.06-12.49.09:167][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.06-12.49.09:198][  0]LogInit: FAudioDevice initialized.
+[2017.03.06-12.49.09:260][  0]LogDerivedDataCache: Saved boot cache 0.06s 50MB C:/Users/Amaury/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.06-12.49.09:274][  0]LogInit: Texture streaming: Enabled
+[2017.03.06-12.49.09:468][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.06-12.49.09:700][  0]LogInit: Transaction tracking system initialized
+[2017.03.06-12.49.10:886][  0]BlueprintLog: New page: Editor Load
+[2017.03.06-12.49.12:945][  0]LocalizationService: Info Localization service is disabled
+[2017.03.06-12.49.14:080][  0]LogConsoleResponse:Display: 
+[2017.03.06-12.49.14:286][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.06-12.49.14:287][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.06-12.49.15:360][  0]LogFileCache: Scanning file cache for directory 'D:/projetTDinsa/Tower-Defence 4.15/Content/' took 0.02s
+[2017.03.06-12.49.15:407][  0]SourceControl: Info Source control is disabled
+[2017.03.06-12.49.15:408][  0]Cmd: MAP LOAD FILE="../../../../../projetTDinsa/Tower-Defence 4.15/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.06-12.49.15:409][  0]LightingResults: New page: Lighting Build
+[2017.03.06-12.49.15:468][  0]MapCheck: New page: Map Check
+[2017.03.06-12.49.15:468][  0]LightingResults: New page: Lighting Build
+[2017.03.06-12.49.16:505][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning  Set Input Mode Game And UI (Deprecated)  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.03.06-12.49.16:545][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0029.17] Compile of CameraPawnController successful, but with 1 Warning(s) [in 163 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.06-12.49.16:549][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0029.18] Compile of CameraPawnController successful, but with 2 Warning(s) [in 3 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.06-12.49.16:549][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0029.18] Compile of CameraPawnController successful, but with 3 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.06-12.49.16:731][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning  Set Input Mode Game And UI (Deprecated)  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.03.06-12.49.16:751][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0029.38] Compile of CameraPawnController successful, but with 1 Warning(s) [in 70 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.06-12.49.16:751][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0029.38] Compile of CameraPawnController successful, but with 2 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.06-12.49.16:755][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0029.38] Compile of CameraPawnController successful, but with 3 Warning(s) [in 3 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.03.06-12.49.17:351][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/MonthNames_ENUM.MonthNames_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.06-12.49.17:351][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/GameSpeed_Enum.GameSpeed_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.06-12.49.17:892][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/NPCSexType_ENUM.NPCSexType_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.06-12.49.17:984][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/NPCNameMale_ENUM.NPCNameMale_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.06-12.49.17:984][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/NPCNameFemale_ENUM.NPCNameFemale_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.06-12.49.18:144][  0]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.06-12.49.18:205][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.06-12.49.18:217][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.06-12.49.18:742][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 525.077ms to complete.
+[2017.03.06-12.49.18:742][  0]LogFileHelpers: Loading map 'RTS_TestMap' took 3.335
+[2017.03.06-12.49.18:847][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.06-12.49.19:090][  0]LogCollectionManager: Loaded 0 collections in 0.001061 seconds
+[2017.03.06-12.49.19:253][  0]LogFileCache: Scanning file cache for directory 'D:/projetTDinsa/Tower-Defence 4.15/Saved/Collections/' took 0.01s
+[2017.03.06-12.49.19:253][  0]LogFileCache: Scanning file cache for directory 'D:/projetTDinsa/Tower-Defence 4.15/Content/Developers/Amaury/Collections/' took 0.01s
+[2017.03.06-12.49.19:253][  0]LogFileCache: Scanning file cache for directory 'D:/projetTDinsa/Tower-Defence 4.15/Content/Collections/' took 0.01s
+[2017.03.06-12.49.19:253][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.03.06-12.49.19:273][  0]LogContentBrowser: Native class hierarchy populated in 0.0200 seconds. Added 2269 classes and 459 folders.
+[2017.03.06-12.49.19:277][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.06-12.49.19:277][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.06-12.49.19:338][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.03.06-12.49.19:492][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.03.06-12.49.19:540][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.03.06-12.49.19:588][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.06-12.49.19:597][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.06-12.49.19:745][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.03.06-12.49.19:745][  0]LogLoad: (Engine Initialization) Total time: 32.37 seconds
+[2017.03.06-12.49.19:745][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.01 seconds
+[2017.03.06-12.49.19:745][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.06-12.49.19:745][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.06-12.49.19:763][  0]LogOcInput: OculusInput pre-init called
+[2017.03.06-12.49.19:796][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.06-12.49.19:802][  0]LogSlate: Took 0.002598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.06-12.49.19:818][  0]LogSlate: Took 0.002799 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.06-12.49.19:840][  0]LogSlate: Took 0.002659 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.06-12.49.20:050][  0]LogSlate: Took 0.001203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.06-12.49.20:122][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.03.06-12.49.20:297][  3]LogAssetRegistry: Asset discovery search completed in 23.5801 seconds
+[2017.03.06-12.49.20:297][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.03.06-12.49.20:297][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2017.03.06-14.02.18:915][978]LogRenderer: Reallocating scene render targets to support 1208x600 NumSamples 1 (Frame:973).
+[2017.03.06-14.03.02:272][133]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.06-14.03.46:824][790]LogSlate: Took 0.000553 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.06-14.03.47:346][790]LogAIModule: Creating AISystem for world Overview
+[2017.03.06-14.03.47:347][790]LogActorComponent: RegisterComponentWithWorld: (/Game/InfinityBladeWarriors/Maps/Overview.Overview:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.06-14.03.47:410][790]Cmd: MAP LOAD FILE="../../../../../projetTDinsa/Tower-Defence 4.15/Content/InfinityBladeWarriors/Maps/Overview.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.06-14.03.47:410][790]LightingResults: New page: Lighting Build
+[2017.03.06-14.03.47:412][790]LoadErrors: New page: Loading map: Overview.umap
+[2017.03.06-14.03.47:415][790]MapCheck: New page: Map Check
+[2017.03.06-14.03.47:415][790]LightingResults: New page: Lighting Build
+[2017.03.06-14.03.47:434][790]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.06-14.03.47:453][790]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.06-14.03.47:649][790]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 196.584ms to complete.
+[2017.03.06-14.03.47:650][790]LogFileHelpers: Loading map 'Overview' took 0.241
+[2017.03.06-14.04.46:199][188]LogSlate: Took 0.000364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.06-14.04.46:421][188]LogLinker:Warning: Asset '../../../Engine/Plugins/Marketplace/LowEntryExtStdLib/Content/Blueprints/LowEntryExtendedStandardLibraryMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.03.06-14.04.46:579][188]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.03.06-14.04.48:710][188]LogSlate: Took 0.001223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.06-14.04.48:715][188]LogSlate: Took 0.002595 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.06-14.05.18:623][113]LogSlate: Took 0.001287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.06-14.05.43:418][287]BlueprintLog: New page: Compile MainUI_HUD
+[2017.03.06-14.05.43:494][287]LogBlueprint:Error: [Compiler MainUI_HUD] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.03.06-14.05.43:559][287]LogBlueprint:Warning: [Compiler CameraPawnController] Warning  Set Input Mode Game And UI (Deprecated)  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.03.06-14.05.43:954][287]BlueprintEditorCompileResults:Error: Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.03.06-14.05.43:954][287]LogBlueprint:Warning: [Compiler MainUI_HUD] Warning [4616.62] Compile of MainUI_HUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 536 ms] (/Game/RTS_TowerDefense/HUDs/MainUI_HUD.MainUI_HUD)
+[2017.03.06-14.06.12:424][568]BlueprintLog: New page: Compile MainUI_HUD
+[2017.03.06-14.06.24:824][113]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.06-14.06.24:851][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.06-14.06.24:852][113]PIE: New page: PIE session: Overview (Mar 6, 2017, 4:06:24 PM)
+[2017.03.06-14.06.24:852][113]LogPlayLevel: Creating play world package: /Game/InfinityBladeWarriors/Maps/UEDPIE_0_Overview
+[2017.03.06-14.06.24:893][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040806s)
+[2017.03.06-14.06.24:894][113]LogAIModule: Creating AISystem for world Overview
+[2017.03.06-14.06.24:894][113]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2017.03.06-14.06.24:894][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeWarriors/Maps/Overview.Overview to /Game/InfinityBladeWarriors/Maps/UEDPIE_0_Overview.Overview (0.042180s)
+[2017.03.06-14.06.24:928][113]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.06-14.06.24:941][113]LogInit: FAudioDevice initialized.
+[2017.03.06-14.06.25:020][113]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.06-14.06.25:032][113]LogWorld: Bringing World /Game/InfinityBladeWarriors/Maps/UEDPIE_0_Overview.Overview up for play (max tick rate 0) at 2017.03.06-15.06.25
+[2017.03.06-14.06.25:034][113]LogWorld: Bringing up level for play took: 0.009104
+[2017.03.06-14.06.25:117][113]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.03.06-14.06.25:117][113]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.06-14.06.25:117][113]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.06-14.06.25:117][113]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.06-14.06.25:121][113]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.06-14.06.25:130][113]PIE: Info Play in editor start time for /Game/InfinityBladeWarriors/Maps/UEDPIE_0_Overview -0.646
+[2017.03.06-14.06.25:196][113]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:10359).
+[2017.03.06-14.06.40:351][917]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.06-14.06.41:863][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/HUDs/MainUI_HUD" FILE="../../../../../projetTDinsa/Tower-Defence 4.15/Content/RTS_TowerDefense/HUDs/MainUI_HUD.uasset" SILENT=true
+[2017.03.06-14.06.42:064][917]LogSavePackage: Save=160.14ms
+[2017.03.06-14.06.42:064][917]LogSavePackage: Moving '../../../../../projetTDinsa/Tower-Defence 4.15/Saved/MainUI_HUD3203DC9548262986B0DDB6ADD51A4B55.tmp' to '../../../../../projetTDinsa/Tower-Defence 4.15/Content/RTS_TowerDefense/HUDs/MainUI_HUD.uasset'
+[2017.03.06-14.06.42:070][917]LogSavePackage:Display: Finished SavePackage ../../../../../projetTDinsa/Tower-Defence 4.15/Content/RTS_TowerDefense/HUDs/MainUI_HUD.uasset
+[2017.03.06-14.06.42:072][917]Cmd: MAP LOAD FILE="../../../../../projetTDinsa/Tower-Defence 4.15/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.06-14.06.42:072][917]LightingResults: New page: Lighting Build
+[2017.03.06-14.06.42:075][917]LoadErrors: New page: Loading map: RTS_TestMap.umap
+[2017.03.06-14.06.42:076][917]MapCheck: New page: Map Check
+[2017.03.06-14.06.42:076][917]LightingResults: New page: Lighting Build
+[2017.03.06-14.06.42:185][917]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.06-14.06.42:237][917]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.06-14.06.42:532][917]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 294.433ms to complete.
+[2017.03.06-14.06.42:538][917]LogFileHelpers: Loading map 'RTS_TestMap' took 0.467
+[2017.03.06-14.07.53:145][429]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.06-14.07.53:161][429]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.06-14.07.53:161][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.06-14.07.53:162][429]PIE: New page: PIE session: RTS_TestMap (Mar 6, 2017, 4:07:53 PM)
+[2017.03.06-14.07.53:162][429]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.06-14.07.53:214][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052718s)
+[2017.03.06-14.07.53:216][429]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.06-14.07.53:216][429]LogPlayLevel: PIE: World Init took: (0.002046s)
+[2017.03.06-14.07.53:217][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.055142s)
+[2017.03.06-14.07.53:262][429]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.06-14.07.53:274][429]LogInit: FAudioDevice initialized.
+[2017.03.06-14.07.53:336][429]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.06-14.07.53:347][429]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.06-15.07.53
+[2017.03.06-14.07.53:348][429]LogWorld: Bringing up level for play took: 0.008792
+[2017.03.06-14.07.53:350][429]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.06-14.07.53:350][429]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.06-14.07.53:350][429]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.06-14.07.53:360][429]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.06-14.07.53:370][429]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.405
+[2017.03.06-14.07.53:372][429]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.06-14.09.12:183][249]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.06-14.09.12:239][249]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.06-14.10.38:978][877]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.06-14.10.38:997][877]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.06-14.10.38:997][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.06-14.10.38:998][877]PIE: New page: PIE session: RTS_TestMap (Mar 6, 2017, 4:10:38 PM)
+[2017.03.06-14.10.38:998][877]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.03.06-14.10.39:034][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035914s)
+[2017.03.06-14.10.39:035][877]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.03.06-14.10.39:035][877]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2017.03.06-14.10.39:035][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.037084s)
+[2017.03.06-14.10.39:066][877]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.06-14.10.39:074][877]LogInit: FAudioDevice initialized.
+[2017.03.06-14.10.39:120][877]LogLoad: Game class is 'MyGameMod_C'
+[2017.03.06-14.10.39:127][877]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.03.06-15.10.39
+[2017.03.06-14.10.39:128][877]LogWorld: Bringing up level for play took: 0.006365
+[2017.03.06-14.10.39:128][877]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.06-14.10.39:128][877]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.06-14.10.39:128][877]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.06-14.10.39:133][877]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.06-14.10.39:141][877]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.635
+[2017.03.06-14.10.39:142][877]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.06-14.12.28:914][773]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.06-14.12.28:943][773]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.03.06-14.12.38:409][341]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.06-14.12.40:445][444]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_CharM_Barbarous)
+[2017.03.06-14.12.58:620][  1]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.06-14.16.48:389][ 96]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.03.06-14.16.49:106][138]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_CharM_Barbarous)
+[2017.03.06-14.16.49:916][183]Cmd: DELETE
+[2017.03.06-14.16.49:916][183]Cmd: ACTOR DELETE
+[2017.03.06-14.16.49:917][183]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2017.03.06-14.16.49:961][183]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2017.03.06-14.19.49:791][736]LogSavePackage: Save=458.80ms
+[2017.03.06-14.19.49:791][736]LogSavePackage: Moving '../../../../../projetTDinsa/Tower-Defence 4.15/Saved/RTS_TestMap_Auto14002F3094BD3EC93AD12CEBC12204653.tmp' to '../../../../../projetTDinsa/Tower-Defence 4.15/Saved/Autosaves/Game/RTS_TowerDefense/Maps/RTS_TestMap_Auto1.umap'
+[2017.03.06-14.19.49:794][736]LogSavePackage:Display: Finished SavePackage ../../../../../projetTDinsa/Tower-Defence 4.15/Saved/Autosaves/Game/RTS_TowerDefense/Maps/RTS_TestMap_Auto1.umap
+[2017.03.06-14.19.49:797][736]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_TowerDefense/Maps/RTS_TestMap' took 0.505
+[2017.03.06-14.19.49:797][736]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.505
+[2017.03.06-14.25.52:945][580]LogSavePackage: Save=569.73ms
+[2017.03.06-14.25.52:945][580]LogSavePackage: Moving '../../../../../projetTDinsa/Tower-Defence 4.15/Saved/RTS_TestMap984ABFB6467AD2490212438264181CDB.tmp' to '../../../../../projetTDinsa/Tower-Defence 4.15/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap'
+[2017.03.06-14.25.52:958][580]LogSavePackage:Display: Finished SavePackage ../../../../../projetTDinsa/Tower-Defence 4.15/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap
+[2017.03.06-14.25.53:468][580]LogSavePackage: Save=290.71ms
+[2017.03.06-14.25.53:468][580]LogSavePackage: Moving '../../../../../projetTDinsa/Tower-Defence 4.15/Saved/RTS_TestMap_BuiltData4B71D9154D9FB89A1DB2A3BCC655A27E.tmp' to '../../../../../projetTDinsa/Tower-Defence 4.15/Content/RTS_TowerDefense/Maps/RTS_TestMap_BuiltData.uasset'
+[2017.03.06-14.25.53:470][580]LogSavePackage:Display: Finished SavePackage ../../../../../projetTDinsa/Tower-Defence 4.15/Content/RTS_TowerDefense/Maps/RTS_TestMap_BuiltData.uasset
+[2017.03.06-14.27.04:343][982]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.03.06-22.19.06:205][475]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.03.06-22.19.06:462][476]LogHttp:Warning: 00000276A87B9D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.06-22.19.06:462][476]LogHttp:Warning: 00000276A87B9D80: libcurl info message cache 0 (Connection 11 seems to be dead!)
+[2017.03.06-22.19.06:462][476]LogHttp:Warning: 00000276A87B9D80: libcurl info message cache 1 (Closing connection 11)
+[2017.03.06-22.19.06:462][476]LogHttp:Warning: 00000276A87B9D80: libcurl info message cache 2 (Connection 0 seems to be dead!)
+[2017.03.06-22.19.06:462][476]LogHttp:Warning: 00000276A87B9D80: libcurl info message cache 3 (Closing connection 0)
+[2017.03.06-22.19.06:462][476]LogHttp:Warning: 00000276A87B9D80: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.06-22.19.06:462][476]LogHttp:Warning: 00000276A87B9D80: libcurl info message cache 5 (Closing connection 12)
+[2017.03.06-22.59.57:244][922]Cmd: QUIT_EDITOR
+[2017.03.06-22.59.58:071][922]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.06-22.59.58:097][922]LogExit: Preparing to exit.
+[2017.03.06-22.59.58:398][922]LogDirectoryWatcher: A directory notification for 'D:/projetTDinsa/Tower-Defence 4.15/Content/' was aborted.
+[2017.03.06-22.59.58:445][922]LogExit: Editor shut down
+[2017.03.06-22.59.58:445][922]LogExit: Transaction tracking system shut down
+[2017.03.06-22.59.58:555][922]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.06-22.59.58:555][922]LogExit: Object subsystem successfully closed.
+[2017.03.06-22.59.58:566][922]LogD3D11RHI: Shutdown
+[2017.03.06-22.59.58:566][922]LogD3D11RHI: CleanupD3DDevice
+[2017.03.06-22.59.58:679][922]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.06-22.59.58:686][922]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (508)
+[2017.03.06-22.59.58:686][922]LogModuleManager: Shutting down and abandoning module SequencerWidgets (506)
+[2017.03.06-22.59.58:686][922]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.03.06-22.59.58:686][922]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.03.06-22.59.58:686][922]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.03.06-22.59.58:686][922]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.03.06-22.59.58:687][922]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.03.06-22.59.58:687][922]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.03.06-22.59.58:687][922]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.03.06-22.59.58:688][922]LogDirectoryWatcher: A directory notification for 'D:/projetTDinsa/Tower-Defence 4.15/Content/Collections/' was aborted.
+[2017.03.06-22.59.58:688][922]LogDirectoryWatcher: A directory notification for 'D:/projetTDinsa/Tower-Defence 4.15/Content/Developers/Amaury/Collections/' was aborted.
+[2017.03.06-22.59.58:688][922]LogDirectoryWatcher: A directory notification for 'D:/projetTDinsa/Tower-Defence 4.15/Saved/Collections/' was aborted.
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.03.06-22.59.58:688][922]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.03.06-22.59.58:689][922]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.03.06-22.59.59:123][922]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.03.06-22.59.59:124][922]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.03.06-22.59.59:124][922]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.03.06-22.59.59:124][922]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.03.06-22.59.59:124][922]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.03.06-22.59.59:124][922]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.03.06-22.59.59:124][922]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.03.06-22.59.59:177][922]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.03.06-22.59.59:177][922]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.03.06-22.59.59:177][922]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.03.06-22.59.59:177][922]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.03.06-22.59.59:177][922]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.03.06-22.59.59:177][922]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.03.06-22.59.59:177][922]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.03.06-22.59.59:177][922]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.03.06-22.59.59:177][922]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.03.06-22.59.59:186][922]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.03.06-22.59.59:186][922]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.03.06-22.59.59:187][922]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.03.06-22.59.59:187][922]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.03.06-22.59.59:187][922]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.03.06-22.59.59:187][922]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.03.06-22.59.59:187][922]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.03.06-22.59.59:187][922]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.03.06-22.59.59:188][922]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.03.06-22.59.59:188][922]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.03.06-22.59.59:188][922]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.03.06-22.59.59:188][922]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.03.06-22.59.59:188][922]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.03.06-22.59.59:188][922]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.03.06-22.59.59:188][922]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.03.06-22.59.59:188][922]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.03.06-22.59.59:188][922]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.03.06-22.59.59:188][922]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module LowEntryExtendedStandardLibraryEditor (280)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.03.06-22.59.59:342][922]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.03.06-22.59.59:343][922]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.03.06-22.59.59:343][922]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.03.06-22.59.59:343][922]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.03.06-22.59.59:343][922]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.03.06-22.59.59:343][922]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.03.06-22.59.59:343][922]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.03.06-22.59.59:343][922]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.03.06-22.59.59:343][922]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.03.06-22.59.59:343][922]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.03.06-22.59.59:343][922]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.03.06-22.59.59:343][922]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.03.06-22.59.59:343][922]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.03.06-22.59.59:343][922]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.03.06-22.59.59:343][922]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.03.06-22.59.59:344][922]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.03.06-22.59.59:344][922]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.03.06-22.59.59:344][922]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.03.06-22.59.59:345][922]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.03.06-22.59.59:345][922]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.03.06-22.59.59:345][922]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.03.06-22.59.59:345][922]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.03.06-22.59.59:446][922]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module LowEntryExtendedStandardLibrary (212)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.03.06-22.59.59:546][922]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.03.06-22.59.59:547][922]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.03.06-22.59.59:547][922]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.03.06-22.59.59:547][922]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.03.06-22.59.59:547][922]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.03.06-22.59.59:547][922]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.03.06-22.59.59:547][922]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.03.06-22.59.59:547][922]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.03.06-22.59.59:547][922]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.03.06-22.59.59:547][922]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.03.06-22.59.59:549][922]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.03.06-22.59.59:549][922]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.03.06-22.59.59:549][922]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.03.06-22.59.59:549][922]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.03.06-22.59.59:549][922]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.03.06-22.59.59:549][922]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.03.06-22.59.59:732][922]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.06-22.59.59:732][922]LogDirectoryWatcher: A directory notification for '../../../../../projetTDinsa/Tower-Defence 4.15/Content/' was aborted.
+[2017.03.06-22.59.59:732][922]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.06-22.59.59:732][922]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Marketplace/LowEntryExtStdLib/Content/' was aborted.
+[2017.03.06-22.59.59:732][922]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.03.06-22.59.59:733][922]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.03.06-22.59.59:733][922]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.03.06-22.59.59:733][922]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.03.06-22.59.59:733][922]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.03.06-22.59.59:733][922]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.03.06-22.59.59:733][922]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.03.06-22.59.59:733][922]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.03.06-22.59.59:733][922]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.03.06-22.59.59:790][922]LogDerivedDataCache: Shutdown
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.03.06-22.59.59:790][922]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.06-22.59.59:791][922]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.06-22.59.59:791][922]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.06-22.59.59:791][922]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.06-22.59.59:791][922]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B739603B6-491B-2B78-C7A3-BCA51447D5BE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=87c69fb04b4ece5a4b8fda94dc83ee16%7Cb3349d672f99495bbd94066d87a68620%7C24d00cf9-22ed-43a0-8488-4f7c50e4fc99&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.06-22.59.59:798][922]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.06-22.59.59:800][922]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.06-22.59.59:800][922]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.06-22.59.59:800][922]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.06-22.59.59:800][922]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.06-22.59.59:800][922]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.06-22.59.59:802][922]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.06-22.59.59:802][922]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.06-22.59.59:802][922]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.06-22.59.59:802][922]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.06-22.59.59:802][922]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.06-22.59.59:802][922]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.06-22.59.59:802][922]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.06-22.59.59:802][922]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.06-22.59.59:802][922]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.06-22.59.59:802][922]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.06-22.59.59:804][922]LogExit: Exiting.
+[2017.03.06-22.59.59:814][922]Log file closed, 03/06/17 23:59:59
