@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-66B197B9423A42BF737460B8B4FFDAA5_0000</CrashGUID>
+		<ProcessId>7548</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>7154</SecondsSinceStart>
+		<GameName>UE4-RTS_TowerDefense</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Dirty</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.15.1-3348071+++UE4+Release-4.15</EngineVersion>
+		<CommandLine>&quot;D:\User\Documents\Tower-Defence\RTS_TowerDefense.uproject&quot;</CommandLine>
+		<LanguageLCID>1036</LanguageLCID>
+		<AppDefaultLocale>fr_FR</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.15-CL-3348071</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Meuleman</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.15/</RootDir>
+		<MachineId>37A79B574F7BF5A5E3EE2F951A352B48</MachineId>
+		<LoginId>37a79b574f7bf5a5e3ee2f951a352b48</LoginId>
+		<EpicAccountId>ecb1a0bea2164e2d8ab1996a8c11891e</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint>Layout=&quot;Document : 5&quot; Label=&quot;Go to Target&quot; Content=SGraphEditor</UserActivityHint>
+		<ErrorMessage>Ensure condition failed: ToPin-&gt;LinkedTo.Contains(this) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 333] &nl;UEdGraphPin::BreakLinkTo Pin &apos;then&apos; on node &apos;Set Walking&apos; not reciprocally linked with pin &apos;execute&apos; on node &apos;AI MoveTo&apos;&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-4690 CPU @ 3.50GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 970</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17119219712</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>9953243136</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140730827612160</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>3458519040</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>3459268608</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>5735313408</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>5797982208</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636289402221880000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
