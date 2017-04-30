@@ -4991,3 +4991,183 @@ Make sure 'fightingUnit_C' has been compiled for  Get ZombieAnimRef
 [2017.04.30-19.34.26:678][165]LogSavePackage: Save=24.38ms
 [2017.04.30-19.34.26:678][165]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/FightingBuildingABA8865D4B35F09EC77DA98402160F7A.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.uasset'
 [2017.04.30-19.34.26:679][165]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.uasset
+[2017.04.30-19.39.00:543][421]LogBlueprint:Warning: [FightingUnit] 'ZombieAnimRef' variable not found. Base class was probably changed.
+[2017.04.30-19.39.00:543][421]LogBlueprint:Warning: [FightingUnit] 'ZombieAnimRef' variable not found. Base class was probably changed.
+[2017.04.30-19.39.24:113][108]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-19.39.24:159][108]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.39.24:159][108]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.30-19.39.24:159][108]LogPlayLevel: [PlayLevel] Compiling FightingUnit before play...
+[2017.04.30-19.39.24:209][108]LogBlueprint:Warning: [Compiler FightingUnit] Warning Could not find a variable named "ZombieAnimRef" in 'FightingUnit_C'.
+Make sure 'FightingUnit_C' has been compiled for  Set ZombieAnimRef
+[2017.04.30-19.39.24:214][108]LogBlueprint:Error: [Compiler FightingUnit] Error The property associated with  Zombie Anim Ref  could not be found
+[2017.04.30-19.39.24:231][108]LogPlayLevel: [PlayLevel]   Compiling Troop as a dependent...
+[2017.04.30-19.39.24:274][108]LogPlayLevel: [PlayLevel]   Compiling AttackTroop as a dependent...
+[2017.04.30-19.39.24:280][108]LogPlayLevel: [PlayLevel]   Compiling AttackSoldier as a dependent...
+[2017.04.30-19.39.24:312][108]LogPlayLevel: [PlayLevel]   Compiling AttackWarrior as a dependent...
+[2017.04.30-19.39.24:338][108]LogPlayLevel: [PlayLevel]   Compiling AttackZombie as a dependent...
+[2017.04.30-19.39.24:388][108]LogPlayLevel: [PlayLevel]   Compiling EnnemyTroop as a dependent...
+[2017.04.30-19.39.24:441][108]LogPlayLevel: [PlayLevel]   Compiling FightingBuilding as a dependent...
+[2017.04.30-19.39.24:449][108]LogPlayLevel: [PlayLevel]   Compiling AttackedInstallation as a dependent...
+[2017.04.30-19.39.24:455][108]LogPlayLevel: [PlayLevel]   Compiling AttackedDoor as a dependent...
+[2017.04.30-19.39.24:484][108]LogPlayLevel: [PlayLevel]   Compiling AttackedTower as a dependent...
+[2017.04.30-19.39.24:539][108]LogPlayLevel: [PlayLevel]   Compiling DefendedInstallation as a dependent...
+[2017.04.30-19.39.28:639][108]LogPlayLevel: [PlayLevel]   Compiling Troop as a dependent...
+[2017.04.30-19.39.28:681][108]LogPlayLevel: [PlayLevel]   Compiling AttackTroop as a dependent...
+[2017.04.30-19.39.28:688][108]LogPlayLevel: [PlayLevel]   Compiling AttackSoldier as a dependent...
+[2017.04.30-19.39.28:716][108]LogPlayLevel: [PlayLevel]   Compiling AttackWarrior as a dependent...
+[2017.04.30-19.39.28:743][108]LogPlayLevel: [PlayLevel]   Compiling AttackZombie as a dependent...
+[2017.04.30-19.39.28:792][108]LogPlayLevel: [PlayLevel]   Compiling EnnemyTroop as a dependent...
+[2017.04.30-19.39.28:847][108]LogPlayLevel: [PlayLevel]   Compiling FightingBuilding as a dependent...
+[2017.04.30-19.39.28:853][108]LogPlayLevel: [PlayLevel]   Compiling AttackedInstallation as a dependent...
+[2017.04.30-19.39.28:859][108]LogPlayLevel: [PlayLevel]   Compiling AttackedDoor as a dependent...
+[2017.04.30-19.39.28:887][108]LogPlayLevel: [PlayLevel]   Compiling AttackedTower as a dependent...
+[2017.04.30-19.39.28:942][108]LogPlayLevel: [PlayLevel]   Compiling DefendedInstallation as a dependent...
+[2017.04.30-19.39.33:038][108]LogBlueprint:Warning: [Compiler FightingUnit] Warning [2171.37] Compile of FightingUnit failed. 1 Fatal Issue(s) 1 Warning(s) [in 8,860 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit)
+[2017.04.30-19.39.33:039][108]LogBlueprint:Warning: [Compiler FightingUnit] Warning [2171.37] Compile of FightingUnit failed. 1 Fatal Issue(s) 2 Warning(s) [in 1 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit)
+[2017.04.30-19.39.33:039][108]LogBlueprint:Warning: [Compiler FightingUnit] Warning [2171.37] Compile of FightingUnit failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit)
+[2017.04.30-19.39.33:039][108]LogBlueprint:Warning: [Compiler FightingUnit] Warning [2171.37] Compile of FightingUnit failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit)
+[2017.04.30-19.39.33:045][108]LogBlueprint:Warning: [Compiler FightingUnit] Warning [2171.38] Compile of FightingUnit failed. 1 Fatal Issue(s) 5 Warning(s) [in 5 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit)
+[2017.04.30-19.39.33:045][108]LogBlueprint:Warning: [Compiler FightingUnit] Warning [2171.38] Compile of FightingUnit failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit)
+[2017.04.30-19.39.33:070][108]LogPlayLevel: PlayLevel: Blueprint regeneration took 8910 ms (23 blueprints)
+[2017.04.30-19.39.33:070][108]BlueprintLog: Info Blueprint FightingUnit failed to compile
+[2017.04.30-19.39.46:771][328]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-19.39.46:811][328]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.39.46:811][328]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.30-19.39.46:811][328]LogPlayLevel: [PlayLevel] Compiling FightingUnit before play...
+[2017.04.30-19.39.46:882][328]LogPlayLevel: [PlayLevel]   Compiling Troop as a dependent...
+[2017.04.30-19.39.46:924][328]LogPlayLevel: [PlayLevel]   Compiling AttackTroop as a dependent...
+[2017.04.30-19.39.46:930][328]LogPlayLevel: [PlayLevel]   Compiling AttackSoldier as a dependent...
+[2017.04.30-19.39.46:960][328]LogPlayLevel: [PlayLevel]   Compiling AttackWarrior as a dependent...
+[2017.04.30-19.39.46:985][328]LogPlayLevel: [PlayLevel]   Compiling AttackZombie as a dependent...
+[2017.04.30-19.39.47:034][328]LogPlayLevel: [PlayLevel]   Compiling EnnemyTroop as a dependent...
+[2017.04.30-19.39.47:088][328]LogPlayLevel: [PlayLevel]   Compiling FightingBuilding as a dependent...
+[2017.04.30-19.39.47:094][328]LogPlayLevel: [PlayLevel]   Compiling AttackedInstallation as a dependent...
+[2017.04.30-19.39.47:099][328]LogPlayLevel: [PlayLevel]   Compiling AttackedDoor as a dependent...
+[2017.04.30-19.39.47:130][328]LogPlayLevel: [PlayLevel]   Compiling AttackedTower as a dependent...
+[2017.04.30-19.39.47:185][328]LogPlayLevel: [PlayLevel]   Compiling DefendedInstallation as a dependent...
+[2017.04.30-19.39.51:040][328]LogPlayLevel: PlayLevel: Blueprint regeneration took 4229 ms (12 blueprints)
+[2017.04.30-19.39.51:041][328]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 11:39:51 PM)
+[2017.04.30-19.39.51:041][328]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-19.39.51:065][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023800s)
+[2017.04.30-19.39.51:065][328]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-19.39.51:065][328]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2017.04.30-19.39.51:066][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.024878s)
+[2017.04.30-19.39.51:100][328]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-19.39.51:107][328]LogInit: FAudioDevice initialized.
+[2017.04.30-19.39.51:172][328]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-19.39.51:176][328]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-21.39.51
+[2017.04.30-19.39.51:178][328]LogWorld: Bringing up level for play took: 0.004608
+[2017.04.30-19.39.51:186][328]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.39.51:186][328]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.39.51:186][328]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.39.51:189][328]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.39.51:189][328]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.39.51:189][328]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.39.51:190][328]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.39.51:190][328]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.39.51:190][328]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.39.51:190][328]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.39.51:190][328]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.39.51:190][328]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.39.51:190][328]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.39.51:190][328]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.39.51:193][328]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 5.375
+[2017.04.30-19.39.51:193][328]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.40.08:245][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.40.08:293][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.41.15:123][430]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-19.41.15:164][430]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.41.15:164][430]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.30-19.41.15:164][430]LogPlayLevel: [PlayLevel] Compiling ZombieAnimation before play...
+[2017.04.30-19.41.15:205][430]LogBlueprint:Warning: [Compiler ZombieAnimation] Warning  Idle to z1_die2  will never be taken, please connect something to  Can Enter Transition
+[2017.04.30-19.41.15:232][430]LogBlueprint:Warning: [Compiler ZombieAnimation] Warning [2273.56] Compile of ZombieAnimation successful, but with 1 Warning(s) [in 49 ms] (/Game/RTS_TowerDefense/Zombie/Animations/ZombieAnimation.ZombieAnimation)
+[2017.04.30-19.41.15:233][430]LogBlueprint:Warning: [Compiler ZombieAnimation] Warning [2273.56] Compile of ZombieAnimation successful, but with 2 Warning(s) [in 1 ms] (/Game/RTS_TowerDefense/Zombie/Animations/ZombieAnimation.ZombieAnimation)
+[2017.04.30-19.41.15:233][430]LogBlueprint:Warning: [Compiler ZombieAnimation] Warning [2273.56] Compile of ZombieAnimation successful, but with 3 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Zombie/Animations/ZombieAnimation.ZombieAnimation)
+[2017.04.30-19.41.15:484][430]LogBlueprint:Warning: [Compiler ZombieAnimation] Warning [2273.82] Compile of ZombieAnimation successful, but with 4 Warning(s) [in 250 ms] (/Game/RTS_TowerDefense/Zombie/Animations/ZombieAnimation.ZombieAnimation)
+[2017.04.30-19.41.15:495][430]LogBlueprint:Warning: [Compiler ZombieAnimation] Warning [2273.83] Compile of ZombieAnimation successful, but with 5 Warning(s) [in 10 ms] (/Game/RTS_TowerDefense/Zombie/Animations/ZombieAnimation.ZombieAnimation)
+[2017.04.30-19.41.15:495][430]LogBlueprint:Warning: [Compiler ZombieAnimation] Warning [2273.83] Compile of ZombieAnimation successful, but with 6 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Zombie/Animations/ZombieAnimation.ZombieAnimation)
+[2017.04.30-19.41.15:527][430]LogPlayLevel: PlayLevel: Blueprint regeneration took 363 ms (1 blueprints)
+[2017.04.30-19.41.15:527][430]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 11:41:15 PM)
+[2017.04.30-19.41.15:527][430]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-19.41.15:551][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024034s)
+[2017.04.30-19.41.15:552][430]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-19.41.15:552][430]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2017.04.30-19.41.15:552][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.025156s)
+[2017.04.30-19.41.15:585][430]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-19.41.15:592][430]LogInit: FAudioDevice initialized.
+[2017.04.30-19.41.15:654][430]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-19.41.15:658][430]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-21.41.15
+[2017.04.30-19.41.15:659][430]LogWorld: Bringing up level for play took: 0.004750
+[2017.04.30-19.41.15:668][430]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.41.15:668][430]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.41.15:668][430]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.41.15:671][430]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.15:671][430]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.15:671][430]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.15:671][430]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.15:671][430]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.15:671][430]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.15:671][430]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.15:671][430]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.15:671][430]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.15:671][430]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.15:671][430]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.41.15:674][430]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.144
+[2017.04.30-19.41.15:675][430]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.41.20:149][717]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2534.940 Y=706.039 Z=100.000] for [AttackTroop_C]
+[2017.04.30-19.41.20:741][756]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2285.399 Y=949.060 Z=100.000] for [AttackTroop_C]
+[2017.04.30-19.41.24:171][973]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.41.24:225][973]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.41.26:682][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Zombie/Animations/ZombieAnimation" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Zombie/Animations/ZombieAnimation.uasset" SILENT=true
+[2017.04.30-19.41.26:750][195]LogSavePackage: Save=61.92ms
+[2017.04.30-19.41.26:750][195]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/ZombieAnimation0B75B4A5499AC9CF7B97B898FACE401F.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Zombie/Animations/ZombieAnimation.uasset'
+[2017.04.30-19.41.26:751][195]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Zombie/Animations/ZombieAnimation.uasset
+[2017.04.30-19.41.27:644][283]BlueprintLog: New page: Compile ZombieAnimation
+[2017.04.30-19.41.27:682][283]LogBlueprint:Warning: [Compiler ZombieAnimation] Warning  Idle to z1_die2  will never be taken, please connect something to  Can Enter Transition
+[2017.04.30-19.41.27:856][283]BlueprintEditorCompileResults:Warning: Warning  Idle to z1_die2  will never be taken, please connect something to  Can Enter Transition
+[2017.04.30-19.41.27:857][283]LogBlueprint:Warning: [Compiler ZombieAnimation] Warning [2286.19] Compile of ZombieAnimation successful, but with 1 Warning(s) [in 213 ms] (/Game/RTS_TowerDefense/Zombie/Animations/ZombieAnimation.ZombieAnimation)
+[2017.04.30-19.41.52:851][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Zombie/Animations/ZombieAnimation" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Zombie/Animations/ZombieAnimation.uasset" SILENT=true
+[2017.04.30-19.41.52:916][771]LogSavePackage: Save=61.89ms
+[2017.04.30-19.41.52:916][771]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/ZombieAnimation21B5771B4460CE94B3D77399576924A2.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Zombie/Animations/ZombieAnimation.uasset'
+[2017.04.30-19.41.52:917][771]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Zombie/Animations/ZombieAnimation.uasset
+[2017.04.30-19.41.54:225][904]BlueprintLog: New page: Compile ZombieAnimation
+[2017.04.30-19.41.56:162][ 46]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-19.41.56:185][ 46]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.41.56:185][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-19.41.56:185][ 46]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 11:41:56 PM)
+[2017.04.30-19.41.56:186][ 46]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-19.41.56:209][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023435s)
+[2017.04.30-19.41.56:210][ 46]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-19.41.56:210][ 46]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2017.04.30-19.41.56:210][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.024438s)
+[2017.04.30-19.41.56:246][ 46]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-19.41.56:253][ 46]LogInit: FAudioDevice initialized.
+[2017.04.30-19.41.56:318][ 46]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-19.41.56:321][ 46]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-21.41.56
+[2017.04.30-19.41.56:323][ 46]LogWorld: Bringing up level for play took: 0.004480
+[2017.04.30-19.41.56:331][ 46]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.41.56:331][ 46]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.41.56:331][ 46]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.41.56:334][ 46]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.56:334][ 46]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.56:334][ 46]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.56:334][ 46]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.56:334][ 46]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.56:334][ 46]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.56:334][ 46]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.56:334][ 46]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.56:334][ 46]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.56:334][ 46]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.41.56:334][ 46]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.41.56:342][ 46]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 0.524
+[2017.04.30-19.41.56:343][ 46]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.41.58:063][162]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2405.615 Y=674.520 Z=100.000] for [AttackTroop_C]
+[2017.04.30-19.42.00:530][322]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2435.574 Y=1358.673 Z=100.000] for [AttackTroop_C]
+[2017.04.30-19.42.01:118][359]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2256.648 Y=672.854 Z=100.000] for [AttackTroop_C]
+[2017.04.30-19.42.01:499][384]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2478.226 Y=1336.621 Z=100.000] for [AttackTroop_C]
+[2017.04.30-19.42.38:582][813]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.42.38:632][813]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.42.41:896][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset" SILENT=true
+[2017.04.30-19.42.41:974][ 73]LogSavePackage: Save=70.24ms
+[2017.04.30-19.42.41:974][ 73]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/Troop055080A64604D3100A7BBDA08BBF6141.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset'
+[2017.04.30-19.42.41:975][ 73]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset
