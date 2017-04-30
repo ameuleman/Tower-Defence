@@ -3771,3 +3771,1223 @@ Make sure 'fightingUnit_C' has been compiled for  Get ZombieAnimRef
 [2017.04.30-18.48.32:390][359]LogOutputDevice:Error: ntdll.dll!0x000000008B3D70D1
 [2017.04.30-18.48.32:390][359]LogOutputDevice:Error: 
 [2017.04.30-18.48.32:395][359]LogStats:                SubmitErrorReport -  0.000 s
+[2017.04.30-18.48.32:533][359]LogStats:                    SendNewReport -  0.138 s
+[2017.04.30-18.48.32:533][359]LogStats:             FDebug::EnsureFailed -  0.145 s
+[2017.04.30-18.48.34:250][554]BlueprintLog: New page: Compile Troop
+[2017.04.30-18.48.35:028][554]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.04.30-18.48.35:028][554]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.04.30-18.48.35:843][613]LogSavePackage: Save=229.13ms
+[2017.04.30-18.48.35:843][613]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/RTS_TestMap_Auto3E37F5E0C429EB0672368B2A6C789920E.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Maps/RTS_TestMap_Auto3.umap'
+[2017.04.30-18.48.35:903][613]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Maps/RTS_TestMap_Auto3.umap
+[2017.04.30-18.48.35:906][613]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_TowerDefense/Maps/RTS_TestMap' took 0.321
+[2017.04.30-18.48.35:906][613]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.321
+[2017.04.30-18.48.35:909][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop] ([1] browsable assets)...
+[2017.04.30-18.48.35:946][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop.Troop]
+[2017.04.30-18.48.35:946][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop]
+[2017.04.30-18.48.36:089][613]LogSavePackage: Save=128.12ms
+[2017.04.30-18.48.36:089][613]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/Troop_Auto381DD4C6F4420EB257E3EBA844D58F6F1.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop_Auto3.uasset'
+[2017.04.30-18.48.36:090][613]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop_Auto3.uasset
+[2017.04.30-18.48.36:090][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/fightingUnit] ([1] browsable assets)...
+[2017.04.30-18.48.36:102][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit]
+[2017.04.30-18.48.36:102][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/fightingUnit]
+[2017.04.30-18.48.36:155][613]LogSavePackage: Save=50.15ms
+[2017.04.30-18.48.36:155][613]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/fightingUnit_Auto39A93ABEE46D2558F0F0FE1B961E21DDE.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/fightingUnit_Auto3.uasset'
+[2017.04.30-18.48.36:156][613]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/fightingUnit_Auto3.uasset
+[2017.04.30-18.48.36:156][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier] ([1] browsable assets)...
+[2017.04.30-18.48.36:169][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.AttackSoldier]
+[2017.04.30-18.48.36:169][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier]
+[2017.04.30-18.48.36:196][613]LogSavePackage: Save=21.41ms
+[2017.04.30-18.48.36:196][613]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackSoldier_Auto3AFE1154A4FF94991DAB49E9BF477E349.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier_Auto3.uasset'
+[2017.04.30-18.48.36:196][613]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier_Auto3.uasset
+[2017.04.30-18.48.36:197][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop] ([1] browsable assets)...
+[2017.04.30-18.48.36:209][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.AttackTroop]
+[2017.04.30-18.48.36:209][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop]
+[2017.04.30-18.48.36:239][613]LogSavePackage: Save=23.83ms
+[2017.04.30-18.48.36:239][613]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackTroop_Auto3FF79182D4ABBF756BC91918750BB0DBA.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop_Auto3.uasset'
+[2017.04.30-18.48.36:240][613]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop_Auto3.uasset
+[2017.04.30-18.48.36:240][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor] ([1] browsable assets)...
+[2017.04.30-18.48.36:240][613]LogBlueprintUserMessages: [AttackedDoor_C_1] WIN !!!
+[2017.04.30-18.48.36:240][613]LogBlueprintUserMessages: [AttackedDoor_C_0] WIN !!!
+[2017.04.30-18.48.36:253][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor.AttackedDoor]
+[2017.04.30-18.48.36:253][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor]
+[2017.04.30-18.48.36:281][613]LogSavePackage: Save=22.09ms
+[2017.04.30-18.48.36:281][613]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedDoor_Auto3214DC24549EBB5E32DAFE080FF9B4B87.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor_Auto3.uasset'
+[2017.04.30-18.48.36:281][613]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor_Auto3.uasset
+[2017.04.30-18.48.36:281][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation] ([1] browsable assets)...
+[2017.04.30-18.48.36:294][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation.AttackedInstallation]
+[2017.04.30-18.48.36:294][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation]
+[2017.04.30-18.48.36:320][613]LogSavePackage: Save=21.18ms
+[2017.04.30-18.48.36:320][613]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedInstallation_Auto38824D9714F3D63E32A6ADBA5027124DF.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation_Auto3.uasset'
+[2017.04.30-18.48.36:321][613]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation_Auto3.uasset
+[2017.04.30-18.48.36:321][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower] ([1] browsable assets)...
+[2017.04.30-18.48.36:321][613]LogBlueprintUserMessages: [AttackedTower_C_1] Tower Down !
+[2017.04.30-18.48.36:321][613]LogBlueprintUserMessages: [AttackedTower_C_0] Tower Down !
+[2017.04.30-18.48.36:334][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower.AttackedTower]
+[2017.04.30-18.48.36:334][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower]
+[2017.04.30-18.48.36:363][613]LogSavePackage: Save=22.74ms
+[2017.04.30-18.48.36:363][613]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedTower_Auto318F69EAF4BF409B512433BBCC3AF6447.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower_Auto3.uasset'
+[2017.04.30-18.48.36:364][613]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower_Auto3.uasset
+[2017.04.30-18.48.36:364][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior] ([1] browsable assets)...
+[2017.04.30-18.48.36:376][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.AttackWarrior]
+[2017.04.30-18.48.36:376][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior]
+[2017.04.30-18.48.36:403][613]LogSavePackage: Save=21.87ms
+[2017.04.30-18.48.36:403][613]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackWarrior_Auto3154BBE2D43C0FE4CD93BC7B27FCD8113.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior_Auto3.uasset'
+[2017.04.30-18.48.36:404][613]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior_Auto3.uasset
+[2017.04.30-18.48.36:404][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie] ([1] browsable assets)...
+[2017.04.30-18.48.36:417][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.AttackZombie]
+[2017.04.30-18.48.36:417][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie]
+[2017.04.30-18.48.36:445][613]LogSavePackage: Save=21.91ms
+[2017.04.30-18.48.36:445][613]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackZombie_Auto31CC475024B96C802B89A15A993DDAC5D.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie_Auto3.uasset'
+[2017.04.30-18.48.36:445][613]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie_Auto3.uasset
+[2017.04.30-18.48.36:446][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop] ([1] browsable assets)...
+[2017.04.30-18.48.36:458][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.EnnemyTroop]
+[2017.04.30-18.48.36:458][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop]
+[2017.04.30-18.48.36:489][613]LogSavePackage: Save=24.08ms
+[2017.04.30-18.48.36:489][613]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/EnnemyTroop_Auto350C7003B4581B9E2C77E06B2193AB62D.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop_Auto3.uasset'
+[2017.04.30-18.48.36:489][613]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop_Auto3.uasset
+[2017.04.30-18.48.36:489][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation] ([1] browsable assets)...
+[2017.04.30-18.48.36:490][613]LogBlueprintUserMessages: [DefendedInstallation_C_1] LOSE !!!
+[2017.04.30-18.48.36:490][613]LogBlueprintUserMessages: [DefendedInstallation_C_0] LOSE !!!
+[2017.04.30-18.48.36:502][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation.DefendedInstallation]
+[2017.04.30-18.48.36:502][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation]
+[2017.04.30-18.48.36:529][613]LogSavePackage: Save=21.63ms
+[2017.04.30-18.48.36:530][613]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/DefendedInstallation_Auto3A1B19EE24A857CB574C2F9BD59142667.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation_Auto3.uasset'
+[2017.04.30-18.48.36:530][613]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation_Auto3.uasset
+[2017.04.30-18.48.36:530][613]LogFileHelpers: Auto-saving content packages took 0.623
+[2017.04.30-18.48.38:047][777]BlueprintLog: New page: Compile Troop
+[2017.04.30-18.48.38:810][777]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.04.30-18.48.38:810][777]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.04.30-18.48.41:042][ 26]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.04.30-18.48.41:042][ 26]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.04.30-18.49.43:961][463]LogDialogs:Warning: Suppressed: Variable RunSpeed is in use! Do you really want to delete it?
+[2017.04.30-18.50.43:327][468]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-18.50.43:360][468]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.50.43:360][468]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.30-18.50.43:360][468]LogPlayLevel: [PlayLevel] Compiling fightingUnit before play...
+[2017.04.30-18.50.43:689][468]LogBlueprint:Warning: [Compiler fightingUnit] Warning Could not find a variable named "ZombieAnimRef" in 'fightingUnit_C'.
+Make sure 'fightingUnit_C' has been compiled for  Get ZombieAnimRef
+[2017.04.30-18.50.43:689][468]LogBlueprint:Warning: [Compiler fightingUnit] Warning Could not find a variable named "ZombieAnimRef" in 'fightingUnit_C'.
+Make sure 'fightingUnit_C' has been compiled for  Get ZombieAnimRef
+[2017.04.30-18.50.43:691][468]LogBlueprint:Error: [Compiler fightingUnit] Error The property associated with  Zombie Anim Ref  could not be found
+[2017.04.30-18.50.43:691][468]LogBlueprint:Error: [Compiler fightingUnit] Error The property associated with  Zombie Anim Ref  could not be found
+[2017.04.30-18.50.43:723][468]LogPlayLevel: [PlayLevel]   Compiling Troop as a dependent...
+[2017.04.30-18.50.43:782][468]LogPlayLevel: [PlayLevel]   Compiling AttackTroop as a dependent...
+[2017.04.30-18.50.43:786][468]LogPlayLevel: [PlayLevel]   Compiling AttackSoldier as a dependent...
+[2017.04.30-18.50.43:814][468]LogPlayLevel: [PlayLevel]   Compiling AttackWarrior as a dependent...
+[2017.04.30-18.50.43:835][468]LogPlayLevel: [PlayLevel]   Compiling AttackZombie as a dependent...
+[2017.04.30-18.50.43:874][468]LogPlayLevel: [PlayLevel]   Compiling EnnemyTroop as a dependent...
+[2017.04.30-18.50.43:919][468]LogPlayLevel: [PlayLevel]   Compiling FightingBuilding as a dependent...
+[2017.04.30-18.50.43:924][468]LogPlayLevel: [PlayLevel]   Compiling AttackedInstallation as a dependent...
+[2017.04.30-18.50.43:927][468]LogPlayLevel: [PlayLevel]   Compiling AttackedDoor as a dependent...
+[2017.04.30-18.50.43:949][468]LogPlayLevel: [PlayLevel]   Compiling AttackedTower as a dependent...
+[2017.04.30-18.50.43:988][468]LogPlayLevel: [PlayLevel]   Compiling DefendedInstallation as a dependent...
+[2017.04.30-18.50.47:246][468]LogPlayLevel: [PlayLevel]   Compiling Troop as a dependent...
+[2017.04.30-18.50.47:286][468]LogPlayLevel: [PlayLevel]   Compiling AttackTroop as a dependent...
+[2017.04.30-18.50.47:291][468]LogPlayLevel: [PlayLevel]   Compiling AttackSoldier as a dependent...
+[2017.04.30-18.50.47:317][468]LogPlayLevel: [PlayLevel]   Compiling AttackWarrior as a dependent...
+[2017.04.30-18.50.47:338][468]LogPlayLevel: [PlayLevel]   Compiling AttackZombie as a dependent...
+[2017.04.30-18.50.47:379][468]LogPlayLevel: [PlayLevel]   Compiling EnnemyTroop as a dependent...
+[2017.04.30-18.50.47:424][468]LogPlayLevel: [PlayLevel]   Compiling FightingBuilding as a dependent...
+[2017.04.30-18.50.47:429][468]LogPlayLevel: [PlayLevel]   Compiling AttackedInstallation as a dependent...
+[2017.04.30-18.50.47:433][468]LogPlayLevel: [PlayLevel]   Compiling AttackedDoor as a dependent...
+[2017.04.30-18.50.47:455][468]LogPlayLevel: [PlayLevel]   Compiling AttackedTower as a dependent...
+[2017.04.30-18.50.47:495][468]LogPlayLevel: [PlayLevel]   Compiling DefendedInstallation as a dependent...
+[2017.04.30-18.50.50:794][468]LogBlueprint:Warning: [Compiler fightingUnit] Warning [9249.12] Compile of fightingUnit failed. 2 Fatal Issue(s) 2 Warning(s) [in 7,417 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit)
+[2017.04.30-18.50.50:795][468]LogBlueprint:Warning: [Compiler fightingUnit] Warning [9249.13] Compile of fightingUnit failed. 2 Fatal Issue(s) 3 Warning(s) [in 1 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit)
+[2017.04.30-18.50.50:795][468]LogBlueprint:Warning: [Compiler fightingUnit] Warning [9249.13] Compile of fightingUnit failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit)
+[2017.04.30-18.50.50:795][468]LogBlueprint:Warning: [Compiler fightingUnit] Warning [9249.13] Compile of fightingUnit failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit)
+[2017.04.30-18.50.50:801][468]LogBlueprint:Warning: [Compiler fightingUnit] Warning [9249.13] Compile of fightingUnit failed. 2 Fatal Issue(s) 6 Warning(s) [in 5 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit)
+[2017.04.30-18.50.50:801][468]LogBlueprint:Warning: [Compiler fightingUnit] Warning [9249.13] Compile of fightingUnit failed. 2 Fatal Issue(s) 7 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit)
+[2017.04.30-18.50.50:821][468]LogPlayLevel: PlayLevel: Blueprint regeneration took 7461 ms (23 blueprints)
+[2017.04.30-18.50.50:821][468]BlueprintLog: Info Blueprint fightingUnit failed to compile
+[2017.04.30-18.50.52:487][468]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 10:50:52 PM)
+[2017.04.30-18.50.52:487][468]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-18.50.52:514][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027435s)
+[2017.04.30-18.50.52:515][468]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-18.50.52:515][468]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2017.04.30-18.50.52:515][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.028687s)
+[2017.04.30-18.50.52:544][468]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-18.50.52:551][468]LogInit: FAudioDevice initialized.
+[2017.04.30-18.50.52:616][468]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-18.50.52:621][468]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-20.50.52
+[2017.04.30-18.50.52:622][468]LogWorld: Bringing up level for play took: 0.004809
+[2017.04.30-18.50.52:631][468]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-18.50.52:631][468]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-18.50.52:631][468]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-18.50.52:634][468]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-18.50.52:637][468]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 8.819
+[2017.04.30-18.50.52:638][468]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.51.01:056][447]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.51.01:085][447]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.51.04:864][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset" SILENT=true
+[2017.04.30-18.51.04:936][893]LogSavePackage: Save=69.02ms
+[2017.04.30-18.51.04:936][893]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/Troop34554AC34A2E292AA5E3C3A27B22B605.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset'
+[2017.04.30-18.51.04:940][893]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset
+[2017.04.30-18.51.18:001][448]BlueprintLog: New page: Compile fightingUnit
+[2017.04.30-18.51.18:054][448]LogBlueprint:Warning: [Compiler fightingUnit] Warning Could not find a variable named "ZombieAnimRef" in 'fightingUnit_C'.
+Make sure 'fightingUnit_C' has been compiled for  Get ZombieAnimRef
+[2017.04.30-18.51.18:055][448]LogBlueprint:Error: [Compiler fightingUnit] Error The property associated with  Zombie Anim Ref  could not be found
+[2017.04.30-18.51.25:013][448]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ZombieAnimRef" in 'fightingUnit_C'.
+Make sure 'fightingUnit_C' has been compiled for  Get ZombieAnimRef
+[2017.04.30-18.51.25:013][448]BlueprintEditorCompileResults:Error: Error The property associated with  Zombie Anim Ref  could not be found
+[2017.04.30-18.51.25:013][448]LogBlueprint:Warning: [Compiler fightingUnit] Warning [9283.34] Compile of fightingUnit failed. 1 Fatal Issue(s) 1 Warning(s) [in 7,011 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit)
+[2017.04.30-18.51.52:846][773]BlueprintLog: New page: Compile fightingUnit
+[2017.04.30-18.51.57:733][926]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-18.51.57:765][926]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.51.57:765][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-18.51.57:765][926]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 10:51:57 PM)
+[2017.04.30-18.51.57:765][926]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-18.51.57:789][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023743s)
+[2017.04.30-18.51.57:789][926]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-18.51.57:789][926]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2017.04.30-18.51.57:790][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.024787s)
+[2017.04.30-18.51.57:818][926]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-18.51.57:825][926]LogInit: FAudioDevice initialized.
+[2017.04.30-18.51.57:883][926]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-18.51.57:888][926]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-20.51.57
+[2017.04.30-18.51.57:889][926]LogWorld: Bringing up level for play took: 0.004861
+[2017.04.30-18.51.57:897][926]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-18.51.57:897][926]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-18.51.57:897][926]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-18.51.57:900][926]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-18.51.57:902][926]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 0.084
+[2017.04.30-18.51.57:903][926]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.52.01:666][363]LogBlueprintUserMessages: [AttackedTower_251] Tower Down !
+[2017.04.30-18.52.10:920][436]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.52.10:959][436]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.53.18:280][757]LogEditorTransaction: Undo Delete current selection
+[2017.04.30-18.53.18:411][757]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.18:939][798]LogEditorTransaction: Undo Add Node
+[2017.04.30-18.53.18:985][798]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.19:405][831]LogEditorTransaction: Undo Change Number Pin Value
+[2017.04.30-18.53.19:450][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.19:843][860]LogEditorTransaction: Undo Create Pin Link
+[2017.04.30-18.53.19:850][860]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.20:058][885]LogEditorTransaction: Undo Add Node
+[2017.04.30-18.53.20:103][885]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.20:262][887]LogEditorTransaction: Undo Delete current selection
+[2017.04.30-18.53.20:318][887]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.20:472][898]LogEditorTransaction: Undo Create Reroute Node
+[2017.04.30-18.53.20:532][898]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.20:668][907]LogEditorTransaction: Undo Delete current selection
+[2017.04.30-18.53.20:727][907]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.20:863][916]LogEditorTransaction: Undo Create Reroute Node
+[2017.04.30-18.53.20:920][916]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.21:042][923]LogEditorTransaction: Undo Edit Max Walk Speed Crouched
+[2017.04.30-18.53.21:048][923]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_12:PersistentLevel.Troop_C_1.CollisionCylinder) Component already registered.
+[2017.04.30-18.53.21:049][923]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_0.Arrow) Component already registered.
+[2017.04.30-18.53.21:050][923]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_4.Arrow) Component already registered.
+[2017.04.30-18.53.21:050][923]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_4.CharacterMesh0) Component already registered.
+[2017.04.30-18.53.21:050][923]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_0.CharacterMesh0) Component already registered.
+[2017.04.30-18.53.21:051][923]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_12:PersistentLevel.Troop_C_1.Arrow) Component already registered.
+[2017.04.30-18.53.21:051][923]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_12:PersistentLevel.Troop_C_1.CharacterMesh0) Component already registered.
+[2017.04.30-18.53.21:073][923]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.21:228][924]LogEditorTransaction: Undo Edit Max Walk Speed
+[2017.04.30-18.53.21:234][924]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_12:PersistentLevel.Troop_C_1.CollisionCylinder) Component already registered.
+[2017.04.30-18.53.21:235][924]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_0.Arrow) Component already registered.
+[2017.04.30-18.53.21:235][924]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_4.Arrow) Component already registered.
+[2017.04.30-18.53.21:236][924]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_4.CharacterMesh0) Component already registered.
+[2017.04.30-18.53.21:236][924]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_0.CharacterMesh0) Component already registered.
+[2017.04.30-18.53.21:236][924]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_12:PersistentLevel.Troop_C_1.Arrow) Component already registered.
+[2017.04.30-18.53.21:236][924]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_12:PersistentLevel.Troop_C_1.CharacterMesh0) Component already registered.
+[2017.04.30-18.53.21:260][924]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.21:406][925]LogEditorTransaction: Undo Create Pin Link
+[2017.04.30-18.53.21:452][925]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.22:019][976]LogEditorTransaction: Undo Move Node
+[2017.04.30-18.53.22:063][976]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.22:230][979]LogEditorTransaction: Undo Delete current selection
+[2017.04.30-18.53.22:276][979]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.22:428][980]LogEditorTransaction: Undo Remove Variable
+[2017.04.30-18.53.22:490][980]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.53.25:884][368]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-18.53.25:906][368]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.53.25:906][368]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.30-18.53.25:906][368]LogPlayLevel: [PlayLevel] Compiling fightingUnit before play...
+[2017.04.30-18.53.25:959][368]LogBlueprint:Warning: [Compiler fightingUnit] Warning Could not find a variable named "ZombieAnimRef" in 'fightingUnit_C'.
+Make sure 'fightingUnit_C' has been compiled for  Get ZombieAnimRef
+[2017.04.30-18.53.25:959][368]LogBlueprint:Warning: [Compiler fightingUnit] Warning Could not find a variable named "ZombieAnimRef" in 'fightingUnit_C'.
+Make sure 'fightingUnit_C' has been compiled for  Get ZombieAnimRef
+[2017.04.30-18.53.25:960][368]LogBlueprint:Error: [Compiler fightingUnit] Error The property associated with  Zombie Anim Ref  could not be found
+[2017.04.30-18.53.25:960][368]LogBlueprint:Error: [Compiler fightingUnit] Error The property associated with  Zombie Anim Ref  could not be found
+[2017.04.30-18.53.25:974][368]LogPlayLevel: [PlayLevel]   Compiling Troop as a dependent...
+[2017.04.30-18.53.26:014][368]LogPlayLevel: [PlayLevel]   Compiling AttackTroop as a dependent...
+[2017.04.30-18.53.26:019][368]LogPlayLevel: [PlayLevel]   Compiling AttackSoldier as a dependent...
+[2017.04.30-18.53.26:058][368]LogPlayLevel: [PlayLevel]   Compiling AttackWarrior as a dependent...
+[2017.04.30-18.53.26:079][368]LogPlayLevel: [PlayLevel]   Compiling AttackZombie as a dependent...
+[2017.04.30-18.53.26:118][368]LogPlayLevel: [PlayLevel]   Compiling EnnemyTroop as a dependent...
+[2017.04.30-18.53.26:163][368]LogPlayLevel: [PlayLevel]   Compiling FightingBuilding as a dependent...
+[2017.04.30-18.53.26:167][368]LogPlayLevel: [PlayLevel]   Compiling AttackedInstallation as a dependent...
+[2017.04.30-18.53.26:170][368]LogPlayLevel: [PlayLevel]   Compiling AttackedDoor as a dependent...
+[2017.04.30-18.53.26:192][368]LogPlayLevel: [PlayLevel]   Compiling AttackedTower as a dependent...
+[2017.04.30-18.53.26:232][368]LogPlayLevel: [PlayLevel]   Compiling DefendedInstallation as a dependent...
+[2017.04.30-18.53.29:542][368]LogPlayLevel: [PlayLevel]   Compiling Troop as a dependent...
+[2017.04.30-18.53.29:582][368]LogPlayLevel: [PlayLevel]   Compiling AttackTroop as a dependent...
+[2017.04.30-18.53.29:587][368]LogPlayLevel: [PlayLevel]   Compiling AttackSoldier as a dependent...
+[2017.04.30-18.53.29:611][368]LogPlayLevel: [PlayLevel]   Compiling AttackWarrior as a dependent...
+[2017.04.30-18.53.29:633][368]LogPlayLevel: [PlayLevel]   Compiling AttackZombie as a dependent...
+[2017.04.30-18.53.29:672][368]LogPlayLevel: [PlayLevel]   Compiling EnnemyTroop as a dependent...
+[2017.04.30-18.53.29:716][368]LogPlayLevel: [PlayLevel]   Compiling FightingBuilding as a dependent...
+[2017.04.30-18.53.29:721][368]LogPlayLevel: [PlayLevel]   Compiling AttackedInstallation as a dependent...
+[2017.04.30-18.53.29:723][368]LogPlayLevel: [PlayLevel]   Compiling AttackedDoor as a dependent...
+[2017.04.30-18.53.29:745][368]LogPlayLevel: [PlayLevel]   Compiling AttackedTower as a dependent...
+[2017.04.30-18.53.29:784][368]LogPlayLevel: [PlayLevel]   Compiling DefendedInstallation as a dependent...
+[2017.04.30-18.53.33:021][368]LogBlueprint:Warning: [Compiler fightingUnit] Warning [9411.35] Compile of fightingUnit failed. 2 Fatal Issue(s) 2 Warning(s) [in 7,097 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit)
+[2017.04.30-18.53.33:022][368]LogBlueprint:Warning: [Compiler fightingUnit] Warning [9411.35] Compile of fightingUnit failed. 2 Fatal Issue(s) 3 Warning(s) [in 1 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit)
+[2017.04.30-18.53.33:022][368]LogBlueprint:Warning: [Compiler fightingUnit] Warning [9411.35] Compile of fightingUnit failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit)
+[2017.04.30-18.53.33:022][368]LogBlueprint:Warning: [Compiler fightingUnit] Warning [9411.35] Compile of fightingUnit failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit)
+[2017.04.30-18.53.33:028][368]LogBlueprint:Warning: [Compiler fightingUnit] Warning [9411.36] Compile of fightingUnit failed. 2 Fatal Issue(s) 6 Warning(s) [in 5 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit)
+[2017.04.30-18.53.33:028][368]LogBlueprint:Warning: [Compiler fightingUnit] Warning [9411.36] Compile of fightingUnit failed. 2 Fatal Issue(s) 7 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit)
+[2017.04.30-18.53.33:048][368]LogPlayLevel: PlayLevel: Blueprint regeneration took 7141 ms (23 blueprints)
+[2017.04.30-18.53.33:048][368]BlueprintLog: Info Blueprint fightingUnit failed to compile
+[2017.04.30-18.53.34:643][368]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 10:53:34 PM)
+[2017.04.30-18.53.34:643][368]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-18.53.34:669][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026095s)
+[2017.04.30-18.53.34:670][368]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-18.53.34:670][368]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2017.04.30-18.53.34:670][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.027592s)
+[2017.04.30-18.53.34:699][368]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-18.53.34:705][368]LogInit: FAudioDevice initialized.
+[2017.04.30-18.53.34:769][368]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-18.53.34:773][368]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-20.53.34
+[2017.04.30-18.53.34:774][368]LogWorld: Bringing up level for play took: 0.004780
+[2017.04.30-18.53.34:783][368]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-18.53.34:783][368]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-18.53.34:783][368]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-18.53.34:786][368]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-18.53.34:788][368]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 8.97
+[2017.04.30-18.53.34:789][368]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.53.40:174][863]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2344.105 Y=840.692 Z=100.000] for [AttackTroop_C]
+[2017.04.30-18.53.42:960][123]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.53.42:991][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.53.54:776][498]BlueprintLog: New page: Compile fightingUnit
+[2017.04.30-18.53.59:528][620]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-18.53.59:560][620]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.53.59:560][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-18.53.59:560][620]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 10:53:59 PM)
+[2017.04.30-18.53.59:560][620]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-18.53.59:581][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020059s)
+[2017.04.30-18.53.59:581][620]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-18.53.59:581][620]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2017.04.30-18.53.59:582][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.021128s)
+[2017.04.30-18.53.59:609][620]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-18.53.59:616][620]LogInit: FAudioDevice initialized.
+[2017.04.30-18.53.59:685][620]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-18.53.59:690][620]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-20.53.59
+[2017.04.30-18.53.59:691][620]LogWorld: Bringing up level for play took: 0.004730
+[2017.04.30-18.53.59:699][620]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-18.53.59:699][620]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-18.53.59:699][620]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-18.53.59:702][620]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-18.53.59:708][620]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.11
+[2017.04.30-18.53.59:709][620]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.54.04:017][ 14]LogBlueprintUserMessages: [AttackedTower_251] Tower Down !
+[2017.04.30-18.54.09:410][503]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.54.09:450][503]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.54.41:821][566]LogEditorTransaction: Undo Delete current selection
+[2017.04.30-18.54.41:929][566]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.54.44:949][808]LogEditorTransaction: Undo Create Reroute Node
+[2017.04.30-18.54.45:067][808]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.54.45:558][841]LogEditorTransaction: Undo Delete current selection
+[2017.04.30-18.54.45:617][841]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.54.46:052][874]LogEditorTransaction: Undo Create Reroute Node
+[2017.04.30-18.54.46:110][874]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.54.46:513][904]LogEditorTransaction: Undo Edit Default Water Movement Mode
+[2017.04.30-18.54.46:527][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_4.CollisionCylinder) Component already registered.
+[2017.04.30-18.54.46:530][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_0.CharacterMesh0) Component already registered.
+[2017.04.30-18.54.46:531][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_0.Arrow) Component already registered.
+[2017.04.30-18.54.46:531][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_4.CharacterMesh0) Component already registered.
+[2017.04.30-18.54.46:531][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_4.Arrow) Component already registered.
+[2017.04.30-18.54.46:531][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_15:PersistentLevel.fightingUnit_C_0.CharacterMesh0) Component already registered.
+[2017.04.30-18.54.46:532][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_15:PersistentLevel.fightingUnit_C_0.Arrow) Component already registered.
+[2017.04.30-18.54.46:532][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_12:PersistentLevel.Troop_C_1.Arrow) Component already registered.
+[2017.04.30-18.54.46:532][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_12:PersistentLevel.Troop_C_1.CharacterMesh0) Component already registered.
+[2017.04.30-18.54.46:534][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_2.Arrow) Component already registered.
+[2017.04.30-18.54.46:535][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_3.CharacterMesh0) Component already registered.
+[2017.04.30-18.54.46:535][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_3.Arrow) Component already registered.
+[2017.04.30-18.54.46:535][904]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_2.CharacterMesh0) Component already registered.
+[2017.04.30-18.54.46:567][904]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.54.46:570][904]LogBlueprintUserMessages: [AttackedTower_C_2] Tower Down !
+[2017.04.30-18.54.46:571][904]LogBlueprintUserMessages: [DefendedInstallation_C_2] LOSE !!!
+[2017.04.30-18.54.46:573][904]LogBlueprintUserMessages: [AttackedDoor_C_2] WIN !!!
+[2017.04.30-18.54.47:101][937]LogEditorTransaction: Undo Edit Default Land Movement Mode
+[2017.04.30-18.54.47:118][937]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DefendedInstallation_C_2.CollisionCylinder) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.30-18.54.47:118][937]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_2.Arrow) Component already registered.
+[2017.04.30-18.54.47:119][937]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_3.CharacterMesh0) Component already registered.
+[2017.04.30-18.54.47:119][937]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_3.Arrow) Component already registered.
+[2017.04.30-18.54.47:119][937]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_2.CharacterMesh0) Component already registered.
+[2017.04.30-18.54.47:119][937]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_12:PersistentLevel.Troop_C_1.CharacterMesh0) Component already registered.
+[2017.04.30-18.54.47:119][937]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_12:PersistentLevel.Troop_C_1.Arrow) Component already registered.
+[2017.04.30-18.54.47:120][937]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_0.CharacterMesh0) Component already registered.
+[2017.04.30-18.54.47:120][937]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_0.Arrow) Component already registered.
+[2017.04.30-18.54.47:120][937]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_4.CharacterMesh0) Component already registered.
+[2017.04.30-18.54.47:120][937]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_6:PersistentLevel.Troop_C_4.Arrow) Component already registered.
+[2017.04.30-18.54.47:120][937]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_15:PersistentLevel.fightingUnit_C_0.CharacterMesh0) Component already registered.
+[2017.04.30-18.54.47:121][937]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_15:PersistentLevel.fightingUnit_C_0.Arrow) Component already registered.
+[2017.04.30-18.54.47:124][937]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_23:PersistentLevel.FightingBuilding_C_2.CollisionCylinder) Component already registered.
+[2017.04.30-18.54.47:125][937]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AttackedTower_C_2.CollisionCylinder) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.30-18.54.47:125][937]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AttackedDoor_C_2.CollisionCylinder) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.30-18.54.47:126][937]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AttackedInstallation_C_2.CollisionCylinder) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.30-18.54.47:152][937]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.54.48:603][ 59]LogEditorTransaction: Undo Move Node
+[2017.04.30-18.54.48:650][ 59]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.54.49:108][ 88]LogEditorTransaction: Undo Add Node
+[2017.04.30-18.54.49:171][ 88]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.55.14:837][628]LogEditorTransaction: Undo Delete current selection
+[2017.04.30-18.55.14:899][628]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-18.55.38:050][195]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-18.55.38:073][195]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.55.38:073][195]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.30-18.55.38:073][195]LogPlayLevel: [PlayLevel] Compiling fightingUnit before play...
+[2017.04.30-18.55.38:142][195]LogPlayLevel: [PlayLevel]   Compiling Troop as a dependent...
+[2017.04.30-18.55.38:182][195]LogPlayLevel: [PlayLevel]   Compiling AttackTroop as a dependent...
+[2017.04.30-18.55.38:186][195]LogPlayLevel: [PlayLevel]   Compiling AttackSoldier as a dependent...
+[2017.04.30-18.55.38:225][195]LogPlayLevel: [PlayLevel]   Compiling AttackWarrior as a dependent...
+[2017.04.30-18.55.38:247][195]LogPlayLevel: [PlayLevel]   Compiling AttackZombie as a dependent...
+[2017.04.30-18.55.38:286][195]LogPlayLevel: [PlayLevel]   Compiling EnnemyTroop as a dependent...
+[2017.04.30-18.55.38:330][195]LogPlayLevel: [PlayLevel]   Compiling FightingBuilding as a dependent...
+[2017.04.30-18.55.38:335][195]LogPlayLevel: [PlayLevel]   Compiling AttackedInstallation as a dependent...
+[2017.04.30-18.55.38:338][195]LogPlayLevel: [PlayLevel]   Compiling AttackedDoor as a dependent...
+[2017.04.30-18.55.38:360][195]LogPlayLevel: [PlayLevel]   Compiling AttackedTower as a dependent...
+[2017.04.30-18.55.38:399][195]LogPlayLevel: [PlayLevel]   Compiling DefendedInstallation as a dependent...
+[2017.04.30-18.55.41:631][195]LogPlayLevel: PlayLevel: Blueprint regeneration took 3558 ms (12 blueprints)
+[2017.04.30-18.55.41:631][195]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 10:55:41 PM)
+[2017.04.30-18.55.41:631][195]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-18.55.41:654][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022223s)
+[2017.04.30-18.55.41:654][195]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-18.55.41:654][195]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2017.04.30-18.55.41:655][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.023370s)
+[2017.04.30-18.55.41:682][195]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-18.55.41:689][195]LogInit: FAudioDevice initialized.
+[2017.04.30-18.55.41:752][195]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-18.55.41:757][195]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-20.55.41
+[2017.04.30-18.55.41:759][195]LogWorld: Bringing up level for play took: 0.006605
+[2017.04.30-18.55.41:768][195]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-18.55.41:768][195]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-18.55.41:768][195]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-18.55.41:771][195]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-18.55.41:773][195]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 3.955
+[2017.04.30-18.55.41:774][195]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.55.43:030][287]LogBlueprintUserMessages: [AttackedTower3_794] Tower Down !
+[2017.04.30-18.55.43:031][287]LogBlueprintUserMessages: [AttackedTower_251] Tower Down !
+[2017.04.30-18.55.43:031][287]LogBlueprintUserMessages: [DefendedInstallation_1397] LOSE !!!
+[2017.04.30-18.55.48:865][792]LogBlueprintUserMessages: [AttackedTower2_533] Tower Down !
+[2017.04.30-18.55.56:529][435]LogBlueprintUserMessages: [AttackedDoor_224] WIN !!!
+[2017.04.30-18.55.58:644][612]LogScript:Warning: Attempted to access AttackedDoor_224 via property target, but AttackedDoor_224 is pending kill
+	AttackTroop_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackTroop_C_0
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit_C:engageFight:003A
+[2017.04.30-18.55.58:645][612]PIE:Error: Error Blueprint Runtime Error: Attempted to access AttackedDoor_224 via property target, but AttackedDoor_224 is pending kill from function: 'engageFight' from node: SetActorRotation in graph: engageFight in object: fightingUnit with description: Attempted to access AttackedDoor_224 via property target, but AttackedDoor_224 is pending kill
+[2017.04.30-18.55.59:757][706]LogScript:Warning: Attempted to access AttackedDoor_224 via property target, but AttackedDoor_224 is pending kill
+	AttackTroop_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackTroop_C_5
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit_C:engageFight:003A
+[2017.04.30-18.55.59:757][706]PIE:Error: Error Blueprint Runtime Error: Attempted to access AttackedDoor_224 via property target, but AttackedDoor_224 is pending kill from function: 'engageFight' from node: SetActorRotation in graph: engageFight in object: fightingUnit with description: Attempted to access AttackedDoor_224 via property target, but AttackedDoor_224 is pending kill
+[2017.04.30-18.56.03:539][ 23]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.56.03:569][ 23]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.58.13:556][ 58]BlueprintLog: New page: Compile fightingUnit
+[2017.04.30-18.58.22:373][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Maps/RTS_TestMap" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-18.58.22:891][495]LogSavePackage: Save=489.56ms
+[2017.04.30-18.58.22:891][495]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/RTS_TestMapE5FCDEBD4C992BCA222F29A35527A14C.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap'
+[2017.04.30-18.58.22:897][495]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap
+[2017.04.30-18.58.22:943][495]LogFileHelpers: Saving map 'RTS_TestMap' took 0.619
+[2017.04.30-18.58.22:959][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset" SILENT=true
+[2017.04.30-18.58.23:036][495]LogSavePackage: Save=70.55ms
+[2017.04.30-18.58.23:036][495]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/Troop16308CEF4D3C8EBBCA98309553E3C050.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset'
+[2017.04.30-18.58.23:037][495]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset
+[2017.04.30-18.58.23:053][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/fightingUnit" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset" SILENT=true
+[2017.04.30-18.58.23:147][495]LogSavePackage: Save=88.04ms
+[2017.04.30-18.58.23:147][495]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/fightingUnit7F6514394603659C40058CA7EA86843F.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset'
+[2017.04.30-18.58.23:151][495]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset
+[2017.04.30-18.58.23:201][495]LogSavePackage: Save=25.25ms
+[2017.04.30-18.58.23:201][495]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackSoldier905195874FBD99BD8ED14AA80E7F0E4F.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.uasset'
+[2017.04.30-18.58.23:205][495]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.uasset
+[2017.04.30-18.58.23:224][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.uasset" SILENT=true
+[2017.04.30-18.58.23:260][495]LogSavePackage: Save=27.69ms
+[2017.04.30-18.58.23:260][495]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackTroopFF1B0EFA45437423D5EB4E881AF69BB1.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.uasset'
+[2017.04.30-18.58.23:264][495]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.uasset
+[2017.04.30-18.58.23:266][495]LogBlueprintUserMessages: [AttackedDoor_C_3] WIN !!!
+[2017.04.30-18.58.23:316][495]LogSavePackage: Save=26.22ms
+[2017.04.30-18.58.23:316][495]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedDoor1EC2E03241E1F5858F49969CA45AB599.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor.uasset'
+[2017.04.30-18.58.23:320][495]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor.uasset
+[2017.04.30-18.58.23:369][495]LogSavePackage: Save=23.77ms
+[2017.04.30-18.58.23:369][495]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedInstallationE12351C544B67037FEEEC8A1FE5958CD.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation.uasset'
+[2017.04.30-18.58.23:374][495]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation.uasset
+[2017.04.30-18.58.23:376][495]LogBlueprintUserMessages: [AttackedTower_C_3] Tower Down !
+[2017.04.30-18.58.23:419][495]LogSavePackage: Save=22.31ms
+[2017.04.30-18.58.23:419][495]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedTower3514EDD44CDB4C3D1D30329458FBD8C6.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower.uasset'
+[2017.04.30-18.58.23:423][495]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower.uasset
+[2017.04.30-18.58.23:467][495]LogSavePackage: Save=21.85ms
+[2017.04.30-18.58.23:467][495]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackWarriorB4DCAD2547FE201B3EE9BBB7FC3F5D9A.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.uasset'
+[2017.04.30-18.58.23:471][495]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.uasset
+[2017.04.30-18.58.23:488][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.uasset" SILENT=true
+[2017.04.30-18.58.23:517][495]LogSavePackage: Save=22.49ms
+[2017.04.30-18.58.23:517][495]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackZombieEB99BB9D44D51459FB63CC9AE00627A6.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.uasset'
+[2017.04.30-18.58.23:521][495]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.uasset
+[2017.04.30-18.58.23:538][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.uasset" SILENT=true
+[2017.04.30-18.58.23:569][495]LogSavePackage: Save=24.76ms
+[2017.04.30-18.58.23:569][495]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/EnnemyTroopA39D5D6D43A5D8EFC1E29BAB3056904D.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.uasset'
+[2017.04.30-18.58.23:572][495]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.uasset
+[2017.04.30-18.58.23:574][495]LogBlueprintUserMessages: [DefendedInstallation_C_3] LOSE !!!
+[2017.04.30-18.58.23:616][495]LogSavePackage: Save=21.89ms
+[2017.04.30-18.58.23:616][495]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/DefendedInstallation194B3D1A43DFDA8E8BDAD8AECAC12CD7.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation.uasset'
+[2017.04.30-18.58.23:617][495]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation.uasset
+[2017.04.30-18.58.23:665][495]LogSavePackage: Save=23.57ms
+[2017.04.30-18.58.23:665][495]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/FightingBuildingD3C9C86A49A1F36C150517AC8CACAC68.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.uasset'
+[2017.04.30-18.58.23:666][495]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.uasset
+[2017.04.30-18.58.26:285][692]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-18.58.26:322][692]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.58.26:322][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-18.58.26:322][692]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 10:58:26 PM)
+[2017.04.30-18.58.26:322][692]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-18.58.26:346][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024302s)
+[2017.04.30-18.58.26:347][692]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-18.58.26:347][692]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2017.04.30-18.58.26:347][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.025382s)
+[2017.04.30-18.58.26:381][692]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-18.58.26:387][692]LogInit: FAudioDevice initialized.
+[2017.04.30-18.58.26:453][692]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-18.58.26:458][692]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-20.58.26
+[2017.04.30-18.58.26:460][692]LogWorld: Bringing up level for play took: 0.005388
+[2017.04.30-18.58.26:468][692]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-18.58.26:468][692]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-18.58.26:468][692]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-18.58.26:471][692]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-18.58.26:478][692]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 0.659
+[2017.04.30-18.58.26:478][692]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.58.27:735][749]LogBlueprintUserMessages: [AttackedTower_251] Tower Down !
+[2017.04.30-18.58.27:735][749]LogBlueprintUserMessages: [AttackedTower3_794] Tower Down !
+[2017.04.30-18.58.27:736][749]LogBlueprintUserMessages: [DefendedInstallation_1397] LOSE !!!
+[2017.04.30-18.58.36:253][175]LogBlueprintUserMessages: [AttackedTower2_533] Tower Down !
+[2017.04.30-18.58.43:994][555]LogBlueprintUserMessages: [AttackedDoor_224] WIN !!!
+[2017.04.30-18.58.45:041][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-18.58.45:080][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.00.30:302][818]LogEditorTransaction: Undo Change Parameter Type
+[2017.04.30-19.00.30:502][818]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-19.03.25:470][276]BlueprintLog: New page: Compile fightingUnit
+[2017.04.30-19.04.56:733][  0]LogEditorTransaction: Undo Paste clipboard contents
+[2017.04.30-19.04.56:845][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-19.04.57:137][ 17]LogEditorTransaction: Undo Delete current selection
+[2017.04.30-19.04.57:196][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-19.05.10:487][265]BlueprintLog: New page: Compile fightingUnit
+[2017.04.30-19.05.37:432][477]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.30-19.05.38:628][596]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.30-19.05.43:990][102]LogBlueprintUserMessages: [DefendedInstallation_C_2] LOSE !!!
+[2017.04.30-19.05.43:991][102]LogBlueprintUserMessages: [AttackedTower_C_2] Tower Down !
+[2017.04.30-19.05.43:993][102]LogBlueprintUserMessages: [AttackedDoor_C_2] WIN !!!
+[2017.04.30-19.05.58:845][559]LogEditorViewport: Clicking on Actor (LMB): DefendedInstallation_C (DefendedInstallation)
+[2017.04.30-19.06.59:478][ 24]LogEditorViewport: Clicking on Actor (LMB): AttackedTower_C (AttackedTower)
+[2017.04.30-19.07.16:581][289]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.30-19.07.17:361][355]LogEditorViewport: Clicking on Actor (LMB): AttackedTower_C (AttackedTower2)
+[2017.04.30-19.07.21:474][654]LogEditorViewport: Clicking on Actor (LMB): AttackedTower_C (AttackedTower)
+[2017.04.30-19.07.22:578][733]Cmd: EDIT COPY
+[2017.04.30-19.07.24:408][867]LogEditorViewport: Clicking on Actor (LMB): AttackedTower_C (AttackedTower2)
+[2017.04.30-19.07.26:245][  2]Cmd: DELETE
+[2017.04.30-19.07.26:245][  2]Cmd: ACTOR DELETE
+[2017.04.30-19.07.26:245][  2]LogEditorActor: Deleted Actor: AttackedTower_C
+[2017.04.30-19.07.26:265][  2]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.04.30-19.07.26:638][ 38]Cmd: EDIT PASTE
+[2017.04.30-19.07.46:865][531]Cmd: DELETE
+[2017.04.30-19.07.46:865][531]Cmd: ACTOR DELETE
+[2017.04.30-19.07.46:865][531]LogEditorActor: Deleted Actor: FightingBuilding_C
+[2017.04.30-19.07.46:884][531]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.04.30-19.07.48:006][644]LogEditorViewport: Clicking on Actor (LMB): AttackedTower_C (AttackedTower3)
+[2017.04.30-19.08.03:343][754]LogEditorViewport: Clicking on Actor (LMB): AttackedDoor_C (AttackedDoor)
+[2017.04.30-19.08.16:973][758]LogEditorViewport: Clicking on Actor (LMB): DoorsSide_C (DoorsSide)
+[2017.04.30-19.08.22:998][316]LogEditorViewport: Clicking on Actor (LMB): DoorsSide_C (DoorsSide2)
+[2017.04.30-19.08.33:167][182]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-19.08.33:206][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.08.33:206][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-19.08.33:206][182]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 11:08:33 PM)
+[2017.04.30-19.08.33:207][182]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-19.08.33:232][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025281s)
+[2017.04.30-19.08.33:232][182]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-19.08.33:233][182]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2017.04.30-19.08.33:233][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.026414s)
+[2017.04.30-19.08.33:261][182]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-19.08.33:268][182]LogInit: FAudioDevice initialized.
+[2017.04.30-19.08.33:343][182]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-19.08.33:348][182]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-21.08.33
+[2017.04.30-19.08.33:351][182]LogWorld: Bringing up level for play took: 0.006532
+[2017.04.30-19.08.33:359][182]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.08.33:359][182]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.08.33:359][182]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.08.33:362][182]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.08.33:372][182]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.447
+[2017.04.30-19.08.33:373][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.08.39:351][581]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower_251
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.08.39:351][581]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: fightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.08.39:351][581]LogBlueprintUserMessages: [AttackedTower_251] Tower Down !
+[2017.04.30-19.08.42:147][764]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower2
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.08.42:147][764]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: fightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.08.42:148][764]LogBlueprintUserMessages: [AttackedTower2] Tower Down !
+[2017.04.30-19.08.45:496][982]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower3_794
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.08.45:496][982]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: fightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.08.45:497][982]LogBlueprintUserMessages: [AttackedTower3_794] Tower Down !
+[2017.04.30-19.08.51:593][388]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedDoor_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedDoor_224
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.08.51:593][388]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: fightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.08.51:594][388]LogBlueprintUserMessages: [AttackedDoor_224] WIN !!!
+[2017.04.30-19.08.52:882][473]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.08.52:928][473]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.09.14:818][318]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-19.09.14:839][318]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.09.14:840][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-19.09.14:840][318]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 11:09:14 PM)
+[2017.04.30-19.09.14:840][318]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-19.09.14:863][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023422s)
+[2017.04.30-19.09.14:864][318]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-19.09.14:864][318]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2017.04.30-19.09.14:864][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.024410s)
+[2017.04.30-19.09.14:892][318]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-19.09.14:899][318]LogInit: FAudioDevice initialized.
+[2017.04.30-19.09.14:970][318]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-19.09.14:974][318]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-21.09.14
+[2017.04.30-19.09.14:976][318]LogWorld: Bringing up level for play took: 0.005614
+[2017.04.30-19.09.14:985][318]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.09.14:985][318]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.09.14:985][318]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.09.14:988][318]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.09.14:996][318]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.822
+[2017.04.30-19.09.14:996][318]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.09.19:320][589]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower_251
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.fightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.09.19:320][589]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: fightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.09.19:321][589]LogBlueprintUserMessages: [AttackedTower_251] Tower Down !
+[2017.04.30-19.09.21:567][729]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.09.21:615][729]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.10.39:200][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/fightingUnit" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset" SILENT=true
+[2017.04.30-19.10.39:259][744]LogSavePackage: Save=52.62ms
+[2017.04.30-19.10.39:259][744]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/fightingUnit55C667D145ACDBC5BDBA8EA4B1C8C18D.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset'
+[2017.04.30-19.10.39:260][744]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset
+[2017.04.30-19.10.39:427][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset" SILENT=true
+[2017.04.30-19.10.39:505][744]LogSavePackage: Save=71.12ms
+[2017.04.30-19.10.39:505][744]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/Troop4A25CB984A035478EC790DAB60A418BF.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset'
+[2017.04.30-19.10.39:506][744]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset
+[2017.04.30-19.10.39:508][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.uasset" SILENT=true
+[2017.04.30-19.10.39:532][744]LogSavePackage: Save=17.14ms
+[2017.04.30-19.10.39:532][744]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackTroop5BDB5A8848AE76A27B9E0DAD2182127C.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.uasset'
+[2017.04.30-19.10.39:533][744]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.uasset
+[2017.04.30-19.10.39:535][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.uasset" SILENT=true
+[2017.04.30-19.10.39:560][744]LogSavePackage: Save=17.89ms
+[2017.04.30-19.10.39:560][744]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/EnnemyTroop4D20914846130EDD6C742ABD6E2FDD2C.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.uasset'
+[2017.04.30-19.10.39:561][744]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.uasset
+[2017.04.30-19.10.39:604][744]LogSavePackage: Save=23.63ms
+[2017.04.30-19.10.39:604][744]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/FightingBuildingF4DF512D4AA423D713C27ABD792E4A1C.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.uasset'
+[2017.04.30-19.10.39:605][744]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.uasset
+[2017.04.30-19.10.46:102][292]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.Default__EnnemyTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:102][292]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.Default__EnnemyTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:104][292]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.Default__AttackZombie_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:104][292]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.Default__AttackZombie_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:105][292]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.Default__AttackSoldier_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:105][292]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.Default__AttackSoldier_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:106][292]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.Default__AttackTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:106][292]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.Default__AttackTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:106][292]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.Default__AttackWarrior_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:106][292]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.Default__AttackWarrior_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:138][294]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.Default__EnnemyTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:138][294]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.Default__AttackZombie_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:139][294]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.Default__AttackSoldier_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:139][294]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.Default__AttackTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:139][294]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.Default__AttackWarrior_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:154][295]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.Default__EnnemyTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:154][295]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.Default__AttackZombie_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:155][295]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.Default__AttackSoldier_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:155][295]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.Default__AttackTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:155][295]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.Default__AttackWarrior_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:194][298]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.Default__EnnemyTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:194][298]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.Default__AttackZombie_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:195][298]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.Default__AttackSoldier_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:195][298]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.Default__AttackTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:195][298]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.Default__AttackWarrior_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:277][305]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.Default__EnnemyTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:278][305]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.Default__AttackZombie_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:278][305]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.Default__AttackSoldier_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:278][305]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.Default__AttackTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:279][305]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.Default__AttackWarrior_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:637][337]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.Default__EnnemyTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:637][337]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.Default__AttackZombie_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:638][337]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.Default__AttackSoldier_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:638][337]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.Default__AttackTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:638][337]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.Default__AttackWarrior_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:698][342]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.Default__EnnemyTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:698][342]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.Default__AttackZombie_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:699][342]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.Default__AttackSoldier_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:699][342]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.Default__AttackTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:699][342]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.Default__AttackWarrior_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:759][347]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.Default__EnnemyTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:759][347]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.Default__AttackZombie_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:760][347]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.Default__AttackSoldier_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:760][347]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.Default__AttackTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:760][347]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.Default__AttackWarrior_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:930][362]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.Default__EnnemyTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:931][362]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.Default__AttackZombie_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:931][362]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.Default__AttackSoldier_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:931][362]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.Default__AttackTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.46:932][362]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.Default__AttackWarrior_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.47:750][436]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.Default__EnnemyTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.47:751][436]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.Default__AttackZombie_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.47:751][436]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.Default__AttackSoldier_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.47:752][436]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.Default__AttackTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.47:752][436]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.Default__AttackWarrior_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.48:751][526]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.Default__EnnemyTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.48:752][526]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.Default__AttackZombie_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.48:753][526]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.Default__AttackSoldier_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.48:753][526]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.Default__AttackTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.48:753][526]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.Default__AttackWarrior_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.51:580][782]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.Default__EnnemyTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.51:581][782]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.Default__AttackZombie_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.51:581][782]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.Default__AttackSoldier_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.51:582][782]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.Default__AttackTroop_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.10.51:582][782]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.Default__AttackWarrior_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation.Default__DefendedInstallation_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.DefendedInstallation_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.DestructibleBuilding_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower2.CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AttackedTower_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation.Default__AttackedInstallation_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_3:PersistentLevel.AttackedInstallation_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor.Default__AttackedDoor_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedDoor_224.CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_22:PersistentLevel.FightingBuilding_C_1.CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.Default__FightingBuilding_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_23:PersistentLevel.FightingBuilding_C_2.CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_15:PersistentLevel.fightingUnit_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.AttackedDoor_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower_251.CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.DefendedInstallation_1397.CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower.Default__AttackedTower_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower3_794.CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.12.47:819][ 63]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_24:PersistentLevel.fightingUnit_C_1.CharacterMesh0) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_23:PersistentLevel.FightingBuilding_C_2.CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.DefendedInstallation_1397.CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.DestructibleBuilding_C_0.CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower3_794.CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.DefendedInstallation_C_0.CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor.Default__AttackedDoor_C:CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.AttackedDoor_C_0.CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_15:PersistentLevel.fightingUnit_C_0.CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower2.CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.Default__FightingBuilding_C:CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation.Default__DefendedInstallation_C:CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower.Default__AttackedTower_C:CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_3:PersistentLevel.AttackedInstallation_C_0.CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower_251.CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_22:PersistentLevel.FightingBuilding_C_1.CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_24:PersistentLevel.fightingUnit_C_1.CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation.Default__AttackedInstallation_C:CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AttackedTower_C_0.CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:167][317]LogActorComponent: ReregisterComponent: (/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedDoor_224.CollisionCylinder) Not currently registered. Aborting.
+[2017.04.30-19.14.35:673][331]LogSavePackage: Save=236.62ms
+[2017.04.30-19.14.35:673][331]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/RTS_TestMap_Auto4BCA7847D4B93CFC52745D1AEB807DEF5.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Maps/RTS_TestMap_Auto4.umap'
+[2017.04.30-19.14.35:880][331]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Maps/RTS_TestMap_Auto4.umap
+[2017.04.30-19.14.35:883][331]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_TowerDefense/Maps/RTS_TestMap' took 0.479
+[2017.04.30-19.14.35:883][331]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.479
+[2017.04.30-19.14.35:887][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop] ([1] browsable assets)...
+[2017.04.30-19.14.35:915][331]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop.Troop]
+[2017.04.30-19.14.35:915][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop]
+[2017.04.30-19.14.36:002][331]LogSavePackage: Save=80.78ms
+[2017.04.30-19.14.36:002][331]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/Troop_Auto4F8F567424D744F8618502B8B1680E086.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop_Auto4.uasset'
+[2017.04.30-19.14.36:002][331]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop_Auto4.uasset
+[2017.04.30-19.14.36:003][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/fightingUnit] ([1] browsable assets)...
+[2017.04.30-19.14.36:013][331]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit]
+[2017.04.30-19.14.36:013][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/fightingUnit]
+[2017.04.30-19.14.36:068][331]LogSavePackage: Save=51.66ms
+[2017.04.30-19.14.36:068][331]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/fightingUnit_Auto4D2BC84CB47350BEC5C2C76A9340D2D88.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/fightingUnit_Auto4.uasset'
+[2017.04.30-19.14.36:068][331]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/fightingUnit_Auto4.uasset
+[2017.04.30-19.14.36:068][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier] ([1] browsable assets)...
+[2017.04.30-19.14.36:080][331]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.AttackSoldier]
+[2017.04.30-19.14.36:080][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier]
+[2017.04.30-19.14.36:109][331]LogSavePackage: Save=23.15ms
+[2017.04.30-19.14.36:109][331]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackSoldier_Auto41721F63842A0FA99FF1932BD68CC9F9E.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier_Auto4.uasset'
+[2017.04.30-19.14.36:110][331]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier_Auto4.uasset
+[2017.04.30-19.14.36:110][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop] ([1] browsable assets)...
+[2017.04.30-19.14.36:121][331]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.AttackTroop]
+[2017.04.30-19.14.36:122][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop]
+[2017.04.30-19.14.36:148][331]LogSavePackage: Save=23.88ms
+[2017.04.30-19.14.36:148][331]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackTroop_Auto4E00EA74D46AFE9C38E2B35992944A1F2.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop_Auto4.uasset'
+[2017.04.30-19.14.36:149][331]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop_Auto4.uasset
+[2017.04.30-19.14.36:149][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor] ([1] browsable assets)...
+[2017.04.30-19.14.36:159][331]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor.AttackedDoor]
+[2017.04.30-19.14.36:159][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor]
+[2017.04.30-19.14.36:187][331]LogSavePackage: Save=22.05ms
+[2017.04.30-19.14.36:187][331]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedDoor_Auto44B65604D40B8917A98217EA2A1C5AF21.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor_Auto4.uasset'
+[2017.04.30-19.14.36:188][331]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor_Auto4.uasset
+[2017.04.30-19.14.36:188][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation] ([1] browsable assets)...
+[2017.04.30-19.14.36:199][331]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation.AttackedInstallation]
+[2017.04.30-19.14.36:199][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation]
+[2017.04.30-19.14.36:226][331]LogSavePackage: Save=21.23ms
+[2017.04.30-19.14.36:226][331]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedInstallation_Auto415C4FDA8455833F1AEF620A7FFD243BE.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation_Auto4.uasset'
+[2017.04.30-19.14.36:226][331]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation_Auto4.uasset
+[2017.04.30-19.14.36:226][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower] ([1] browsable assets)...
+[2017.04.30-19.14.36:238][331]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower.AttackedTower]
+[2017.04.30-19.14.36:238][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower]
+[2017.04.30-19.14.36:267][331]LogSavePackage: Save=22.64ms
+[2017.04.30-19.14.36:267][331]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedTower_Auto48A371FD7437CC8AA34314883D1F8603F.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower_Auto4.uasset'
+[2017.04.30-19.14.36:267][331]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower_Auto4.uasset
+[2017.04.30-19.14.36:268][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior] ([1] browsable assets)...
+[2017.04.30-19.14.36:280][331]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.AttackWarrior]
+[2017.04.30-19.14.36:280][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior]
+[2017.04.30-19.14.36:308][331]LogSavePackage: Save=22.78ms
+[2017.04.30-19.14.36:308][331]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackWarrior_Auto4734CF76E449F11CA5FD6A49C3D97D368.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior_Auto4.uasset'
+[2017.04.30-19.14.36:309][331]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior_Auto4.uasset
+[2017.04.30-19.14.36:309][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie] ([1] browsable assets)...
+[2017.04.30-19.14.36:321][331]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.AttackZombie]
+[2017.04.30-19.14.36:321][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie]
+[2017.04.30-19.14.36:349][331]LogSavePackage: Save=22.43ms
+[2017.04.30-19.14.36:349][331]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackZombie_Auto4113D4C454A5C35765C5396B7E93AEA83.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie_Auto4.uasset'
+[2017.04.30-19.14.36:350][331]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie_Auto4.uasset
+[2017.04.30-19.14.36:350][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop] ([1] browsable assets)...
+[2017.04.30-19.14.36:362][331]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.EnnemyTroop]
+[2017.04.30-19.14.36:362][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop]
+[2017.04.30-19.14.36:389][331]LogSavePackage: Save=23.86ms
+[2017.04.30-19.14.36:389][331]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/EnnemyTroop_Auto448CE8C3048C7EF7A846A4E847A594FFD.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop_Auto4.uasset'
+[2017.04.30-19.14.36:389][331]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop_Auto4.uasset
+[2017.04.30-19.14.36:389][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation] ([1] browsable assets)...
+[2017.04.30-19.14.36:401][331]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation.DefendedInstallation]
+[2017.04.30-19.14.36:401][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation]
+[2017.04.30-19.14.36:429][331]LogSavePackage: Save=22.84ms
+[2017.04.30-19.14.36:429][331]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/DefendedInstallation_Auto40AE2E3C4421D48AD344D61BD6B5C8CB2.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation_Auto4.uasset'
+[2017.04.30-19.14.36:430][331]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation_Auto4.uasset
+[2017.04.30-19.14.36:430][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding] ([1] browsable assets)...
+[2017.04.30-19.14.36:441][331]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.FightingBuilding]
+[2017.04.30-19.14.36:441][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding]
+[2017.04.30-19.14.36:468][331]LogSavePackage: Save=23.80ms
+[2017.04.30-19.14.36:468][331]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/FightingBuilding_Auto49C1BB79049C74634E4351EB654E58460.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding_Auto4.uasset'
+[2017.04.30-19.14.36:468][331]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding_Auto4.uasset
+[2017.04.30-19.14.36:468][331]LogFileHelpers: Auto-saving content packages took 0.583
+[2017.04.30-19.14.38:573][533]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-19.14.38:595][533]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.14.38:595][533]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.30-19.14.38:595][533]LogPlayLevel: [PlayLevel] Compiling FightingUnit before play...
+[2017.04.30-19.14.39:346][533]LogPlayLevel: [PlayLevel]   Compiling Troop as a dependent...
+[2017.04.30-19.14.39:415][533]LogPlayLevel: [PlayLevel]   Compiling AttackTroop as a dependent...
+[2017.04.30-19.14.39:420][533]LogPlayLevel: [PlayLevel]   Compiling AttackSoldier as a dependent...
+[2017.04.30-19.14.39:444][533]LogPlayLevel: [PlayLevel]   Compiling AttackWarrior as a dependent...
+[2017.04.30-19.14.39:465][533]LogPlayLevel: [PlayLevel]   Compiling AttackZombie as a dependent...
+[2017.04.30-19.14.39:504][533]LogPlayLevel: [PlayLevel]   Compiling EnnemyTroop as a dependent...
+[2017.04.30-19.14.39:549][533]LogPlayLevel: [PlayLevel]   Compiling FightingBuilding as a dependent...
+[2017.04.30-19.14.39:595][533]LogPlayLevel: [PlayLevel]   Compiling AttackedInstallation as a dependent...
+[2017.04.30-19.14.39:598][533]LogPlayLevel: [PlayLevel]   Compiling AttackedDoor as a dependent...
+[2017.04.30-19.14.39:620][533]LogPlayLevel: [PlayLevel]   Compiling AttackedTower as a dependent...
+[2017.04.30-19.14.39:659][533]LogPlayLevel: [PlayLevel]   Compiling DefendedInstallation as a dependent...
+[2017.04.30-19.14.43:022][533]LogPlayLevel: PlayLevel: Blueprint regeneration took 4426 ms (12 blueprints)
+[2017.04.30-19.14.43:022][533]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 11:14:43 PM)
+[2017.04.30-19.14.43:022][533]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-19.14.43:047][533]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024558s)
+[2017.04.30-19.14.43:048][533]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-19.14.43:048][533]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2017.04.30-19.14.43:048][533]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.026139s)
+[2017.04.30-19.14.43:075][533]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-19.14.43:083][533]LogInit: FAudioDevice initialized.
+[2017.04.30-19.14.43:146][533]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-19.14.43:150][533]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-21.14.43
+[2017.04.30-19.14.43:152][533]LogWorld: Bringing up level for play took: 0.004568
+[2017.04.30-19.14.43:160][533]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.14.43:160][533]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.14.43:160][533]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.14.43:163][533]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.14.43:168][533]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 5.349
+[2017.04.30-19.14.43:168][533]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.14.46:050][860]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.14.46:110][860]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.14.46:637][919]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-19.14.46:671][919]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.14.46:671][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-19.14.46:671][919]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 11:14:46 PM)
+[2017.04.30-19.14.46:671][919]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-19.14.46:694][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023360s)
+[2017.04.30-19.14.46:695][919]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-19.14.46:695][919]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.04.30-19.14.46:695][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.024303s)
+[2017.04.30-19.14.46:725][919]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-19.14.46:731][919]LogInit: FAudioDevice initialized.
+[2017.04.30-19.14.46:793][919]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-19.14.46:797][919]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-21.14.46
+[2017.04.30-19.14.46:798][919]LogWorld: Bringing up level for play took: 0.004429
+[2017.04.30-19.14.46:806][919]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.14.46:806][919]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.14.46:806][919]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.14.46:810][919]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.14.46:813][919]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 0.994
+[2017.04.30-19.14.46:813][919]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.14.54:078][709]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower_251
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.14.54:078][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: FightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.14.54:078][709]LogBlueprintUserMessages: [AttackedTower_251] Tower Down !
+[2017.04.30-19.14.54:169][719]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower2
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.14.54:169][719]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: FightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.14.54:178][720]LogBlueprintUserMessages: [AttackedTower2] Tower Down !
+[2017.04.30-19.15.00:257][398]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower3_794
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.15.00:257][398]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: FightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.15.00:257][398]LogBlueprintUserMessages: [AttackedTower3_794] Tower Down !
+[2017.04.30-19.15.02:524][650]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.15.02:566][650]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.19.06:823][772]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.30-19.19.22:239][536]LogEditorTransaction: Undo Change Class Pin Value
+[2017.04.30-19.19.22:302][536]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-19.19.22:704][572]LogEditorTransaction: Undo Move Node
+[2017.04.30-19.19.22:732][572]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-19.19.23:159][620]LogEditorTransaction: Undo Comment Bubble Visibility
+[2017.04.30-19.19.23:186][620]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-19.19.23:544][659]LogEditorTransaction: Undo Add Node
+[2017.04.30-19.19.23:570][659]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-19.19.23:969][704]LogEditorTransaction: Undo Delete current selection
+[2017.04.30-19.19.23:983][704]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-19.19.30:644][454]LogSavePackage: Save=22.80ms
+[2017.04.30-19.19.30:644][454]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedInstallationAD0604684D9AABDDEEDA8C93B8AEE127.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation.uasset'
+[2017.04.30-19.19.30:649][454]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation.uasset
+[2017.04.30-19.19.43:267][914]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.30-19.19.44:040][994]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.04.30-19.20.01:865][996]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-19.20.01:892][996]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.20.01:892][996]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.30-19.20.01:892][996]LogPlayLevel: [PlayLevel] Compiling AttackedInstallation before play...
+[2017.04.30-19.20.01:901][996]LogPlayLevel: [PlayLevel]   Compiling AttackedDoor as a dependent...
+[2017.04.30-19.20.01:933][996]LogPlayLevel: [PlayLevel]   Compiling AttackedTower as a dependent...
+[2017.04.30-19.20.03:301][996]LogPlayLevel: [PlayLevel] Compiling DefendedInstallation before play...
+[2017.04.30-19.20.03:441][996]LogPlayLevel: PlayLevel: Blueprint regeneration took 1548 ms (4 blueprints)
+[2017.04.30-19.20.03:441][996]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 11:20:03 PM)
+[2017.04.30-19.20.03:441][996]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-19.20.03:465][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024090s)
+[2017.04.30-19.20.03:466][996]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-19.20.03:466][996]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2017.04.30-19.20.03:466][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.025281s)
+[2017.04.30-19.20.03:499][996]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-19.20.03:506][996]LogInit: FAudioDevice initialized.
+[2017.04.30-19.20.03:570][996]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-19.20.03:574][996]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-21.20.03
+[2017.04.30-19.20.03:576][996]LogWorld: Bringing up level for play took: 0.004498
+[2017.04.30-19.20.03:585][996]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.20.03:585][996]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.20.03:585][996]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.20.03:588][996]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.20.03:590][996]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 1.772
+[2017.04.30-19.20.03:591][996]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.20.08:620][511]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.20.08:685][511]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.20.09:488][597]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-19.20.09:517][597]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.20.09:517][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-19.20.09:517][597]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 11:20:09 PM)
+[2017.04.30-19.20.09:518][597]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-19.20.09:543][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024885s)
+[2017.04.30-19.20.09:543][597]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-19.20.09:543][597]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2017.04.30-19.20.09:544][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.025850s)
+[2017.04.30-19.20.09:577][597]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-19.20.09:584][597]LogInit: FAudioDevice initialized.
+[2017.04.30-19.20.09:649][597]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-19.20.09:652][597]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-21.20.09
+[2017.04.30-19.20.09:654][597]LogWorld: Bringing up level for play took: 0.004488
+[2017.04.30-19.20.09:662][597]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.20.09:662][597]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.20.09:662][597]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.20.09:665][597]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.20.09:668][597]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.151
+[2017.04.30-19.20.09:668][597]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.20.14:516][ 94]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower_251
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.20.14:516][ 94]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: FightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.20.17:911][446]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.20.17:971][446]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.20.42:616][327]LogSavePackage: Save=24.18ms
+[2017.04.30-19.20.42:616][327]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedDoor2F23C02449FC543AA0ECC485951C8A02.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor.uasset'
+[2017.04.30-19.20.42:621][327]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedDoor.uasset
+[2017.04.30-19.20.45:493][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset" SILENT=true
+[2017.04.30-19.20.45:569][664]LogSavePackage: Save=70.32ms
+[2017.04.30-19.20.45:569][664]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/TroopEA9ED2FA4BF24BEE8120DABF297A1642.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset'
+[2017.04.30-19.20.45:574][664]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset
+[2017.04.30-19.20.48:099][955]LogSavePackage: Save=21.77ms
+[2017.04.30-19.20.48:099][955]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedTower166438254B3090ABFB1D4190DFE3B53E.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower.uasset'
+[2017.04.30-19.20.48:103][955]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower.uasset
+[2017.04.30-19.23.54:841][ 36]LogEditorViewport: Clicking on Actor (LMB): Mine_C (Mine)
+[2017.04.30-19.23.56:362][180]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.04.30-19.24.01:184][602]LogEditorViewport: Clicking on Actor (LMB): Mine_C (Mine)
+[2017.04.30-19.24.02:818][758]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.04.30-19.24.15:820][898]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.04.30-19.24.19:614][247]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-19.24.19:639][247]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.24.19:639][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-19.24.19:640][247]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 11:24:19 PM)
+[2017.04.30-19.24.19:640][247]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-19.24.19:664][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024596s)
+[2017.04.30-19.24.19:665][247]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-19.24.19:665][247]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2017.04.30-19.24.19:666][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.025990s)
+[2017.04.30-19.24.19:700][247]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-19.24.19:707][247]LogInit: FAudioDevice initialized.
+[2017.04.30-19.24.19:774][247]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-19.24.19:778][247]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-21.24.19
+[2017.04.30-19.24.19:779][247]LogWorld: Bringing up level for play took: 0.004632
+[2017.04.30-19.24.19:788][247]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.24.19:788][247]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.24.19:788][247]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.24.19:791][247]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.24.19:797][247]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.022
+[2017.04.30-19.24.19:797][247]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.24.23:683][554]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower_251
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.24.23:684][554]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: FightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.24.26:125][748]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.24.26:187][748]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.25.21:942][164]LogSavePackage: Save=242.32ms
+[2017.04.30-19.25.21:942][164]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/RTS_TestMap_Auto51653FEA54F6A8D73CDA64F939E19DFBF.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Maps/RTS_TestMap_Auto5.umap'
+[2017.04.30-19.25.21:942][164]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Maps/RTS_TestMap_Auto5.umap
+[2017.04.30-19.25.21:943][164]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RTS_TowerDefense/Maps/RTS_TestMap' took 0.278
+[2017.04.30-19.25.21:943][164]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.278
+[2017.04.30-19.25.21:945][164]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop] ([1] browsable assets)...
+[2017.04.30-19.25.21:945][164]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop]
+[2017.04.30-19.25.22:013][164]LogSavePackage: Save=65.11ms
+[2017.04.30-19.25.22:013][164]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/Troop_Auto524448D70436ED48D02EBEBB349EA31A7.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop_Auto5.uasset'
+[2017.04.30-19.25.22:013][164]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop_Auto5.uasset
+[2017.04.30-19.25.22:014][164]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/fightingUnit] ([1] browsable assets)...
+[2017.04.30-19.25.22:028][164]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit]
+[2017.04.30-19.25.22:028][164]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/fightingUnit]
+[2017.04.30-19.25.22:089][164]LogSavePackage: Save=54.11ms
+[2017.04.30-19.25.22:089][164]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/fightingUnit_Auto570A31F8D4F7C632B8E83B4952FC93D05.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/fightingUnit_Auto5.uasset'
+[2017.04.30-19.25.22:089][164]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/fightingUnit_Auto5.uasset
+[2017.04.30-19.25.22:090][164]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier] ([1] browsable assets)...
+[2017.04.30-19.25.22:090][164]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier]
+[2017.04.30-19.25.22:112][164]LogSavePackage: Save=16.37ms
+[2017.04.30-19.25.22:112][164]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackSoldier_Auto5362596A94AE4A3DC7D1E29AC77129A6E.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier_Auto5.uasset'
+[2017.04.30-19.25.22:112][164]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier_Auto5.uasset
+[2017.04.30-19.25.22:112][164]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop] ([1] browsable assets)...
+[2017.04.30-19.25.22:112][164]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop]
+[2017.04.30-19.25.22:136][164]LogSavePackage: Save=17.46ms
+[2017.04.30-19.25.22:136][164]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackTroop_Auto5DB24A35940C158821BA4AC9D061AA1CC.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop_Auto5.uasset'
+[2017.04.30-19.25.22:137][164]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop_Auto5.uasset
+[2017.04.30-19.25.22:137][164]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower] ([1] browsable assets)...
+[2017.04.30-19.25.22:149][164]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower.AttackedTower]
+[2017.04.30-19.25.22:149][164]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower]
+[2017.04.30-19.25.22:174][164]LogSavePackage: Save=21.68ms
+[2017.04.30-19.25.22:174][164]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedTower_Auto54D3B5590417A8ED1EA22B0B4D8E3F3F9.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower_Auto5.uasset'
+[2017.04.30-19.25.22:175][164]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower_Auto5.uasset
+[2017.04.30-19.25.22:175][164]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior] ([1] browsable assets)...
+[2017.04.30-19.25.22:175][164]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior]
+[2017.04.30-19.25.22:196][164]LogSavePackage: Save=15.29ms
+[2017.04.30-19.25.22:196][164]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackWarrior_Auto5DBDC76024C2BFD2C95B2F38B1A7E5FDF.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior_Auto5.uasset'
+[2017.04.30-19.25.22:196][164]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior_Auto5.uasset
+[2017.04.30-19.25.22:197][164]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie] ([1] browsable assets)...
+[2017.04.30-19.25.22:197][164]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie]
+[2017.04.30-19.25.22:219][164]LogSavePackage: Save=16.08ms
+[2017.04.30-19.25.22:219][164]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackZombie_Auto55DC348B242FD4E49DBBBD1A7DF73706A.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie_Auto5.uasset'
+[2017.04.30-19.25.22:313][164]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie_Auto5.uasset
+[2017.04.30-19.25.22:314][164]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop] ([1] browsable assets)...
+[2017.04.30-19.25.22:314][164]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop]
+[2017.04.30-19.25.22:419][164]LogSavePackage: Save=75.28ms
+[2017.04.30-19.25.22:419][164]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/EnnemyTroop_Auto556C9A8C0469CEA10CEFF01930FDB6C4F.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop_Auto5.uasset'
+[2017.04.30-19.25.22:420][164]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop_Auto5.uasset
+[2017.04.30-19.25.22:421][164]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation] ([1] browsable assets)...
+[2017.04.30-19.25.22:449][164]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation.DefendedInstallation]
+[2017.04.30-19.25.22:449][164]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation]
+[2017.04.30-19.25.22:533][164]LogSavePackage: Save=67.14ms
+[2017.04.30-19.25.22:533][164]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/DefendedInstallation_Auto5B2C520E04201DA8F21931098E1C19D51.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation_Auto5.uasset'
+[2017.04.30-19.25.22:533][164]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation_Auto5.uasset
+[2017.04.30-19.25.22:534][164]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding] ([1] browsable assets)...
+[2017.04.30-19.25.22:552][164]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.FightingBuilding]
+[2017.04.30-19.25.22:552][164]OBJ SavePackage: Finished generating thumbnails for package [/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding]
+[2017.04.30-19.25.22:600][164]LogSavePackage: Save=35.74ms
+[2017.04.30-19.25.22:600][164]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/FightingBuilding_Auto533AAC26744B34641A27BA4AE630DA4B4.tmp' to 'D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding_Auto5.uasset'
+[2017.04.30-19.25.22:601][164]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Saved/Autosaves/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding_Auto5.uasset
+[2017.04.30-19.25.22:601][164]LogFileHelpers: Auto-saving content packages took 0.656
+[2017.04.30-19.25.24:925][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Maps/RTS_TestMap" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-19.25.25:188][384]LogSavePackage: Save=238.64ms
+[2017.04.30-19.25.25:188][384]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/RTS_TestMapF42068184125612BB049A7B6E3EA22DD.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap'
+[2017.04.30-19.25.25:193][384]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap
+[2017.04.30-19.25.25:234][384]LogFileHelpers: Saving map 'RTS_TestMap' took 0.358
+[2017.04.30-19.25.25:236][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset" SILENT=true
+[2017.04.30-19.25.25:302][384]LogSavePackage: Save=63.13ms
+[2017.04.30-19.25.25:302][384]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/Troop382709E246BD114206191D87A6BF5F22.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset'
+[2017.04.30-19.25.25:306][384]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset
+[2017.04.30-19.25.25:309][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/fightingUnit" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset" SILENT=true
+[2017.04.30-19.25.25:358][384]LogSavePackage: Save=45.87ms
+[2017.04.30-19.25.25:358][384]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/fightingUnit5E67F99440B9178060A1F4B46992596C.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset'
+[2017.04.30-19.25.25:362][384]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset
+[2017.04.30-19.25.25:382][384]LogSavePackage: Save=15.34ms
+[2017.04.30-19.25.25:382][384]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackSoldier2071083D42900D7786A73590EEC165C4.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.uasset'
+[2017.04.30-19.25.25:386][384]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackSoldier.uasset
+[2017.04.30-19.25.25:389][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.uasset" SILENT=true
+[2017.04.30-19.25.25:409][384]LogSavePackage: Save=17.03ms
+[2017.04.30-19.25.25:409][384]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackTroopDC3F60184C5DDFEF64B35AAB20D724D7.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.uasset'
+[2017.04.30-19.25.25:414][384]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackTroop.uasset
+[2017.04.30-19.25.25:434][384]LogSavePackage: Save=15.07ms
+[2017.04.30-19.25.25:434][384]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedTower30027BCF4DA1E744EA2265BC4174D85A.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower.uasset'
+[2017.04.30-19.25.25:438][384]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedTower.uasset
+[2017.04.30-19.25.25:459][384]LogSavePackage: Save=15.48ms
+[2017.04.30-19.25.25:459][384]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackWarriorFC2C8777404F8BA74AC9B688BA0B6400.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.uasset'
+[2017.04.30-19.25.25:463][384]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackWarrior.uasset
+[2017.04.30-19.25.25:465][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.uasset" SILENT=true
+[2017.04.30-19.25.25:483][384]LogSavePackage: Save=15.33ms
+[2017.04.30-19.25.25:483][384]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackZombieC3DEA28047B1AC3684D144977148962D.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.uasset'
+[2017.04.30-19.25.25:487][384]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/AttackZombie.uasset
+[2017.04.30-19.25.25:489][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.uasset" SILENT=true
+[2017.04.30-19.25.25:509][384]LogSavePackage: Save=17.18ms
+[2017.04.30-19.25.25:509][384]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/EnnemyTroop5BAD46044818C1E94AB4FBBF4BCF4E14.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.uasset'
+[2017.04.30-19.25.25:514][384]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/EnnemyTroop.uasset
+[2017.04.30-19.25.25:536][384]LogSavePackage: Save=16.39ms
+[2017.04.30-19.25.25:536][384]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/DefendedInstallation96CF38E142DD67737FB22FA9A4A7E1E6.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation.uasset'
+[2017.04.30-19.25.25:538][384]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation.uasset
+[2017.04.30-19.25.25:561][384]LogSavePackage: Save=17.68ms
+[2017.04.30-19.25.25:561][384]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/FightingBuilding0E5C837C4AEDE267140CBAB3E66C5B30.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.uasset'
+[2017.04.30-19.25.25:562][384]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.uasset
+[2017.04.30-19.25.40:727][868]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-19.25.40:749][868]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.25.40:749][868]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.30-19.25.40:749][868]LogPlayLevel: [PlayLevel] Compiling AttackedTower before play...
+[2017.04.30-19.25.41:458][868]LogPlayLevel: PlayLevel: Blueprint regeneration took 709 ms (1 blueprints)
+[2017.04.30-19.25.41:458][868]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 11:25:41 PM)
+[2017.04.30-19.25.41:459][868]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-19.25.41:482][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023381s)
+[2017.04.30-19.25.41:483][868]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-19.25.41:483][868]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2017.04.30-19.25.41:484][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.024513s)
+[2017.04.30-19.25.41:517][868]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-19.25.41:523][868]LogInit: FAudioDevice initialized.
+[2017.04.30-19.25.41:587][868]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-19.25.41:591][868]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-21.25.41
+[2017.04.30-19.25.41:593][868]LogWorld: Bringing up level for play took: 0.004531
+[2017.04.30-19.25.41:601][868]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.25.41:601][868]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.25.41:601][868]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.25.41:604][868]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.25.41:609][868]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 1.79
+[2017.04.30-19.25.41:609][868]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.25.46:229][244]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower_251
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.25.46:229][244]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: FightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.25.48:415][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.25.48:466][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.26.20:598][170]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-19.26.20:624][170]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.26.20:624][170]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.30-19.26.20:624][170]LogPlayLevel: [PlayLevel] Compiling FightingUnit before play...
+[2017.04.30-19.26.20:694][170]LogPlayLevel: [PlayLevel]   Compiling Troop as a dependent...
+[2017.04.30-19.26.20:738][170]LogPlayLevel: [PlayLevel]   Compiling AttackTroop as a dependent...
+[2017.04.30-19.26.20:744][170]LogPlayLevel: [PlayLevel]   Compiling AttackSoldier as a dependent...
+[2017.04.30-19.26.20:773][170]LogPlayLevel: [PlayLevel]   Compiling AttackWarrior as a dependent...
+[2017.04.30-19.26.20:798][170]LogPlayLevel: [PlayLevel]   Compiling AttackZombie as a dependent...
+[2017.04.30-19.26.20:846][170]LogPlayLevel: [PlayLevel]   Compiling EnnemyTroop as a dependent...
+[2017.04.30-19.26.20:901][170]LogPlayLevel: [PlayLevel]   Compiling FightingBuilding as a dependent...
+[2017.04.30-19.26.20:908][170]LogPlayLevel: [PlayLevel]   Compiling AttackedInstallation as a dependent...
+[2017.04.30-19.26.20:913][170]LogPlayLevel: [PlayLevel]   Compiling AttackedDoor as a dependent...
+[2017.04.30-19.26.20:943][170]LogPlayLevel: [PlayLevel]   Compiling AttackedTower as a dependent...
+[2017.04.30-19.26.20:998][170]LogPlayLevel: [PlayLevel]   Compiling DefendedInstallation as a dependent...
+[2017.04.30-19.26.24:888][170]LogPlayLevel: PlayLevel: Blueprint regeneration took 4263 ms (12 blueprints)
+[2017.04.30-19.26.24:888][170]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 11:26:24 PM)
+[2017.04.30-19.26.24:889][170]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-19.26.24:913][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023931s)
+[2017.04.30-19.26.24:913][170]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-19.26.24:914][170]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2017.04.30-19.26.24:914][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.025378s)
+[2017.04.30-19.26.24:947][170]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-19.26.24:953][170]LogInit: FAudioDevice initialized.
+[2017.04.30-19.26.25:015][170]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-19.26.25:019][170]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-21.26.25
+[2017.04.30-19.26.25:020][170]LogWorld: Bringing up level for play took: 0.004889
+[2017.04.30-19.26.25:029][170]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.26.25:029][170]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.26.25:029][170]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.26.25:031][170]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.26.25:035][170]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 5.217
+[2017.04.30-19.26.25:036][170]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.26.26:632][314]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower_251
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.26.26:632][314]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: FightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.26.29:879][628]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower2
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.26.29:879][628]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: FightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.26.33:438][970]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower3_794
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.26.33:438][970]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: FightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.26.36:542][266]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.26.36:588][266]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.26.41:756][851]LogEditorTransaction: Undo Delete current selection
+[2017.04.30-19.26.41:852][851]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.04.30-19.33.25:508][979]LogSavePackage: Save=285.04ms
+[2017.04.30-19.33.25:508][979]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/AttackedInstallation22A57CC546F44AACDB4926958DBE3F23.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation.uasset'
+[2017.04.30-19.33.25:511][979]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/AttackedInstallation.uasset
+[2017.04.30-19.33.41:446][755]LogSavePackage: Save=24.04ms
+[2017.04.30-19.33.41:446][755]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/DefendedInstallationCA4269F94810BD5515133DB3DC4CCEC4.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation.uasset'
+[2017.04.30-19.33.41:447][755]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/DefendedInstallation.uasset
+[2017.04.30-19.33.54:233][252]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.30-19.33.54:279][252]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.33.54:279][252]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.30-19.33.54:279][252]LogPlayLevel: [PlayLevel] Compiling FightingUnit before play...
+[2017.04.30-19.33.54:353][252]LogPlayLevel: [PlayLevel]   Compiling Troop as a dependent...
+[2017.04.30-19.33.54:397][252]LogPlayLevel: [PlayLevel]   Compiling AttackTroop as a dependent...
+[2017.04.30-19.33.54:403][252]LogPlayLevel: [PlayLevel]   Compiling AttackSoldier as a dependent...
+[2017.04.30-19.33.54:436][252]LogPlayLevel: [PlayLevel]   Compiling AttackWarrior as a dependent...
+[2017.04.30-19.33.54:462][252]LogPlayLevel: [PlayLevel]   Compiling AttackZombie as a dependent...
+[2017.04.30-19.33.54:511][252]LogPlayLevel: [PlayLevel]   Compiling EnnemyTroop as a dependent...
+[2017.04.30-19.33.54:566][252]LogPlayLevel: [PlayLevel]   Compiling FightingBuilding as a dependent...
+[2017.04.30-19.33.54:574][252]LogPlayLevel: [PlayLevel]   Compiling AttackedInstallation as a dependent...
+[2017.04.30-19.33.54:580][252]LogPlayLevel: [PlayLevel]   Compiling AttackedDoor as a dependent...
+[2017.04.30-19.33.54:608][252]LogPlayLevel: [PlayLevel]   Compiling AttackedTower as a dependent...
+[2017.04.30-19.33.54:664][252]LogPlayLevel: [PlayLevel]   Compiling DefendedInstallation as a dependent...
+[2017.04.30-19.33.58:661][252]LogPlayLevel: PlayLevel: Blueprint regeneration took 4382 ms (12 blueprints)
+[2017.04.30-19.33.58:662][252]PIE: New page: PIE session: RTS_TestMap (Apr 30, 2017, 11:33:58 PM)
+[2017.04.30-19.33.58:662][252]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.04.30-19.33.58:686][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024644s)
+[2017.04.30-19.33.58:687][252]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.04.30-19.33.58:687][252]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2017.04.30-19.33.58:687][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.025757s)
+[2017.04.30-19.33.58:722][252]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-19.33.58:730][252]LogInit: FAudioDevice initialized.
+[2017.04.30-19.33.58:791][252]LogLoad: Game class is 'MyGameMod_C'
+[2017.04.30-19.33.58:795][252]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.04.30-21.33.58
+[2017.04.30-19.33.58:797][252]LogWorld: Bringing up level for play took: 0.004706
+[2017.04.30-19.33.58:805][252]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.33.58:805][252]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.04.30-19.33.58:805][252]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.33.58:808][252]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.33.58:808][252]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.33.58:808][252]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.33.58:808][252]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.33.58:808][252]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.33.58:808][252]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.33.58:808][252]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.33.58:808][252]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.33.58:808][252]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.33.58:808][252]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.04.30-19.33.58:809][252]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.04.30-19.33.58:811][252]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 4.992
+[2017.04.30-19.33.58:812][252]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.34.07:165][189]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower_251
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.34.07:165][189]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: FightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.34.15:771][ 62]LogScript:Warning: Accessed None trying to read property ZombieAnim
+	AttackedTower_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackedTower2
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit_C:setDyingAnnimation:000E
+[2017.04.30-19.34.15:771][ 62]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property ZombieAnim from function: 'setDyingAnnimation' from node: Set dying in graph: setDyingAnnimation in object: FightingUnit with description: Accessed None trying to read property ZombieAnim
+[2017.04.30-19.34.22:641][758]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.34.22:689][758]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.04.30-19.34.26:220][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Maps/RTS_TestMap" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-19.34.26:509][165]LogSavePackage: Save=238.11ms
+[2017.04.30-19.34.26:509][165]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/RTS_TestMapB09F52AB4AB780C4DBDC70A22B55F3FB.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap'
+[2017.04.30-19.34.26:511][165]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap
+[2017.04.30-19.34.26:551][165]LogFileHelpers: Saving map 'RTS_TestMap' took 0.379
+[2017.04.30-19.34.26:573][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/fightingUnit" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset" SILENT=true
+[2017.04.30-19.34.26:632][165]LogSavePackage: Save=52.57ms
+[2017.04.30-19.34.26:632][165]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/fightingUnit6283D79B43BD49109D2F589D70C77368.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset'
+[2017.04.30-19.34.26:633][165]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset
+[2017.04.30-19.34.26:678][165]LogSavePackage: Save=24.38ms
+[2017.04.30-19.34.26:678][165]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/FightingBuildingABA8865D4B35F09EC77DA98402160F7A.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.uasset'
+[2017.04.30-19.34.26:679][165]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.uasset
