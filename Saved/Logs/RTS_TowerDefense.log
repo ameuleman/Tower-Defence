@@ -1,0 +1,323 @@
+﻿Log file open, 05/01/17 13:39:38
+LogInit:Display: Running engine for game: RTS_TowerDefense
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-698576857) SRandInit(-698576857).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074698
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.01-11.39.39:144][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.01-11.39.39:144][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.01-11.39.39:239][  0]LogInit: Computer: DESKTOP-9FJ45NO
+[2017.05.01-11.39.39:239][  0]LogInit: User: Meuleman
+[2017.05.01-11.39.39:239][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.01-11.39.39:240][  0]LogInit: High frequency timer resolution =3.519818 MHz
+[2017.05.01-11.39.39:240][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.05.01-11.39.39:240][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.01-11.39.39:240][  0]LogMemory: Process Physical Memory: 265.67 MB used, 265.67 MB peak
+[2017.05.01-11.39.39:240][  0]LogMemory: Process Virtual Memory: 262.41 MB used, 262.41 MB peak
+[2017.05.01-11.39.39:240][  0]LogMemory: Physical Memory: 3640.14 MB used,  12686.02 MB free, 16326.16 MB total
+[2017.05.01-11.39.39:240][  0]LogMemory: Virtual Memory: 644.40 MB used,  12686.02 MB free, 134217728.00 MB total
+[2017.05.01-11.39.39:346][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2017.05.01-11.39.39:852][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.01-11.39.40:336][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.05.01-11.39.40:336][  0]LogD3D11RHI:       4059/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.01-11.39.40:337][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.01-11.39.40:337][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.01-11.39.40:337][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.01-11.39.40:340][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.01-11.39.40:340][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.01-11.39.40:340][  0]LogWindows: EnumDisplayDevices:
+[2017.05.01-11.39.40:340][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.05.01-11.39.40:341][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.05.01-11.39.40:341][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.05.01-11.39.40:341][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.05.01-11.39.40:341][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.01-11.39.40:341][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.05.01-11.39.40:341][  0]LogD3D11RHI:   Driver Version: 381.89 (internal:22.21.13.8189, unified:381.89)
+[2017.05.01-11.39.40:341][  0]LogD3D11RHI:      Driver Date: 4-19-2017
+[2017.05.01-11.39.40:341][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.01-11.39.40:781][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.01-11.39.40:868][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.01-11.39.40:968][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (D:/User/Documents/Tower-Defence/Intermediate/Shaders/WorkingDirectory/4284/).
+[2017.05.01-11.39.40:968][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Meuleman/AppData/Local/Temp/UnrealShaderWorkingDir/D330FC334F54474161EA1A89D5BB44E8/'.
+[2017.05.01-11.39.40:968][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.01-11.39.41:841][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.01-11.39.41:885][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.01-11.39.41:928][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.01-11.39.41:973][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.01-11.39.42:016][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.01-11.39.42:060][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.01-11.39.42:102][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.01-11.39.42:146][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.01-11.39.42:179][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.01-11.39.42:221][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.01-11.39.42:262][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.01-11.39.42:304][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.01-11.39.42:347][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.01-11.39.42:389][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.01-11.39.42:432][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.01-11.39.42:517][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.01-11.39.42:517][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.01-11.39.42:546][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.01-11.39.42:625][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.01-11.39.42:653][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.01-11.39.42:694][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.01-11.39.42:737][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.01-11.39.42:779][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.01-11.39.42:822][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.01-11.39.42:822][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.01-11.39.43:157][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.01-11.39.43:199][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Meuleman/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.01-11.39.43:199][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Meuleman/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.01-11.39.43:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/User/Documents/Tower-Defence/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.01-11.39.43:199][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.01-11.39.43:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/User/Documents/Tower-Defence/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.01-11.39.43:199][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.01-11.39.43:214][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.01-11.39.43:226][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Meuleman/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.01-11.39.43:233][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.01-11.39.43:234][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.01-11.39.43:234][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.01-11.39.43:432][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.01-11.39.43:435][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.01-11.39.43:595][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.01-11.39.43:627][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.01-11.39.43:661][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.01-11.39.43:661][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.01-11.39.43:661][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.01-11.39.44:077][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: rts_towerdefense, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4106176920
+[2017.05.01-11.39.44:117][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2017.05.01-11.39.44:168][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.035386 seconds
+[2017.05.01-11.39.44:173][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.01-11.39.44:173][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.01-11.39.44:173][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.01-11.39.44:220][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.01-11.39.45:956][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.01-11.39.45:989][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.01-11.39.46:426][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.01-11.39.46:718][  0]SourceControl: Info Source control is disabled
+[2017.05.01-11.39.46:718][  0]SourceControl: Info Source control is disabled
+[2017.05.01-11.39.46:754][  0]SourceControl: Info Source control is disabled
+[2017.05.01-11.39.46:788][  0]SourceControl: Info Source control is disabled
+[2017.05.01-11.39.47:763][  0]LogEngine: Initializing Engine...
+[2017.05.01-11.39.47:764][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.01-11.39.47:952][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.01-11.39.47:963][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.01-11.39.47:972][  0]LogInit: FAudioDevice initialized.
+[2017.05.01-11.39.47:993][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Meuleman/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.01-11.39.47:999][  0]LogInit: Texture streaming: Enabled
+[2017.05.01-11.39.48:073][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.01-11.39.48:141][  0]LogInit: Transaction tracking system initialized
+[2017.05.01-11.39.48:406][  0]BlueprintLog: New page: Editor Load
+[2017.05.01-11.39.49:120][  0]LocalizationService: Info Localization service is disabled
+[2017.05.01-11.39.49:630][  0]LogConsoleResponse:Display: 
+[2017.05.01-11.39.49:741][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.01-11.39.49:741][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.01-11.39.50:507][  0]LogFileCache: Scanning file cache for directory 'D:/User/Documents/Tower-Defence/Content/' took 0.04s
+[2017.05.01-11.39.50:507][  0]SourceControl: Info Source control is disabled
+[2017.05.01-11.39.50:507][  0]Cmd: MAP LOAD FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.01-11.39.50:507][  0]LightingResults: New page: Lighting Build
+[2017.05.01-11.39.50:539][  0]MapCheck: New page: Map Check
+[2017.05.01-11.39.50:539][  0]LightingResults: New page: Lighting Build
+[2017.05.01-11.39.52:019][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/GameSpeed_Enum.GameSpeed_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.05.01-11.39.52:306][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning  Set Input Mode Game And UI (Deprecated)  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.05.01-11.39.52:322][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0016.07] Compile of CameraPawnController successful, but with 1 Warning(s) [in 37 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.05.01-11.39.52:324][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0016.07] Compile of CameraPawnController successful, but with 2 Warning(s) [in 1 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.05.01-11.39.52:324][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0016.07] Compile of CameraPawnController successful, but with 3 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.05.01-11.39.52:572][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning  Set Input Mode Game And UI (Deprecated)  is deprecated; Use the new version of Set Input Mode Game And UI instead
+[2017.05.01-11.39.52:585][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0016.33] Compile of CameraPawnController successful, but with 1 Warning(s) [in 31 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.05.01-11.39.52:585][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0016.33] Compile of CameraPawnController successful, but with 2 Warning(s) [in 0 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.05.01-11.39.52:587][  0]LogBlueprint:Warning: [Compiler CameraPawnController] Warning [0016.33] Compile of CameraPawnController successful, but with 3 Warning(s) [in 1 ms] (/Game/RTS_TowerDefense/Blueprints/CameraPawnController.CameraPawnController)
+[2017.05.01-11.39.54:050][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/MonthNames_ENUM.MonthNames_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.05.01-11.39.54:306][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/NPCSexType_ENUM.NPCSexType_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.05.01-11.39.54:377][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/NPCNameMale_ENUM.NPCNameMale_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.05.01-11.39.54:377][  0]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Enums/NPCNameFemale_ENUM.NPCNameFemale_ENUM' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.05.01-11.39.54:379][  0]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.05.01-11.39.54:963][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.01-11.39.54:973][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.01-11.39.55:014][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.067ms to complete.
+[2017.05.01-11.39.55:014][  0]LogFileHelpers: Loading map 'RTS_TestMap' took 4.507
+[2017.05.01-11.39.55:123][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.01-11.39.55:275][  0]LogCollectionManager: Loaded 0 collections in 0.001289 seconds
+[2017.05.01-11.39.55:365][  0]LogFileCache: Scanning file cache for directory 'D:/User/Documents/Tower-Defence/Saved/Collections/' took 0.01s
+[2017.05.01-11.39.55:365][  0]LogFileCache: Scanning file cache for directory 'D:/User/Documents/Tower-Defence/Content/Developers/Meuleman/Collections/' took 0.01s
+[2017.05.01-11.39.55:365][  0]LogFileCache: Scanning file cache for directory 'D:/User/Documents/Tower-Defence/Content/Collections/' took 0.01s
+[2017.05.01-11.39.55:365][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.05.01-11.39.55:376][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2270 classes and 462 folders.
+[2017.05.01-11.39.55:382][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.01-11.39.55:383][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.01-11.39.55:433][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.01-11.39.55:712][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.01-11.39.55:753][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.01-11.39.55:957][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.01-11.39.55:965][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.01-11.39.56:021][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.01-11.39.56:021][  0]LogLoad: (Engine Initialization) Total time: 19.77 seconds
+[2017.05.01-11.39.56:021][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.73 seconds
+[2017.05.01-11.39.56:021][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.01-11.39.56:021][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.01-11.39.56:030][  0]LogOcInput: OculusInput pre-init called
+[2017.05.01-11.39.56:050][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.01-11.39.56:051][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.01-11.39.56:054][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.01-11.39.56:066][  0]LogSlate: Took 0.005802 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.01-11.39.56:216][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.05.01-11.39.56:294][  0]LogSlate: Took 0.004561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.01-11.39.56:470][  3]LogAssetRegistry: Asset discovery search completed in 12.3750 seconds
+[2017.05.01-11.39.56:471][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.05.01-11.39.56:471][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.05.01-11.39.57:062][ 69]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.01-11.40.03:027][557]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.01-11.40.03:051][557]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.05.01-11.40.03:051][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.01-11.40.03:052][557]PIE: New page: PIE session: RTS_TestMap (May 1, 2017, 3:40:03 PM)
+[2017.05.01-11.40.03:053][557]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.05.01-11.40.03:082][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029212s)
+[2017.05.01-11.40.03:083][557]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.05.01-11.40.03:083][557]LogPlayLevel: PIE: World Init took: (0.001259s)
+[2017.05.01-11.40.03:084][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.031098s)
+[2017.05.01-11.40.03:125][557]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.01-11.40.03:132][557]LogInit: FAudioDevice initialized.
+[2017.05.01-11.40.03:212][557]LogLoad: Game class is 'MyGameMod_C'
+[2017.05.01-11.40.03:217][557]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.05.01-13.40.03
+[2017.05.01-11.40.03:223][557]LogWorld: Bringing up level for play took: 0.009118
+[2017.05.01-11.40.03:267][557]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.05.01-11.40.03:267][557]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.01-11.40.03:267][557]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.01-11.40.03:267][557]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.01-11.40.03:277][557]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.01-11.40.03:277][557]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.01-11.40.03:277][557]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.01-11.40.03:277][557]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.01-11.40.03:277][557]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.01-11.40.03:277][557]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.01-11.40.03:277][557]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.01-11.40.03:281][557]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap -0.51
+[2017.05.01-11.40.03:281][557]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.05.01-11.40.03:321][557]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:209).
+[2017.05.01-11.40.44:795][426]LogScript:Warning: Attempted to access AttackedDoor_224 via property target, but AttackedDoor_224 is pending kill
+	AttackTroop_C /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap:PersistentLevel.AttackTroop_C_15
+	Function /Game/RTS_TowerDefense/Blueprints/fightingUnit.FightingUnit_C:rotateToTarget:003A
+[2017.05.01-11.40.44:795][426]PIE:Error: Error Blueprint Runtime Error: Attempted to access AttackedDoor_224 via property target, but AttackedDoor_224 is pending kill from function: 'rotateToTarget' from node: SetActorRotation in graph: rotateToTarget in object: FightingUnit with description: Attempted to access AttackedDoor_224 via property target, but AttackedDoor_224 is pending kill
+[2017.05.01-11.40.48:090][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.05.01-11.40.48:121][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.05.01-11.41.16:365][128]LogEditorViewport: Clicking on Actor (LMB): AttackedDoor_C (AttackedDoor)
+[2017.05.01-11.41.19:465][480]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.05.01-11.41.35:145][290]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.01-11.41.35:486][290]LogLinker:Warning: Asset '../../../Engine/Plugins/Marketplace/LowEntryExtStdLib/Content/Blueprints/LowEntryExtendedStandardLibraryMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.05.01-11.41.35:551][290]LogClass:Warning: Enum '/Game/RTS_TowerDefense/Blueprints/AI/Workers/Blueprints/ResourceEnum.ResourceEnum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.05.01-11.41.35:645][290]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.05.01-11.41.36:208][290]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.01-11.41.36:324][290]LogSlate: Took 0.003754 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.01-11.41.36:483][291]LogSlate: Took 0.003462 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.01-11.46.39:389][150]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.01-11.46.39:419][150]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.05.01-11.46.39:419][150]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.01-11.46.39:419][150]LogPlayLevel: [PlayLevel] Compiling FightingUnit before play...
+[2017.05.01-11.46.39:500][150]LogPlayLevel: [PlayLevel]   Compiling Troop as a dependent...
+[2017.05.01-11.46.39:544][150]LogPlayLevel: [PlayLevel]   Compiling AttackTroop as a dependent...
+[2017.05.01-11.46.39:550][150]LogPlayLevel: [PlayLevel]   Compiling AttackSoldier as a dependent...
+[2017.05.01-11.46.39:582][150]LogPlayLevel: [PlayLevel]   Compiling AttackWarrior as a dependent...
+[2017.05.01-11.46.39:602][150]LogPlayLevel: [PlayLevel]   Compiling AttackZombie as a dependent...
+[2017.05.01-11.46.39:637][150]LogPlayLevel: [PlayLevel]   Compiling EnnemyTroop as a dependent...
+[2017.05.01-11.46.39:677][150]LogPlayLevel: [PlayLevel]   Compiling FightingBuilding as a dependent...
+[2017.05.01-11.46.39:688][150]LogBlueprint:Error: [Compiler FightingBuilding] Error Variable node  Get CapsuleComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.05.01-11.46.39:695][150]LogPlayLevel: [PlayLevel]   Compiling AttackedInstallation as a dependent...
+[2017.05.01-11.46.39:700][150]LogPlayLevel: [PlayLevel]   Compiling AttackedTower as a dependent...
+[2017.05.01-11.46.39:720][150]LogPlayLevel: [PlayLevel]   Compiling AttackedDoor as a dependent...
+[2017.05.01-11.46.39:756][150]LogPlayLevel: [PlayLevel]   Compiling DefendedInstallation as a dependent...
+[2017.05.01-11.46.39:805][150]LogBlueprint:Error: [Compiler FightingBuilding] Error Variable node  Get CapsuleComponent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.05.01-11.46.42:091][150]LogPlayLevel: PlayLevel: Blueprint regeneration took 2671 ms (12 blueprints)
+[2017.05.01-11.46.42:091][150]BlueprintLog: Info Blueprint FightingBuilding failed to compile
+[2017.05.01-11.47.09:797][261]BlueprintLog: New page: Compile FightingBuilding
+[2017.05.01-11.47.09:818][261]LogBlueprint:Error: [Compiler FightingBuilding] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.05.01-11.47.10:755][261]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.05.01-11.47.10:755][261]LogBlueprint:Warning: [Compiler FightingBuilding] Warning [0454.50] Compile of FightingBuilding failed. 1 Fatal Issue(s) 0 Warning(s) [in 957 ms] (/Game/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.FightingBuilding)
+[2017.05.01-11.47.49:342][657]BlueprintLog: New page: Compile FightingBuilding
+[2017.05.01-11.47.52:570][966]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.01-11.47.52:605][966]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.05.01-11.47.52:605][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.01-11.47.52:605][966]PIE: New page: PIE session: RTS_TestMap (May 1, 2017, 3:47:52 PM)
+[2017.05.01-11.47.52:605][966]LogPlayLevel: Creating play world package: /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap
+[2017.05.01-11.47.52:629][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023867s)
+[2017.05.01-11.47.52:630][966]LogAIModule: Creating AISystem for world RTS_TestMap
+[2017.05.01-11.47.52:630][966]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2017.05.01-11.47.52:630][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap to /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap (0.025040s)
+[2017.05.01-11.47.52:656][966]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.01-11.47.52:664][966]LogInit: FAudioDevice initialized.
+[2017.05.01-11.47.52:727][966]LogLoad: Game class is 'MyGameMod_C'
+[2017.05.01-11.47.52:731][966]LogWorld: Bringing World /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap.RTS_TestMap up for play (max tick rate 0) at 2017.05.01-13.47.52
+[2017.05.01-11.47.52:732][966]LogWorld: Bringing up level for play took: 0.004042
+[2017.05.01-11.47.52:740][966]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.01-11.47.52:740][966]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.05.01-11.47.52:740][966]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.05.01-11.47.52:743][966]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.01-11.47.52:743][966]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.01-11.47.52:743][966]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.01-11.47.52:743][966]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.01-11.47.52:743][966]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.01-11.47.52:743][966]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.05.01-11.47.52:743][966]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.05.01-11.47.52:747][966]PIE: Info Play in editor start time for /Game/RTS_TowerDefense/Maps/UEDPIE_0_RTS_TestMap 0.956
+[2017.05.01-11.47.52:747][966]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.05.01-11.48.02:725][765]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.05.01-11.48.02:796][765]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap' with GeneratedClass '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap_C' with ClassGeneratedBy '/Game/RTS_TowerDefense/Maps/RTS_TestMap.RTS_TestMap:PersistentLevel.RTS_TestMap'
+[2017.05.01-11.48.08:604][382]LogSavePackage: Save=71.68ms
+[2017.05.01-11.48.08:604][382]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/FightingBuildingF49C9D5B4609207FC54E46A02FAC7E95.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.uasset'
+[2017.05.01-11.48.08:605][382]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/Buildings/FightingBuildings/FightingBuilding.uasset
+[2017.05.01-11.48.18:746][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Maps/RTS_TestMap" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.01-11.48.18:987][561]LogSavePackage: Save=214.24ms
+[2017.05.01-11.48.18:987][561]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/RTS_TestMap1DD7D5064CBB3D1311EFBA885A48C46A.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap'
+[2017.05.01-11.48.18:989][561]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Maps/RTS_TestMap.umap
+[2017.05.01-11.48.19:037][561]LogFileHelpers: Saving map 'RTS_TestMap' took 0.337
+[2017.05.01-11.48.19:051][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/fightingUnit" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset" SILENT=true
+[2017.05.01-11.48.19:120][561]LogSavePackage: Save=63.65ms
+[2017.05.01-11.48.19:120][561]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/fightingUnitF6CAB7BA4C28984F5F82DB9DBF7E38AB.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset'
+[2017.05.01-11.48.19:122][561]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/fightingUnit.uasset
+[2017.05.01-11.48.19:139][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RTS_TowerDefense/Blueprints/AI/Troops/Troop" FILE="D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset" SILENT=true
+[2017.05.01-11.48.19:209][561]LogSavePackage: Save=63.32ms
+[2017.05.01-11.48.19:209][561]LogSavePackage: Moving 'D:/User/Documents/Tower-Defence/Saved/Troop7339757E4A36C01284CD3DBA626F1DEE.tmp' to 'D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset'
+[2017.05.01-11.48.19:210][561]LogSavePackage:Display: Finished SavePackage D:/User/Documents/Tower-Defence/Content/RTS_TowerDefense/Blueprints/AI/Troops/Troop.uasset
